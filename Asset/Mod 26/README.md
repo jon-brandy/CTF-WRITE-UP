@@ -5,7 +5,7 @@
 2. Paste the ROT13 text on this [online decoder](https://cryptii.com/pipes/rot13-decoder)
 3. Finally we can see the flag!
 ---
-![pict](https://github.com/jon-shel/CTF-WRITE-UP/blob/649ab25ecccd8a06481bddc4cd4654aa9b0e7a98/Asset/Mod%2026/Screenshot%20(329).png)
+![pict](https://github.com/jon-brandy/CTF-WRITE-UP/blob/b85ea21650367dce7ee647d573fc463552c2da6b/Asset/Mod%2026/Screenshot%20(329).png)
 
 
 ---
