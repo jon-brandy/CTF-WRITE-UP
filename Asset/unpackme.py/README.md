@@ -24,7 +24,7 @@ exec(plain.decode())
 ![Screenshot (413)](https://user-images.githubusercontent.com/70703371/172574349-770ce13e-b471-4b84-bd04-a4f42cd5a217.png)
 
 ### PROGRAM OUTPUT:
-```
+```bash
 pw = input('What\'s the password? ')      
 
 if pw == 'batteryhorse':
