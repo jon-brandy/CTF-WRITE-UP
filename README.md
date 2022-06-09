@@ -20,6 +20,7 @@
 |16. |[morse-code](https://github.com/jon-brandy/CTF-WRITE-UP/blob/fcf25c5a2e6ed1799931936d54c4425f98721ce2/Asset/morse-code/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/280?category=2&originalEvent=70&page=1)|2022|100|
 |17. |[unpackme.py](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1108820b3423a4b5ea386808c355e4bacc705b8e/Asset/unpackme.py/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/314?category=3&originalEvent=70&page=1)|2022|100|
 |18. |[Power Cookie](https://github.com/jon-brandy/CTF-WRITE-UP/blob/38a2d014b9193296780c26588466c862f9fb079b/Asset/Power%20Cookie/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/288?category=1&originalEvent=70&page=1&search=)|2022|200|
+|19. |[don't-use-client-side](https://github.com/jon-brandy/CTF-WRITE-UP/blob/38a2d014b9193296780c26588466c862f9fb079b/Asset/Power%20Cookie/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/66?category=1&page=1&search=)|2019|100|
 
 
 
