@@ -90,7 +90,7 @@ function _0x4b5b()
 
 7. Finally, replace the function calls with hardcoded values.
 
-```
+```js
 function verify() {
   checkpass = document['getElementById']('pass')['value'];
   /** @type {number} */
@@ -119,7 +119,7 @@ function verify() {
 ```
 
 8. Last step, try to concate the flag using the same pattern as the `don't-use-client-side` challenge. 
-```
+```bash
 0, split * 2 -> split *2 , split *2 *2 -> etc.
 ```
 
