@@ -18,7 +18,7 @@ var _0x5a46=['0a029}','_again_5','this','Password\x20Verified','Incorrect\x20pas
 4. Next, we must beautify the JavaScript code, so it can be more readable. Paste the `js` code to this [website](https://beautifier.io/) then press enter.
 5. Then we got the beautified JavaScript code.
 
-```
+```js
 (function(_0x4bd822, _0x2bd6f7) {
     var _0xb4bdb3 = function(_0x1d68f6) {
         while (--_0x1d68f6) {
