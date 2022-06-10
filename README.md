@@ -26,4 +26,4 @@
 |22. |[Client-side-again](https://github.com/jon-brandy/CTF-WRITE-UP/blob/64fa1b2c61566255324307bc6beb138bc98abc6e/Asset/Client-side-again/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/69?category=1&originalEvent=1&page=1&search=)|2019|200|
 |23. |[Irish-Name-Repo 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/dc04104d832ff514ee609b24aa366c4b1bd4e1c1/Asset/Irish-Name-Repo%201/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/80?category=1&originalEvent=1&page=1&search=)|2019|300|
 |23. |[Irish-Name-Repo 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3500ccd012dfaf5ea35b59912bd6d715a63c1845/Asset/Irish-Name-Repo-2/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/59?category=1&originalEvent=1&page=1&search=)|2019|350|
-
+|24. |[Basic-mod1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3500ccd012dfaf5ea35b59912bd6d715a63c1845/Asset/Irish-Name-Repo-2/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/253?category=2&originalEvent=70&page=1&search=)|2022|100|
