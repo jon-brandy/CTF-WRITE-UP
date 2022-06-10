@@ -8,7 +8,7 @@ Try to see if you can still login! or http://jupiter.challenges.picoctf.org:5375
 ## STEPS:
 1. Go to the `admin login` page and type this command in the username `admin' --`.
 2. Leave the password textarea to blank.
-3. Finally, we get the flag!
+3. Finally, we got the flag!
 
 ![Screenshot (439)](https://user-images.githubusercontent.com/70703371/173023819-a372e543-3925-444f-850a-4ca7a2f16475.png)
 
