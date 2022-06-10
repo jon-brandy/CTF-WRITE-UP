@@ -19,7 +19,7 @@ or http://jupiter.challenges.picoctf.org:50009. Do you think you can log us in? 
 
 ![Screenshot (438)](https://user-images.githubusercontent.com/70703371/173020187-7813f5b5-f349-4b6d-ae84-7b76b48e9575.png)
 
-5. Finally we get the flag!
+5. Finally we got the flag!
 
 
 ---
