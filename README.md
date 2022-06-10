@@ -22,7 +22,7 @@
 |18. |[Power Cookie](https://github.com/jon-brandy/CTF-WRITE-UP/blob/38a2d014b9193296780c26588466c862f9fb079b/Asset/Power%20Cookie/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/288?category=1&originalEvent=70&page=1&search=)|2022|200|
 |19. |[don't-use-client-side](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2afd0a720451da15fc335a4abbff18f4688dda96/Asset/don't-use-client-side/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/66?category=1&page=1&search=)|2019|100|
 |20. |[picobrowser](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0020a2263f4d16d16efdeb68d8eb05b83152e958/Asset/picobrowser/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/9?category=1&originalEvent=1&page=1&search=)|2019|200|
-|21. |[logon](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0020a2263f4d16d16efdeb68d8eb05b83152e958/Asset/picobrowser/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/46?category=1&originalEvent=1&page=1&search=)|2019|100|
+|21. |[logon](https://github.com/jon-brandy/CTF-WRITE-UP/blob/17f64de212304c0b99d8432029c825d69d652b6d/Asset/logon/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/46?category=1&originalEvent=1&page=1&search=)|2019|100|
 
 
 
