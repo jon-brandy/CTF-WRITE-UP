@@ -20,7 +20,7 @@ https://jupiter.challenges.picoctf.org/problem/15796/ [(link)](https://jupiter.c
 ![Screenshot (432)](https://user-images.githubusercontent.com/70703371/172981922-3fd78e05-2232-4cc1-a26d-7736c29d19f2.png)
 
 5. Change the `admin` value to `True` and refresh the page.
-6. Finally, we get the flag!
+6. Finally, we got the flag!
 
 ![Screenshot (433)](https://user-images.githubusercontent.com/70703371/172982013-03baafb1-ba29-457d-b730-28523c954b7a.png)
 
