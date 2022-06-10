@@ -62,7 +62,7 @@ function verify() {
 
 ![Screenshot (435)](https://user-images.githubusercontent.com/70703371/172985208-0b91d5df-c388-4782-a5f6-9c85dc1cdad2.png)
 
-```
+```bash
 >>> _0x4b5b
 function _0x4b5b()
 
