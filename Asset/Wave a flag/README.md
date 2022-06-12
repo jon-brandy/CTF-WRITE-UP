@@ -1,4 +1,5 @@
 # Wave a flag
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## Hints:
 1. This program will only work in the webshell or another linux computer.
 2. To get the file accessible in your shell, enter the following in the Terminal prompt: 
