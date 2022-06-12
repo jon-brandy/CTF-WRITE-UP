@@ -1,4 +1,5 @@
 # Obedient Cat
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ### Steps:
 1. Download the file named "flag".
 2. Open your kali Linux.
