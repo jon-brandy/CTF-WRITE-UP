@@ -1,4 +1,5 @@
 # Irish-Name-Repo 2
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 There is a website running at https://jupiter.challenges.picoctf.org/problem/53751/ [(link)](https://jupiter.challenges.picoctf.org/problem/53751/). 
 Someone has bypassed the login before, and now it's being strengthened. 
