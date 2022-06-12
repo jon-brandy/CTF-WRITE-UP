@@ -1,5 +1,5 @@
 # Cookies
-#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy) & [Q](https://github.com/tkxldk)
 ## DESCRIPTION:
 Who doesn't love cookies? Try to figure out the best one. http://mercury.picoctf.net:21485/
 ## HINT:
