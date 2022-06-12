@@ -1,4 +1,5 @@
 # logon
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 The factory is hiding things from all of its users. 
 Can you login as Joe and find what they've been looking at? 
