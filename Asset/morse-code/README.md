@@ -1,4 +1,5 @@
 # morse-code
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Morse code is well known. Can you decrypt this? 
 Download the file [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d0f6516abf5314fe61b6bd02cc9b719c8ea68a75/Asset/morse-code/morse_chal.wav). Wrap your answer with picoCTF{}, put underscores in place of pauses, and use all lowercase.
