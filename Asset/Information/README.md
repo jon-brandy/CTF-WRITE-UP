@@ -1,4 +1,5 @@
 # Information
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## Hints:
 1. Look at the details of the file
 2. Make sure to submit the flag as picoCTF{XXXXX}
