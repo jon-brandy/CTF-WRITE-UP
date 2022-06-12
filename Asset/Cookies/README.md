@@ -2,7 +2,7 @@
 ## DESCRIPTION:
 Who doesn't love cookies? Try to figure out the best one. http://mercury.picoctf.net:21485/
 ## HINT:
--
+NONE.
 ## STEPS:
 1. Open the website.
 2. Inspect element and go to `Application tab > Cookies`.
