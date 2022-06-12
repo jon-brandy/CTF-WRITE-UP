@@ -1,4 +1,5 @@
 # Power Cookie
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you get the flag? Go to this [website](http://saturn.picoctf.net:61304/) and see what you can discover.
 ## HINT:
