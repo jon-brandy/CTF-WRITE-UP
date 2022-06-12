@@ -30,4 +30,6 @@
 |25. |[13](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2cfab440e40c142957a63c408bc97bd213626175/Asset/13/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/62?category=2&originalEvent=1&page=1&search=)|2019|100|
 |26. |[Basic-mod2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6f8abd2f9314df5a7015a4d8cae2a0dba6a41ed2/Asset/Basic-mod2/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/254?category=2&originalEvent=70&page=1)|2022|100|
 |27. |[file-run1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6ee8d38ad971307a3310c1339d3aaf73ac6c54d6/Asset/file-run1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/266?category=3&originalEvent=70&page=1)|2022|100|
+|28. |[Cookies](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6ee8d38ad971307a3310c1339d3aaf73ac6c54d6/Asset/file-run1/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/173?category=1&page=1&search=)|2021|40|
+
 
