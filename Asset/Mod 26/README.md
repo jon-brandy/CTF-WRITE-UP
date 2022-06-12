@@ -1,4 +1,5 @@
 # Mod 26
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ### I solved this challenge using online decoder, so this might be not the intended solution. For best Practice, you must solve it by hand.
 ## Steps
 1. Copy the ROT13 text `cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}`.
