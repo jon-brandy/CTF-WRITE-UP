@@ -1,4 +1,5 @@
 # Insp3ct0r
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Kishor Balan tipped us off that the following code 
 may need inspection: ```https://jupiter.challenges.picoctf.org/problem/44924/``` or http://jupiter.challenges.picoctf.org:44924
