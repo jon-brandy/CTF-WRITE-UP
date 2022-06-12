@@ -1,4 +1,5 @@
 # Nice netcat...
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## Steps:
 1. Run this command `nc mercury.picoctf.net 7449` on your linux terminal.
 2. After that we will get this output:
