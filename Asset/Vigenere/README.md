@@ -2,16 +2,17 @@
 #### Write-up author : [Q](https://github.com/tkxldk)
 ## DESCRIPTION:
 Can you decrypt this message?
-Decrypt this message using this key "CYLAB".
+Decrypt this [message](https://github.com/jon-brandy/CTF-WRITE-UP/blob/ff802aa1b91eaf0b6cfd30a9c614e316dd5e120a/Asset/Vigenere/cipher.txt) using this key "CYLAB".
 ## HINT:
 https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 ## STEPS:
-1. Open the website.
-2. Inspect element and go to `Application tab > Cookies`.
-3. Change the value of `name` to 18 **(for instant flag)**.
-4. Finally, we got the flag!.
+1. Download the file and you will see `rgnoDVD{O0NU_WQ3_G1G3O3T3_A1AH3S_cc82272b}`
+2. Now open an Vigenere Cipher Decoder online tool, i use this [web](https://www.dcode.fr/vigenere-cipher)
+3. And then put the message and the key `CYLAB` on the textarea
 
-![ini_cookies](https://user-images.githubusercontent.com/89120989/173222852-270b5268-79c2-4a42-a2e0-0abcace8b488.png)
+![image](https://user-images.githubusercontent.com/89120989/173224747-5ff1579a-711a-46a0-8110-0a46599c7a50.png)
+
+4. Wala, you get the flag!
 
 
 ---
@@ -19,13 +20,5 @@ https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
 
 ## FLAG:
 ```
-picoCTF{3v3ry1_l0v3s_c00k135_94190c8a}
+picoCTF{D0NT_US3_V1G3N3R3_C1PH3R_ae82272q}
 ```
-
-
-
-
-
-![image](https://user-images.githubusercontent.com/89120989/173224747-5ff1579a-711a-46a0-8110-0a46599c7a50.png)
-
-
