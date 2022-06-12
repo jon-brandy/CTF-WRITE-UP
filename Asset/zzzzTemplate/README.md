@@ -1,5 +1,5 @@
 # [TITLE]
-#### Write-up author : [Q](https://github.com/tkxldk)
+#### Write-up author : [GITHUB_USERNAME]()
 ## DESCRIPTION:
 
 ## HINT:
