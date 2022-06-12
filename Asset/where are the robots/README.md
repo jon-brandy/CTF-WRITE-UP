@@ -1,4 +1,5 @@
 # where are the robots
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you find the robots? ```https://jupiter.challenges.picoctf.org/problem/60915/``` or http://jupiter.challenges.picoctf.org:60915
 ## HINTS:
