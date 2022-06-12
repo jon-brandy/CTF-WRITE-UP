@@ -1,4 +1,5 @@
 # unpackme.py
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you get the flag? 
 Reverse engineer this [Python program](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6c5d21d7562d854cdbabc5317b76658d8f52e1f2/Asset/unpackme.py/unpackme.flag.py).
