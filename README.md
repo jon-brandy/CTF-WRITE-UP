@@ -49,10 +49,10 @@ https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 <details>
 <summary> ROZU </summary>
   
-|USERNAME|STREAM HOLD|
+|USERNAME|HELD STREAM|
 |:------:|:---------:|
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|
-|[Q]()|Web-Exploitation - Cryptography|
-|[jon-shel]()|Reverse-Engineering|
+|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|
+|[jon-shel](https://github.com/jon-shel)|Reverse-Engineering|
  
 </details>
