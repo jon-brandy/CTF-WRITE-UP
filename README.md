@@ -78,6 +78,8 @@ https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 
 <details>
 <summary> ROZU </summary>
+
+<img src = "https://user-images.githubusercontent.com/70703371/173340449-dfb10205-99e4-49e7-8769-c5cffcf3a2d3.png" width = "80">
   
 |USERNAME|HELD STREAM|
 |:------:|:---------:|
@@ -89,5 +91,5 @@ https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 </details>
 
 
-![rozu](https://user-images.githubusercontent.com/70703371/173340449-dfb10205-99e4-49e7-8769-c5cffcf3a2d3.png)
+
 
