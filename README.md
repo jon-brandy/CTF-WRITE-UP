@@ -1,8 +1,7 @@
 # CTF-WRITE-UP
 ## DESCRIPTION:
-```
-Here are our CTF solutions from several CTF challenges with various categories.
-```
+
+Here are our CTF solutions from several CTF challenges with various categories. 
 
 ---
 |No.|Problems|Category|Website|Year|Points|
@@ -41,3 +40,7 @@ Here are our CTF solutions from several CTF challenges with various categories.
 |29. |[rail-fence](https://github.com/jon-brandy/CTF-WRITE-UP/blob/b7f528deb96bf102eefb08561b43873c772b5da8/Asset/rail-fence/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/289?category=2&originalEvent=70&page=1)|2022|100|
 |30. |[substitution0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a120f055de40661c0d1713eb8268903ed95dadd8/Asset/substitution0/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/307?category=2&originalEvent=70&page=1)|2022|100|
 
+## TOOLS REFERENCES:
+```
+https://github.com/apsdehal/awesome-ctf/blob/master/README.md
+```
