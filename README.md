@@ -84,6 +84,6 @@ https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|
 |[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|
 |[jon-shel](https://github.com/jon-shel)|Reverse-Engineering|
-|[RioFerdinand25](https://github.com/RioFerdinand25)]|Forensics|
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|
  
 </details>
