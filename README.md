@@ -13,7 +13,8 @@ According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into vario
 ## FUN-FACT
 ```
 1. CTF can be played as an individual or in a team.
-2. It is known that many challenges do not require programming knowledge and only rely on problem solving skills and creative thinking.
+2. It is known that many challenges do not require programming knowledge and only 
+rely on problem solving skills and creative thinking.
 ```
 
 |No.|Problems|Category|Website|Year|Points|
