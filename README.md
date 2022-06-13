@@ -1,9 +1,11 @@
 # CTF-WRITE-UP
 ## DESCRIPTION:
 Here are our CTF solutions from several CTF challenges with various categories. 
-## WHAT IS CTF?
-  CTF (Capture The Flag) is a type of information security competition that challenges contestants to find solutions or complete various tasks. These tasks range from hunting for information from Wikipedia or the internet to basic programming exercises to intermediates aimed at hacking your way into a server to retrieve data. In general, contestants will be asked to find certain text that has been hidden behind web pages, servers or in images. This text is usually referred to as the **flag**.
-
+## WHAT IS CTF ?
+CTF (Capture The Flag) is a type of information security competition that challenges contestants to find solutions or complete various tasks. These tasks range from hunting for information from Wikipedia or the internet to basic programming exercises to intermediates aimed at hacking your way into a server to retrieve data. In general, contestants will be asked to find certain text that has been hidden behind web pages, servers or in images. This text is usually referred to as the **flag**. Like many other competitions, the skill level or difficulty for CTF varies greatly between events. Some of the competitions are targeted at professionals with experience operating in cybersecurity teams, and some are targeted at students who are new to cybersecurity in order to hone their skills and increase their knowledge. For students, the prizes given are usually financial support for education for those who succeed in becoming champions in competitions, then for professionals, usually large cash prizes.
+## TYPES OF CTF (in short)
+According to CTF-time, CTF is divided into various types. In summary, the jeopardy style CTF provides a list of challenges and reward points for individuals or teams who successfully complete or find a challenge solution, then the group with the most points wins. Next, there is attack/defense style CTF, this type of CTF focuses on attacking the opponent's server and defending your own server. Usually this type of CTF is intended for those who are very experienced in the world of cybersecurity and this type of CTF is carried out in a specific physical location.
+**NOTES:** CTF can be played as an individual or in a team.
 
 |No.|Problems|Category|Website|Year|Points|
 |:-:|:------:|:------:|:-----:|:--:|:----:|
