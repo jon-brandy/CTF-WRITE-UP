@@ -43,3 +43,16 @@ Here are our CTF solutions from several CTF challenges with various categories.
 ```
 https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 ```
+
+## MEET THE TEAM:
+
+<details>
+<summary> ROZU </summary>
+  
+|USERNAME|STREAM HOLD|
+|:------:|:---------:|
+|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|
+|[Q]()|Web-Exploitation - Cryptography|
+|[jon-shel]()|Reverse-Engineering|
+ 
+</details>
