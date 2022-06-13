@@ -1,6 +1,6 @@
 # CTF-WRITE-UP
+
 ## DESCRIPTION:
-Here are our CTF solutions from several CTF challenges with various categories. 
 
 ## WHAT IS CTF ?
 
