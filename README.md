@@ -3,7 +3,6 @@
 
 Here are our CTF solutions from several CTF challenges with various categories. 
 
----
 |No.|Problems|Category|Website|Year|Points|
 |:-:|:------:|:------:|:-----:|:--:|:----:|
 |1. |[Obedient Cat](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a6f5f727a5ec1473591469a73c81ca837cea1562/Asset/Obedient%20Cat/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/147)|2021|5|
