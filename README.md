@@ -1,7 +1,9 @@
 # CTF-WRITE-UP
 ## DESCRIPTION:
-
 Here are our CTF solutions from several CTF challenges with various categories. 
+## WHAT IS CTF?
+  CTF (Capture The Flag) is a type of information security competition that challenges contestants to find solutions or complete various tasks. These tasks range from hunting for information from Wikipedia or the internet to basic programming exercises to intermediates aimed at hacking your way into a server to retrieve data. In general, contestants will be asked to find certain text that has been hidden behind web pages, servers or in images. This text is usually referred to as the **flag**.
+
 
 |No.|Problems|Category|Website|Year|Points|
 |:-:|:------:|:------:|:-----:|:--:|:----:|
