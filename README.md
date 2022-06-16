@@ -17,14 +17,12 @@ According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into vario
   
 |CATEGORY|
 |:------:|
-|Web Exploitation|
-|Cryptography|
-|Binary Exploitation|
+|Web Exploitation - Packet Analysis|
+|Cryptography - Steganography|
+|Binary Exploitation - Pwn|
 |Reverse Engineering|
 |Forensics|
-|Stenography|
-|Packet Analysis|
-|Miscellaneous|
+|Miscellaneous - General Skills|
  
 </details>
 
