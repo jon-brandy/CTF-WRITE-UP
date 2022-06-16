@@ -86,7 +86,7 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 <details>
 <summary> ROZU </summary>
   
-|USERNAME|HELD STREAM|OTHER STREAM|Profession|
+|USERNAME|HELD STREAM|OTHER STREAM|Profession(s)|
 |:------:|:---------:|:----------:|:--------:|
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|CSGO|Student - Researcher - Entrepreneur|
 |[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Valorant|Student - Entrepreneur|
