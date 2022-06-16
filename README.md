@@ -86,14 +86,14 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 <details>
 <summary> ROZU </summary>
   
-|USERNAME|HELD STREAM|OTHER STREAM|
-|:------:|:---------:|:----------:|
-|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|CSGO|
-|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Valorant|
-|[jon-shel](https://github.com/jon-shel)|Reverse-Engineering| - |
-|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|CSGO - VALORANT|
-|[Antonyous10](https://github.com/Antonyous10)|Cryptography| - |
-|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|CSGO - VALORANT|
+|USERNAME|HELD STREAM|OTHER STREAM|Profession|
+|:------:|:---------:|:----------:|:--------:|
+|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|CSGO|Student - Researcher - Entrepreneur|
+|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Valorant|Student - Entrepreneur|
+|[jon-shel](https://github.com/jon-shel)|Reverse-Engineering| - |Student - Researcher|
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|CSGO - VALORANT|Student - Entrepreneur|
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography| - |Student|
+|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|CSGO - VALORANT|Student - Entrepreneur|
   
   
 </details>
