@@ -92,7 +92,7 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 |[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Valorant|Student - Entrepreneur|
 |[jon-shel](https://github.com/jon-shel)|Reverse-Engineering| - |Student - Researcher|
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|CSGO - VALORANT|Student - Entrepreneur|
-|[Antonyous10](https://github.com/Antonyous10)|Cryptography| - |Student|
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography| - |Student - Entrepreneur|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|CSGO - VALORANT|Student - Entrepreneur|
   
   
