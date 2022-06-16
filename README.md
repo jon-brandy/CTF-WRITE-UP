@@ -86,14 +86,14 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 <details>
 <summary> ROZU </summary>
   
-|USERNAME|HELD STREAM|
-|:------:|:---------:|
-|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|
-|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|
-|[jon-shel](https://github.com/jon-shel)|Reverse-Engineering|
-|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|
-|[Antonyous10](https://github.com/Antonyous10)|Cryptography|
-|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|
+|USERNAME|HELD STREAM|OTHER STREAM|
+|:------:|:---------:|:----------:|
+|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|CSGO|
+|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Valorant|
+|[jon-shel](https://github.com/jon-shel)|Reverse-Engineering| - |
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|CSGO - VALORANT|
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography| - |
+|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|CSGO - VALORANT|
   
   
 </details>
