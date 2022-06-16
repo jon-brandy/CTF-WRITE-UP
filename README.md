@@ -86,7 +86,7 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 |USERNAME|HELD STREAM|OTHER STREAM|Profession(s)|
 |:------:|:---------:|:----------:|:--------:|
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|CSGO|Student - Researcher - Entrepreneur|
-|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Valorant|Student - Entrepreneur|
+|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|VALORANT|Student - Entrepreneur|
 |[jon-shel](https://github.com/jon-shel)|Reverse-Engineering| - |Student - Researcher|
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|CSGO - VALORANT|Student - Entrepreneur|
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography| - |Student - Entrepreneur|
