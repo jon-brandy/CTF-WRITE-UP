@@ -92,7 +92,8 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 |[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|
 |[jon-shel](https://github.com/jon-shel)|Reverse-Engineering|
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|
-|[Antonyous10](https://github.com/Antonyous10)| Cryptography |
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography|
+|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|
   
   
 </details>
