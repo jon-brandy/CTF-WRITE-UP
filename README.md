@@ -1,5 +1,5 @@
 <p align ="center">
-<img src = "https://user-images.githubusercontent.com/70703371/173341721-a30156de-2c66-42df-b08d-a36f08c7df06.png" width = "400">
+<img src = "https://user-images.githubusercontent.com/70703371/173975716-355596a2-57bd-4565-b8e6-6f6651e3bb04.png">
 </p>
 
 ## WHAT IS CTF?
