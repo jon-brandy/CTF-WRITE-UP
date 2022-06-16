@@ -10,6 +10,8 @@
 
 According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into various types. In summary, the jeopardy style CTF provides a list of challenges and reward points for individuals or teams who successfully complete or find a challenge solution, then the group with the most points wins. Next, there is attack/defense style CTF, this type of CTF focuses on attacking the opponent's server and defending your own server. Usually this type of CTF is intended for those who are very experienced in the world of cybersecurity and this type of CTF is carried out in a specific physical location.
 
+> CLICK THE BUTTON BELOW TO VIEW!
+
 <details>
 <summary> JEOPARDY CHALLENGES </summary>
   
