@@ -8,4 +8,9 @@ And connect with it using:
 
 ## HINTS:
 1. How can you trigger the flag to print?
+2. If you try to do the math by hand, maybe try and add a few more characters. Sometimes there are things you aren't expecting.
+3. Run man gets and read the BUGS section. How many characters can the program really read?
+
+## STEPS:
+
 
