@@ -22,7 +22,6 @@ According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into vario
 |Binary Exploitation|
 |Reverse Engineering|
 |Forensics|
-|Pwn|
 |Stenography|
 |Packet Analysis|
 |Miscellaneous|
