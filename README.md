@@ -98,8 +98,7 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 </details>
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/173341721-a30156de-2c66-42df-b08d-a36f08c7df06.png" width = "400">
+  <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
 </p>
-
 
 
