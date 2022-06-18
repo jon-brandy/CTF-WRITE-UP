@@ -70,6 +70,7 @@ rely on problem solving skills and creative thinking.
 |30. |[substitution0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a120f055de40661c0d1713eb8268903ed95dadd8/Asset/substitution0/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/307?category=2&originalEvent=70&page=1)|2022|100|
 |31. |[buffer overflow 0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/main/Asset/buffer%20overflow%200/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/257?category=6&originalEvent=70&page=1)|2022|100|
 |32. |[Packets Primer](https://github.com/jon-brandy/CTF-WRITE-UP/blob/eb05ff92ec434c0e237928c70748908c14724baa/Asset/Packets%20Primer/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/286?category=4&originalEvent=70&page=1)|2022|100|
+|33. |[St3g0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/eb05ff92ec434c0e237928c70748908c14724baa/Asset/Packets%20Primer/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/305?category=4&originalEvent=70&page=1)|2022|300|
 
 
 ## TOOLS REFERENCES:
