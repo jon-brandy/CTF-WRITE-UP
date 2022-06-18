@@ -82,11 +82,11 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
   
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
-|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|Student - Researcher|
-|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|Student|
-|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|Student|
-|[Antonyous10](https://github.com/Antonyous10)|Cryptography|Student|
-|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|Student - Entrepreneur|
+|[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|College Student - Researcher|
+|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|College Student|
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student|
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
+|[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|College Student - Entrepreneur|
 
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
