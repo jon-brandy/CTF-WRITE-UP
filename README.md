@@ -90,6 +90,8 @@ https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student|
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|College Student - Entrepreneur|
+|[stephanchandra](https://github.com/stephanchandra)|Binary Exploitation|College Student - Mentor|
+
 
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
