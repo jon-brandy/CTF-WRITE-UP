@@ -1,4 +1,5 @@
 # Packets Primer
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Download the packet capture file and use packet analysis software to find the flag.
 - [Download packet capture](https://github.com/jon-brandy/CTF-WRITE-UP/blob/e72f4d98ab9d736fde794f975315a6e5b11d8c85/Asset/Packets%20Primer/network-dump.flag.pcap)
