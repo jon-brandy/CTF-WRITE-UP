@@ -72,14 +72,6 @@ rely on problem solving skills and creative thinking.
 |32. |[Packets Primer](https://github.com/jon-brandy/CTF-WRITE-UP/blob/eb05ff92ec434c0e237928c70748908c14724baa/Asset/Packets%20Primer/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/286?category=4&originalEvent=70&page=1)|2022|100|
 |33. |[St3g0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9ff3f49dc8b7250c4bf04168d8b1c0d56ce4fbf4/Asset/St3g0/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/305?category=4&originalEvent=70&page=1)|2022|300|
 
-
-## TOOLS REFERENCES:
-```
-https://github.com/apsdehal/awesome-ctf/blob/master/README.md
-https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
-https://ctftime.org/ctf-wtf/
-```
-
 ## MEET THE TEAM MEMBERS:
 
 > ROZU - CTF DIVISION
@@ -93,7 +85,12 @@ https://ctftime.org/ctf-wtf/
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|College Student - Entrepreneur|
 |[stephanchandra](https://github.com/stephanchandra)|Binary Exploitation|College Student - Mentor|
 
-
+## TOOLS REFERENCES:
+```
+https://github.com/apsdehal/awesome-ctf/blob/master/README.md
+https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
+https://ctftime.org/ctf-wtf/
+```
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
 </p>
