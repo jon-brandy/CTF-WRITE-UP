@@ -10,8 +10,6 @@
 
 According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into various types. In summary, the jeopardy style CTF provides a list of challenges and reward points for individuals or teams who successfully complete or find a challenge solution, then the group with the most points wins. Next, there is attack/defense style CTF, this type of CTF focuses on attacking the opponent's server and defending your own server. Usually this type of CTF is intended for those who are very experienced in the world of cybersecurity and this type of CTF is carried out in a specific physical location.
 
-> CLICK THE BUTTON BELOW TO VIEW!
-
 <details>
 <summary> JEOPARDY CHALLENGES </summary>
   
@@ -85,12 +83,18 @@ rely on problem solving skills and creative thinking.
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|College Student - Entrepreneur|
 |[stephanchandra](https://github.com/stephanchandra)|Binary Exploitation|College Student - Mentor|
 
-## TOOLS REFERENCES:
+> CLICK THE BUTTON BELOW TO VIEW!
+
+<details>
+  
+<summary> TOOLS REFERENCES </summary>
 ```
 https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 https://ctftime.org/ctf-wtf/
 ```
+</details>
+
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
 </p>
