@@ -70,6 +70,10 @@ rely on problem solving skills and creative thinking.
 
 ## MEET THE TEAM MEMBERS:
 
+<p align="center">
+  <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
+</p>
+
 > ROZU - CTF DIVISION
   
 |USERNAME|HELD STREAM|Profession(s)|
@@ -95,9 +99,4 @@ https://ctftime.org/ctf-wtf/
 ```
 
 </details>
-
-<p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
-</p>
-
 
