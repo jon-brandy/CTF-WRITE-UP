@@ -1,5 +1,5 @@
 # Eavesdrop
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy]() & [PlasmaRing](https://github.com/PlasmaRing)
 ## DESCRIPTION:
 Download this packet capture and find the flag.
 [Download packet capture](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5bc7981002eb27cd6455e1d959c163ecef624188/Asset/Eavesdrop/capture.flag.pcap)
@@ -33,9 +33,17 @@ Download this packet capture and find the flag.
 
 ![Screenshot (458)](https://user-images.githubusercontent.com/70703371/174716498-4977ddd7-dab7-43ae-9b73-c3f12c8efd48.png)
 
-10. Export the packets into a `raw` file and rename it to `eavesdrop.des3` or any name you like.
-11. Then in your kali linux terminal type `openssl des3 -d -salt -in eavesdrop.des3 -out file.txt -k supersecretpassword123`, then press enter.
+10. Export the packets into a `raw` file and rename it to `packetpacketpico.txt` or any name you like.  
+11. Then in your kali linux terminal type `openssl des3 -d -salt -in packetpacketpico.txt -out filepacket.txt`, then press enter.  
+12. Input `supersecretpassword123` as the des-ede3-cbc decryption password.  
 
-![Screenshot (459)](https://user-images.githubusercontent.com/70703371/174722921-bd3a1cc3-38fe-4c9c-8b9d-4b1dbc5d80e7.png)
+![image](https://user-images.githubusercontent.com/92077284/174811926-fe1039fe-db8f-498a-a9b4-2d2c186a21fb.png)
 
+13. Open `filepacket.txt` , Got the flag
+
+
+## FLAG
+```
+picoCTF{nc_73115_411_5786acc3}
+```
 
