@@ -72,6 +72,7 @@ rely on problem solving skills and creative thinking.
 |36. |[Eavesdrop](https://github.com/jon-brandy/CTF-WRITE-UP/blob/86857795aac0da6aac36bd8508ba5a6690db1ec0/Asset/Eavesdrop/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/264?category=4&originalEvent=70&page=1)|2022|300|❌ UNSOLVED|
 |37. |[Sleuthkit Intro](https://github.com/jon-brandy/CTF-WRITE-UP/blob/ae7e584cb9c6bf78ed6f679e560bc80c03ab81ea/Asset/Sleuthkit%20Intro/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/301?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |38. |[Lookey here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3873a58d3e48e20e5cde7a0e0f2121edaca0249f/Asset/Lookey%20here/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/279?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
+|39. |[Redaction gone wrong](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3873a58d3e48e20e5cde7a0e0f2121edaca0249f/Asset/Lookey%20here/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/290?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
