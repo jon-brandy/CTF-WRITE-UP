@@ -68,6 +68,7 @@ rely on problem solving skills and creative thinking.
 |32. |[Packets Primer](https://github.com/jon-brandy/CTF-WRITE-UP/blob/eb05ff92ec434c0e237928c70748908c14724baa/Asset/Packets%20Primer/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/286?category=4&originalEvent=70&page=1)|2022|100|
 |33. |[St3g0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9ff3f49dc8b7250c4bf04168d8b1c0d56ce4fbf4/Asset/St3g0/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/305?category=4&originalEvent=70&page=1)|2022|300|
 |34. |[Transformation](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1f1631c0ad27821925542e9ac1fa833fefde5e48/Asset/Transformation/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/104)|2022|20|
+|35. |[Enhance!](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1f1631c0ad27821925542e9ac1fa833fefde5e48/Asset/Transformation/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/265?category=4&originalEvent=70&page=1)|2022|20|
 
 ## MEET THE TEAM MEMBERS
 
