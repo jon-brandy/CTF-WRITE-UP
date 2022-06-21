@@ -70,6 +70,7 @@ rely on problem solving skills and creative thinking.
 |34. |[Transformation](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1f1631c0ad27821925542e9ac1fa833fefde5e48/Asset/Transformation/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/104)|2022|20|✅ SOLVED|
 |35. |[Enhance!](https://github.com/jon-brandy/CTF-WRITE-UP/blob/cc5d3b9a888810068606b7c664e8495ecace90de/Asset/Enhance!/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/265?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |36. |[Eavesdrop](https://github.com/jon-brandy/CTF-WRITE-UP/blob/86857795aac0da6aac36bd8508ba5a6690db1ec0/Asset/Eavesdrop/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/264?category=4&originalEvent=70&page=1)|2022|300|❌ UNSOLVED|
+|37. |[Sleuthkit Intro](https://github.com/jon-brandy/CTF-WRITE-UP/blob/86857795aac0da6aac36bd8508ba5a6690db1ec0/Asset/Eavesdrop/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/301?category=4&originalEvent=70&page=1)|2022|100|❌ UNSOLVED|
 
 
 ## MEET THE TEAM MEMBERS
