@@ -84,7 +84,7 @@ rely on problem solving skills and creative thinking.
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|College Student - Researcher|
-|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|College Student|
+|[Q](https://github.com/tkxldk)|Web-Exploitation - Cryptography|College Student - Designer|
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student|
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|College Student - Entrepreneur|
