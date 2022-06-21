@@ -103,7 +103,7 @@ https://ctftime.org/ctf-wtf/
 
 </details>
 
-<p align="center">
+<p align="right">
   <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
 </p>
 
