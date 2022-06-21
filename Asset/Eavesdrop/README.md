@@ -34,9 +34,7 @@ Download this packet capture and find the flag.
 ![Screenshot (458)](https://user-images.githubusercontent.com/70703371/174716498-4977ddd7-dab7-43ae-9b73-c3f12c8efd48.png)
 
 10. Export the packets into a `raw` file and rename it to `eavesdrop.des3` or any name you like.
-11. Then in your kali linux terminal type `openssl des3 -d -salt -in file.des3 -out file.txt -k supersecretpassword123`.
+11. Then in your kali linux terminal type `openssl des3 -d -salt -in eavesdrop.des3 -out file.txt -k supersecretpassword123`.
 12. 
 
 
-
-openssl des3 -d -salt -in file.des3 -out file.txt -k supersecretpassword123
