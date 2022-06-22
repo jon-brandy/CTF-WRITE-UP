@@ -43,4 +43,20 @@ level_1_pw_check()
 
 ```
 
-3. Next, open your kali linux terminal..
+3. Now, run the source code in the same directory as the encrypted flag text file.
+4. When the program asks for input, type `aaaa` then press enter.
+
+![Screenshot (473)](https://user-images.githubusercontent.com/70703371/175050096-18c495a5-6c1d-4c19-8e14-081706971bcd.png)
+
+5. Because we change the "if statements" algorithm by giving a flag if the input does not match what it should be, it is certain that the program will give an output that is a decrypted flag.
+
+![Screenshot (472)](https://user-images.githubusercontent.com/70703371/175049788-07c9be06-6d02-4187-9357-91b433594cf2.png)
+
+6. Finally, we got the flag!
+
+
+---
+## FLAG
+```
+picoCTF{p47ch1ng_l1f3_h4ck_21d62e33}
+```
