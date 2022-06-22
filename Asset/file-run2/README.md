@@ -1,4 +1,5 @@
 # file-run2
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Another program, but this time, it seems to want some input. 
 What happens if you try to run it on the command line with input "Hello!"? 
