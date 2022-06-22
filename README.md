@@ -74,6 +74,8 @@ rely on problem solving skills and creative thinking.
 |38. |[Lookey here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3873a58d3e48e20e5cde7a0e0f2121edaca0249f/Asset/Lookey%20here/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/279?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |39. |[Redaction gone wrong](https://github.com/jon-brandy/CTF-WRITE-UP/blob/da899e669be979ef4d411a82928c6ce17703de02/Asset/Redaction%20gone%20wrong/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/290?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |40. |[file-run2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/cdfb40204b74bec885ffc76373ea4d84391d07d0/Asset/file-run2/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/267?category=3&originalEvent=70&page=1)|2022|100|✅ SOLVED|
+|41. |[patchme.py](https://github.com/jon-brandy/CTF-WRITE-UP/blob/cdfb40204b74bec885ffc76373ea4d84391d07d0/Asset/file-run2/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/287?category=3&originalEvent=70&page=1)|2022|100|❌ UNSOLVED|
+
 
 
 ## MEET THE TEAM MEMBERS
