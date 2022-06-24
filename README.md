@@ -77,7 +77,6 @@ rely on problem solving skills and creative thinking.
 |41. |[patchme.py](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f7b9bb7f6f45df60812372b0f1dbec6edaf1e435/Asset/patchme.py/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/287?category=3&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |42. |[substitution1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3d969513252714f6f9f1c191917d528e3b4ea9da/Asset/substitution1/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/308?category=2&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 
-https://play.picoctf.org/practice/challenge/308?category=2&originalEvent=70&page=1
 
 ## MEET THE TEAM MEMBERS
 
