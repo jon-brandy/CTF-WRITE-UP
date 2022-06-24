@@ -30,10 +30,12 @@ OYAt (txwsy aws ompyksb yxb ajmf) msb m yupb wa owzpkybs tboksgyu owzpbygygwd. O
 ![Screenshot (481)](https://user-images.githubusercontent.com/70703371/175464811-524e604c-3e61-4d3f-b775-bb6cab7a1cfe.png)
 
 8. Finally we got the flag!
+9. But when you submit the flag, it will says `"Sorry the flag is incorrect"`, based from the hint number 2, try to change the `J` alphabet from the flag to  `Q`
+10. So from this `picoCTF{FR3JU3NCY_4774CK5_4R3_C001_6E0659FB}`, to this`picoCTF{FR3QU3NCY_4774CK5_4R3_C001_6E0659FB}`
 
 
 ---
 ## FLAG
 ```
-picoCTF{FR3JU3NCY_4774CK5_4R3_C001_6E0659FB}
+picoCTF{FR3QU3NCY_4774CK5_4R3_C001_6E0659FB}
 ```
