@@ -1,4 +1,5 @@
 # substitution1
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 A second message has come in the mail, and it seems almost identical to the first one. 
 Maybe the same thing will work again. Download the message [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c83ad1ad7a81e92be06402dd6d777dbc644ceda3/Asset/substitution1/message.txt).
