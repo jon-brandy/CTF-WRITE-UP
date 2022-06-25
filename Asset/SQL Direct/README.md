@@ -1,5 +1,5 @@
 # SQL Direct
-#### Write-up author: [jon-brand](https://github.com/jon-brandy)
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Connect to this PostgreSQL server and find the flag!
 `psql -h saturn.picoctf.net -p 64980 -U postgres pico`
