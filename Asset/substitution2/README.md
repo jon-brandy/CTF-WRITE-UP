@@ -1,8 +1,9 @@
 # substitution2
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 It seems that another encrypted message has been intercepted. 
 The encryptor seems to have learned their lesson though and now there isn't any punctuation! 
-Can you still crack the cipher? Download the message [here]().
+Can you still crack the cipher? Download the message [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/e8973434667375f35928055e5065e125544a7b63/Asset/substitution2/message.txt).
 ## HINT:
 1. Try refining your frequency attack, maybe analyzing groups of letters would improve your results?
 ## STEPS:
