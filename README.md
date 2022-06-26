@@ -78,7 +78,7 @@ rely on problem solving skills and creative thinking.
 |42. |[substitution1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/55c202b0327e8d23c58b297a31065fd5c1c63cee/Asset/substitution1/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/308?category=2&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |43. |[substitution2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/be1de7b9f5f18949d31a7b972b8b4fd140933823/Asset/substitution2/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/309?category=2&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |44. |[SQL Direct](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a52d073caccab4237afcc35d9af0fc86661ecbc0/Asset/SQL%20Direct/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/303?category=1&originalEvent=70&page=1)|2022|200|✅ SOLVED|
-|45. |[SQLiLite]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/304?category=1&originalEvent=70&page=1)|2022|300|SOLVED|
+|45. |[SQLiLite]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/304?category=1&originalEvent=70&page=1)|2022|300|❌ UNSOLVED|
 
 ## MEET THE TEAM MEMBERS
 
