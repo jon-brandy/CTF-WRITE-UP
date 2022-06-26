@@ -1,4 +1,5 @@
 # SQLiLite
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you login to this website? Try to login [here]().
 ## HINT:
