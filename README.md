@@ -82,7 +82,7 @@ rely on problem solving skills and creative thinking.
 |44. |[SQL Direct](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a52d073caccab4237afcc35d9af0fc86661ecbc0/Asset/SQL%20Direct/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/303?category=1&originalEvent=70&page=1)|2022|200|✅ SOLVED|
 |45. |[SQLiLite](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c0a2098c088a88e26c005e5d15ab29177fc31261/Asset/SQLiLite/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/304?category=1&originalEvent=70&page=1)|2022|300|✅ SOLVED|
 |46. |[basic-file-exploit](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0211be8214d773b2276b488797106d020634e550/Asset/basic-file-exploit/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/252?category=6&originalEvent=70&page=1)|2022|100|✅ SOLVED|
-|47. |[Safe Opener](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0211be8214d773b2276b488797106d020634e550/Asset/basic-file-exploit/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/294?category=3&originalEvent=70&page=1)|2022|100|SOLVED|
+|47. |[Safe Opener](https://github.com/jon-brandy/CTF-WRITE-UP/blob/dafd924783b91289a1f1bcd3dfd479d422371738/Asset/Safe%20Opener/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/294?category=3&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
