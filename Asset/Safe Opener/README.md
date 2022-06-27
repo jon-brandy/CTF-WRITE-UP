@@ -61,7 +61,11 @@ public class SafeOpener {
 ![Screenshot (496)](https://user-images.githubusercontent.com/70703371/175909369-7c6c3365-8de7-403a-8506-e896dff1d902.png)
 
 3. Encoded base64 strings -> `cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz`.
-4. Now to decode it, i opened my kali linux terminal then type this command -> `echo cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz | base64 -d`.
+4. Now to decode it, i opened my kali linux terminal then type this command:
+
+```bash
+echo cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz | base64 -d
+```
 
 ![Screenshot (497)](https://user-images.githubusercontent.com/70703371/175910574-e93d7fc2-35cf-4efe-b712-7a405d9776d7.png)
 
