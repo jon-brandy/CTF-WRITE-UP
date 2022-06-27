@@ -56,4 +56,19 @@ public class SafeOpener {
 }
 ```
 
-2. If you try to analyze the source-code, you will see that there is an encoded base64 strings.
+2. If you try to analyze the source-code, you will see that there is an encoded base64 strings at line 31.
+
+![Screenshot (496)](https://user-images.githubusercontent.com/70703371/175909369-7c6c3365-8de7-403a-8506-e896dff1d902.png)
+
+3. Encoded base64 strings -> `cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz`.
+4. Now to decode it, i opened my kali linux terminal then type this command -> `echo cGwzYXMzX2wzdF9tM18xbnQwX3RoM19zYWYz | base64 -d`.
+
+![Screenshot (497)](https://user-images.githubusercontent.com/70703371/175910574-e93d7fc2-35cf-4efe-b712-7a405d9776d7.png)
+
+5. Finally, we just have to wrap the decoded text with `picoCTF{}`.
+
+---
+## FLAG
+```
+picoCTF{pl3as3_l3t_m3_1nt0_th3_saf3}
+```
