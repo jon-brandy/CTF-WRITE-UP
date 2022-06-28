@@ -1,5 +1,5 @@
 # Forbidden Paths
-#### Write-up author : [jon-brandy]()
+#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you get the flag? Here's the [website](http://saturn.picoctf.net:55827/). 
 We know that the website files live in `/usr/share/nginx/html/`and the flag is at /flag.txt but the website is filtering absolute file paths. 
