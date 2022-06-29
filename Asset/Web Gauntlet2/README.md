@@ -40,9 +40,42 @@ Log in as admin Site: http://mercury.picoctf.net:57359/ Filter: http://mercury.p
 
 ![image](https://user-images.githubusercontent.com/70703371/176363397-4219e66a-2ede-4fc6-afc3-7a7e45438b1c.png)
 
-10. Now let's remodel this query -> ![image](https://user-images.githubusercontent.com/70703371/176363696-8d5a7d8c-51b9-41e3-8c43-01709c3b3920.png)
+10. Now let's remodel this query: 
+
+![image](https://user-images.githubusercontent.com/70703371/176363696-8d5a7d8c-51b9-41e3-8c43-01709c3b3920.png)
+
+11. Change the query to this `SELECT username, password FROM users WHERE username='ad'||'min'||substr(' AND password=',0,0)||''`.
+12. Based from the query, we fill the username as `ad'||'min'||substr(` and the password as `,0,0)||'`.
+
+![image](https://user-images.githubusercontent.com/70703371/176365185-ec7b4757-f7c2-4417-a114-ab2bec0ab1cc.png)
+
+![image](https://user-images.githubusercontent.com/70703371/176365225-1b6fb033-0272-4e1a-92ea-8102ae4c14de.png)
+
+13. Now open the `filter.php` file. Finally we got the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/176365402-1e03e4ae-ed40-404e-bb32-165e0dbe4bc7.png)
+
+> ALTERNATE SOLUTIONS (USING SQLite)
+
+1. If you want to use sqlite, for username still using concatenation -> `ad'||'min`. For the password you can use the SQLite logical property -> `IS NOT`.
+
+![image](https://user-images.githubusercontent.com/70703371/176365789-a99929e7-68bb-43bd-86d6-25c5b8e1fe8f.png)
+
+2. Now input the username as `ad'||'min` and the password as `a' IS NOT 'b`.
+
+![image](https://user-images.githubusercontent.com/70703371/176366084-03cec152-c7dd-4e59-a6f4-6bb94db99602.png)
+
+![image](https://user-images.githubusercontent.com/70703371/176366143-aa18211f-34b8-4d40-9db4-ed189f2319c3.png)
 
 
+
+
+
+## REFERENCES:
+> SQLite CheatSheet
+```
+https://www.tutorialspoint.com/sqlite/sqlite_operators.htm
+```
 
 
 
