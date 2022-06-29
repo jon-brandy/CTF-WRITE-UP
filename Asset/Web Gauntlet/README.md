@@ -1,4 +1,5 @@
 # Web Gauntlet
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 ```
 If the flag is not displayed after completing this challenge, try clearing your cookies. 
