@@ -1,4 +1,4 @@
-# Web Gauntlet2
+# Web Gauntlet 2
 ## DESCRIPTION:
 ```
 If the flag is not displayed after completing this challenge, try clearing your cookies. 
@@ -14,4 +14,8 @@ Log in as admin Site: http://mercury.picoctf.net:57359/ Filter: http://mercury.p
 5. sqlite
 ## STEPS:
 1. First, open the website -> `http://mercury.picoctf.net:57359/`.
-2. 
+2. Try to input the user as `admin` and password as `admin`.
+
+
+
+
