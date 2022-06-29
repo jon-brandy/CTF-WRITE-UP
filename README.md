@@ -90,7 +90,7 @@ rely on problem solving skills and creative thinking.
 
 ## MEET THE TEAM MEMBERS
 
-> ROZU - CTF DIVISION
+> BAY - CTF DIVISION
   
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
@@ -119,7 +119,7 @@ https://ctftime.org/ctf-wtf/
 </details>
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/173996798-60e915fa-a65a-4398-b290-f273128d9556.png" width = "100">
+  <img src = "https://user-images.githubusercontent.com/70703371/176472857-9575fb75-16c9-480a-b603-2c189bf22a2d.png" width = "100">
 </p>
 
 
