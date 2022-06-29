@@ -91,6 +91,10 @@ rely on problem solving skills and creative thinking.
 ## MEET THE TEAM MEMBERS
 
 > BAY - CTF DIVISION
+
+<p align="center">
+  <img src = "https://user-images.githubusercontent.com/70703371/176472857-9575fb75-16c9-480a-b603-2c189bf22a2d.png" width = "300">
+</p>
   
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
@@ -118,9 +122,7 @@ https://ctftime.org/ctf-wtf/
 
 </details>
 
-<p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/176472857-9575fb75-16c9-480a-b603-2c189bf22a2d.png" width = "100">
-</p>
+
 
 
 
