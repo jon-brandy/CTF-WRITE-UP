@@ -89,7 +89,75 @@ SELECT * FROM users WHERE username='adm'||'in'/* AND password='a'
 ![image](https://user-images.githubusercontent.com/70703371/176412961-fd4d42a2-b206-4b35-ad72-2a09abb0d7b2.png)
 
 24. Next, check the `filter.php` again.
-25. 
+
+![image](https://user-images.githubusercontent.com/70703371/176413612-fe218b7e-c7b7-4bf5-b7bc-7f2e5d1963b3.png)
+
+25. Seems, we can try to input the same value again as round 4.
+
+![image](https://user-images.githubusercontent.com/70703371/176413761-46a00385-85b8-4a12-9bc8-c1f4c7a84125.png)
+
+25. Now open the `filter.php` file.
+
+![image](https://user-images.githubusercontent.com/70703371/176413881-37024471-fece-4c66-ae48-4e51b7dc261c.png)
+
+```php
+<?php
+session_start();
+
+if (!isset($_SESSION["round"])) {
+    $_SESSION["round"] = 1;
+}
+$round = $_SESSION["round"];
+$filter = array("");
+$view = ($_SERVER["PHP_SELF"] == "/filter.php");
+
+if ($round === 1) {
+    $filter = array("or");
+    if ($view) {
+        echo "Round1: ".implode(" ", $filter)."<br/>";
+    }
+} else if ($round === 2) {
+    $filter = array("or", "and", "like", "=", "--");
+    if ($view) {
+        echo "Round2: ".implode(" ", $filter)."<br/>";
+    }
+} else if ($round === 3) {
+    $filter = array(" ", "or", "and", "=", "like", ">", "<", "--");
+    // $filter = array("or", "and", "=", "like", "union", "select", "insert", "delete", "if", "else", "true", "false", "admin");
+    if ($view) {
+        echo "Round3: ".implode(" ", $filter)."<br/>";
+    }
+} else if ($round === 4) {
+    $filter = array(" ", "or", "and", "=", "like", ">", "<", "--", "admin");
+    // $filter = array(" ", "/**/", "--", "or", "and", "=", "like", "union", "select", "insert", "delete", "if", "else", "true", "false", "admin");
+    if ($view) {
+        echo "Round4: ".implode(" ", $filter)."<br/>";
+    }
+} else if ($round === 5) {
+    $filter = array(" ", "or", "and", "=", "like", ">", "<", "--", "union", "admin");
+    // $filter = array("0", "unhex", "char", "/*", "*/", "--", "or", "and", "=", "like", "union", "select", "insert", "delete", "if", "else", "true", "false", "admin");
+    if ($view) {
+        echo "Round5: ".implode(" ", $filter)."<br/>";
+    }
+} else if ($round >= 6) {
+    if ($view) {
+        highlight_file("filter.php");
+    }
+} else {
+    $_SESSION["round"] = 1;
+}
+
+// picoCTF{y0u_m4d3_1t_96486d415c04a1abbbcf3a2ebe1f4d02}
+?>
+```
+
+26. Finally, we got the flag!
+
+---
+## FLAG
+```
+picoCTF{y0u_m4d3_1t_96486d415c04a1abbbcf3a2ebe1f4d02}
+```
 
 
 
