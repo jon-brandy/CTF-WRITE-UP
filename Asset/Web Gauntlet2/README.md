@@ -31,12 +31,19 @@ Log in as admin Site: http://mercury.picoctf.net:57359/ Filter: http://mercury.p
 
 ![image](https://user-images.githubusercontent.com/70703371/176362401-8ebc806b-c876-4a01-9b8b-4461cef2d38f.png)
 
-7. It said `not admin`. Means we must use the username as `admin` but we need to bypass it.
+7. It said `not admin`. Means we must use the username as `admin` but we need to bypass it. 
 
 ![image](https://user-images.githubusercontent.com/70703371/176362494-61d82bab-62a9-427c-9241-39ac94184a14.png)
 
-8. The easiest bypass is to use `||` for concatenation. Now input `adm'||'in` as username.
-9. For the password  
+8. Since concatenation is not prohibited, then the easiest bypass is to use `||` for concatenation at the username. Now input `ad'||'min` as username and `pass` as password.
+9. It still gave us a response -> `not admin`.
+
+![image](https://user-images.githubusercontent.com/70703371/176363397-4219e66a-2ede-4fc6-afc3-7a7e45438b1c.png)
+
+10. Now let's remodel this query -> ![image](https://user-images.githubusercontent.com/70703371/176363696-8d5a7d8c-51b9-41e3-8c43-01709c3b3920.png)
+
+
+
 
 
 
