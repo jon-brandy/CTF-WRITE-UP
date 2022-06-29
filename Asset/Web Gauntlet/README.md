@@ -5,8 +5,10 @@ If the flag is not displayed after completing this challenge, try clearing your 
 Cookies set by other challenges may prevent the flag from displaying properly.
 ```
 Can you beat the filters? 
-Log in as admin http://jupiter.challenges.picoctf.org:41560/
-http://jupiter.challenges.picoctf.org:41560/filter.php
+Log in as admin 
+http://jupiter.challenges.picoctf.org:40791/ ,
+http://jupiter.challenges.picoctf.org:40791/filter.php
+
 ## HINTS:
 1. You are not allowed to login with valid credentials.
 2. Write down the injections you use in case you lose your progress.
