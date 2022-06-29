@@ -85,7 +85,7 @@ rely on problem solving skills and creative thinking.
 |47. |[Safe Opener](https://github.com/jon-brandy/CTF-WRITE-UP/blob/dafd924783b91289a1f1bcd3dfd479d422371738/Asset/Safe%20Opener/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/294?category=3&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |48. |[Bloat.py](https://github.com/jon-brandy/CTF-WRITE-UP/blob/bd8c93bbcb801a923c90c4504d54c6f6568f180e/Asset/bloat.py/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/256?category=3&originalEvent=70&page=1)|2022|200|✅ SOLVED|
 |49. |[Forbidden Paths](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f775153e8f00c1f9f458289360c48170e3448321/Asset/Forbidden%20Paths/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/270?category=1&originalEvent=70&page=1)|2022|200|✅ SOLVED|
-|50. |[Web Gauntlet2]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/174?category=1&originalEvent=34&page=1)|2021|170|✅ SOLVED|
+|50. |[Web Gauntlet2]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/174?category=1&originalEvent=34&page=1)|2021|170|❌ UNSOLVED|
 
 
 ## MEET THE TEAM MEMBERS
