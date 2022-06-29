@@ -68,15 +68,18 @@ Log in as admin Site: http://mercury.picoctf.net:57359/ Filter: http://mercury.p
 ![image](https://user-images.githubusercontent.com/70703371/176366143-aa18211f-34b8-4d40-9db4-ed189f2319c3.png)
 
 
-
-
-
 ## REFERENCES:
 > SQLite CheatSheet
 ```
 https://www.tutorialspoint.com/sqlite/sqlite_operators.htm
 ```
 
+---
+
+## FLAG
+```
+picoCTF{0n3_m0r3_t1m3_d5a91d8c2ae4ce567c2e8b8453305565}
+```
 
 
 
