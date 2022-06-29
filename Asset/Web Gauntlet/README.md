@@ -69,6 +69,27 @@ http://jupiter.challenges.picoctf.org:40791/filter.php
 
 16. It seems, we can't use the `admin` word again, and somehow we have to bypass it.
 17. The easiest way to bypass it, is by using concatenation -> `||`.
-18. 
+18. Now, let's try to input the username as `adm'||'in` and the password as `a` or any character you want.
+
+![image](https://user-images.githubusercontent.com/70703371/176411944-443880b1-3177-432a-bb85-7eb57d240646.png)
+
+20. Seems, it's not work out. Let's try to comment the `'AND PASSWORD etc...`. by using the `/*`.
+21. So the query will look like this:
+
+```sql
+SELECT * FROM users WHERE username='adm'||'in'/* AND password='a'
+```
+
+22. Try to input the username as `adm'||'in'/*` and the password as `a` or any character you like, because the password is gonna be a comment, so it won't give any affect.
+
+![image](https://user-images.githubusercontent.com/70703371/176412629-2d9996ed-4658-41a0-bfda-b08dfd49c66d.png)
+
+23. We made it to round 5!
+
+![image](https://user-images.githubusercontent.com/70703371/176412961-fd4d42a2-b206-4b35-ad72-2a09abb0d7b2.png)
+
+24. Next, check the `filter.php` again.
+25. 
+
 
 
