@@ -87,7 +87,7 @@ rely on problem solving skills and creative thinking.
 |49. |[Forbidden Paths](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f775153e8f00c1f9f458289360c48170e3448321/Asset/Forbidden%20Paths/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/270?category=1&originalEvent=70&page=1)|2022|200|✅ SOLVED|
 |50. |[Web Gauntlet 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d45d3a2f939626c13997c238fd662551cdf1ea96/Asset/Web%20Gauntlet2/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/174?category=1&originalEvent=34&page=1)|2021|170|✅ SOLVED|
 |51. |[Web Gauntlet](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4956158ceaaaac29647f339687dee6e4f48f000c/Asset/Web%20Gauntlet/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/88?category=1&originalEvent=3&page=1)|2020 Mini|200|✅ SOLVED|
-|52. |[Fresh Java]()|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/271?category=3&originalEvent=70&page=1)|2022|200|❌ UNSOLVED|
+|52. |[Fresh Java](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c3b9eb8921156cb94c09de69140a8aeb49e47c73/Asset/Fresh%20Java/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/271?category=3&originalEvent=70&page=1)|2022|200|SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
