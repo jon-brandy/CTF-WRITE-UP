@@ -174,3 +174,19 @@ public class KeygenMe
 }
 
 ```
+
+7. If we look at the source code, it looks like the source code contains the flag partition.
+8. Read from bottom to top inside the if statements comparison character.
+9. We got these characters:
+
+```bash
+p i c o C T F { 7 0 0 l 1 n g _ r 3 q u 1 r 3 d _ 2 b f e 1 a 0 d }
+```
+10. It's the flag!
+
+---
+## FLAG
+```
+picoCTF{700l1ng_r3qu1r3d_2bfe1a0d}
+```
+
