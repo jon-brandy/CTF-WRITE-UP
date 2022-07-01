@@ -5,4 +5,5 @@ Reverse engineer this [binary](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2
 ## HINT:
 1. What is UPX?
 ## STEPS:
-1. 
+1. First, download the binary file given.
+2. 
