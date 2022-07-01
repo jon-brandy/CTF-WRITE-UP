@@ -89,8 +89,8 @@ rely on problem solving skills and creative thinking.
 |51. |[Web Gauntlet](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4956158ceaaaac29647f339687dee6e4f48f000c/Asset/Web%20Gauntlet/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/88?category=1&originalEvent=3&page=1)|2020 Mini|200|✅ SOLVED|
 |52. |[Fresh Java](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c3b9eb8921156cb94c09de69140a8aeb49e47c73/Asset/Fresh%20Java/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/271?category=3&originalEvent=70&page=1)|2022|200|✅ SOLVED|
 |53. |[unpackme]()|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/313?category=3&originalEvent=70&page=1)|2022|300|❌ SOLVED|
-|52. |[Some Assembly Required 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/fd7730f96d6e48a6ecbbb2a78a34db44c2ce6397/Asset/Some%20Assembly%20Required%201/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/152?category=1&page=1)|2021|70|✅ SOLVED|
-
+|54. |[Some Assembly Required 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/fd7730f96d6e48a6ecbbb2a78a34db44c2ce6397/Asset/Some%20Assembly%20Required%201/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/152?category=1&page=1)|2021|70|✅ SOLVED|
+|55. |[Some Assembly Required 2]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/131?category=1&page=2)|2021|110|✅ SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
