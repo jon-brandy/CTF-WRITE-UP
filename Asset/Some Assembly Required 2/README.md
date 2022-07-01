@@ -86,3 +86,6 @@ function onButtonPress() {
 }
 
 ```
+
+4. If you look carefully at the value from an const char variable _0x402c. There's a string that caught my attention -> '/aD8SvhyVkb'
+5. 
