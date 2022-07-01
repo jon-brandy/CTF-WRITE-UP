@@ -87,5 +87,9 @@ function onButtonPress() {
 
 ```
 
-4. If you look carefully at the value from an const char variable _0x402c. There's a string that caught my attention -> '/aD8SvhyVkb'
-5. 
+4. If you look carefully at the value from an const char variable _0x402c. There's a string that caught my attention -> `'/aD8SvhyVkb'`.
+5. Now change the url to this ->  `http://mercury.picoctf.net:44570/aD8SvhyVkb/`.
+
+![image](https://user-images.githubusercontent.com/70703371/176902945-2b9a7fa0-a13a-4846-a010-ffed2026d7bc.png)
+
+6. 
