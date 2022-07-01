@@ -13,5 +13,5 @@ http://mercury.picoctf.net:44570/index.html
 
 ![image](https://user-images.githubusercontent.com/70703371/176901066-9495428e-156d-4739-8ab5-4f1bb61ca527.png)
 
-3. Go to the javascript file.
+3. Go to the javascript file by changing the url to this `http://mercury.picoctf.net:44570/Y8splx37qY.js` and beautify it by using [this]() website
 4. 
