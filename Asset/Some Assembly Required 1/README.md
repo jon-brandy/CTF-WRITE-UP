@@ -22,7 +22,7 @@ http://mercury.picoctf.net:40226/index.html
 6. Turns out it's an obfuscated JavaScript.
 7. Now let's beautify it by using [this](https://beautifier.io/) website. Paste the JavaScript code there, then press `ctrl + enter` to beautify it.
 
-```js
+```javascript
 const _0x402c = [
   'value',
   '2wfTpTR',
