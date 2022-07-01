@@ -95,4 +95,15 @@ function onButtonPress() {
 ```
 
 8. If you look carefully at the value from an const char variable `_0x402c`. There's a string that caught my attention -> `'./JIFxzHyW8W'`.
+9. Now, let's change the url to this -> `http://mercury.picoctf.net:40226/JIFxzHyW8W/`.
+
+![image](https://user-images.githubusercontent.com/70703371/176898787-77951c90-b860-47a7-ab6f-ad62be40af57.png)
+
+10. Finally we got the flag!
+
+
+---
+```
+picoCTF{cb688c00b5a2ede7eaedcae883735759}
+```
 
