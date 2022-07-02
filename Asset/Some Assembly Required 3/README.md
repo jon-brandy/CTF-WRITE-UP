@@ -84,3 +84,43 @@ function onButtonPress() {
 
 ```
 
+4. Now, the next clue is not inside the const char variables again, it's different from the 2 previous challenge.
+5. Try to this function algorithm:
+
+```js
+(function (_0x3379df, _0x252604) {
+  const _0x1e2b12 = _0x187e;
+  while (!![]) {
+    try {
+      const _0x5e2d0a =
+        -parseInt(_0x1e2b12(0x122)) +
+        -parseInt(_0x1e2b12(0x12f)) +
+        -parseInt(_0x1e2b12(0x126)) * -parseInt(_0x1e2b12(0x12b)) +
+        -parseInt(_0x1e2b12(0x132)) +
+        parseInt(_0x1e2b12(0x124)) +
+        -parseInt(_0x1e2b12(0x121)) * -parseInt(_0x1e2b12(0x11f)) +
+        parseInt(_0x1e2b12(0x130));
+      if (_0x5e2d0a === _0x252604) break;
+      else _0x3379df['push'](_0x3379df['shift']());
+    } catch (_0x289152) {
+      _0x3379df['push'](_0x3379df['shift']());
+    }
+  }
+})(_0x143f, 0xed04c);
+let exports;
+(async () => {
+  const _0x484ae0 = _0x187e;
+  let _0x487b31 = await fetch('./qCCYI0ajpD'),
+    _0x5eebfd = await WebAssembly[_0x484ae0(0x125)](await _0x487b31[_0x484ae0(0x120)]()),
+    _0x30f3ed = _0x5eebfd['instance'];
+  exports = _0x30f3ed[_0x484ae0(0x123)];
+})();
+```
+
+6. Looks like there's a clue -> `('./qCCYI0ajpD')`.
+7. Try to go there by changing the url to -> `http://mercury.picoctf.net:12557/qCCYI0ajpD/`.
+8. And we got this:
+
+![Uploading image.png…]()
+
+
