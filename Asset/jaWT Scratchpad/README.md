@@ -65,10 +65,10 @@ if __name__ == "__main__":
 
 9. Now on your kali linux terminal type this command:
 
-`python3 [code.py] [jwt-token]`
+`python3 [code.py] [jwt-token] > [output file]`
 
 ```bash
-python3 jwtConverter eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZDyv5iEi7l6gQHjFCnc8-aeEpPq-E
+python3 jwtConverter eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZDyv5iEi7l6gQHjFCnc8-aeEpPq-E > jwt.john
 ```
 
 10. 
