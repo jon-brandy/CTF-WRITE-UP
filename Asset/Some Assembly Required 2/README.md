@@ -1,4 +1,5 @@
 # Some Assembly Required 2
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 http://mercury.picoctf.net:44570/index.html
 ## HINT:
