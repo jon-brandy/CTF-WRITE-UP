@@ -30,6 +30,10 @@ http://jupiter.challenges.picoctf.org:58210
 
 ![image](https://user-images.githubusercontent.com/70703371/176988756-725e7304-d5c4-4bfe-b185-77339265bb75.png)
 
+```
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZDyv5iEi7l6gQHjFCnc8-aeEpPq-E
+```
+
 7. Next, for this solution i tried to use JohnTheRipper to bruteforce the JWT token.
 8. First, convert the token to a format that JohnTheRipper can understand by using this python script:
 
@@ -59,4 +63,12 @@ if __name__ == "__main__":
     
 ```
 
-9. 
+9. Now on your kali linux terminal type this command:
+
+`python3 [code.py] [jwt-token]`
+
+```bash
+python3 jwtConverter eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZDyv5iEi7l6gQHjFCnc8-aeEpPq-E
+```
+
+10. 
