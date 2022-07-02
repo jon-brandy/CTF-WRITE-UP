@@ -92,4 +92,10 @@ function onButtonPress() {
 
 ![image](https://user-images.githubusercontent.com/70703371/176902945-2b9a7fa0-a13a-4846-a010-ffed2026d7bc.png)
 
-6. vv
+6. At the bottom, if you pay attention, there is a string that resembles XOR cipher text -> `+xakgK\Ns><m:i1>1991:nkjl<ii1j0n=mm09;<i:u`.
+7. I can identify it's a XOR cipertext, because the strings starts with `+`.
+8. You can decode it either by using [online](https://www.dcode.fr/xor-cipher) tools or manual code.
+9. For this solution i used python code.
+
+
+
