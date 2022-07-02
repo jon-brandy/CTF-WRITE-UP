@@ -95,7 +95,20 @@ function onButtonPress() {
 6. At the bottom, if you pay attention, there is a string that resembles XOR cipher text -> `+xakgK\Ns><m:i1>1991:nkjl<ii1j0n=mm09;<i:u`.
 7. I can identify it's a XOR cipertext, because the strings starts with `+`.
 8. You can decode it either by using [online](https://www.dcode.fr/xor-cipher) tools or manual code.
-9. For this solution i used python code.
+9. For this solution i used online decoder, simply paste the strings then press the `decrypt` button.
 
+![image](https://user-images.githubusercontent.com/70703371/176987298-f4324b1d-546b-4cda-9b0a-48fe2fae0c54.png)
+
+10. At the result tab, scroll down and you will find the flag.
+
+![image](https://user-images.githubusercontent.com/70703371/176987354-ebcefcf4-8e02-4643-b764-8c931015de95.png)
+
+11. Finally we got the flag!
+
+---
+## FLAG
+```
+picoCTF{64e2a9691192fcbd4aa9b8f5ee8134a2}
+```
 
 
