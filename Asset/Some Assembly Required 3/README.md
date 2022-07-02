@@ -121,6 +121,8 @@ let exports;
 7. Try to go there by changing the url to -> `http://mercury.picoctf.net:12557/qCCYI0ajpD/`.
 8. And we got this:
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/70703371/176987758-489c5f4a-53aa-400d-8d29-9f68baeb9afe.png)
+
+
 
 
