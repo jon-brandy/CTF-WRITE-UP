@@ -119,13 +119,17 @@ rely on problem solving skills and creative thinking.
 
 <details>
   
-<summary> TOOLS REFERENCES </summary>
+<summary> LEARNING REFERENCES </summary>
 <br>
   
 ```
 https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
 https://ctftime.org/ctf-wtf/
+https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/
+https://wiki.skullsecurity.org/index.php/Passwords#Password_dictionaries
+https://askubuntu.com/questions/866596/you-do-not-have-permission-to-extract-to-this-folder
+https://jwt.io/introduction
 ```
 
 </details>
