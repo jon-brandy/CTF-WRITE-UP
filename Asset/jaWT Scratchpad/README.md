@@ -52,7 +52,7 @@ john --wordlist=/home/[your_username]/Downloads/rockyou.txt --rules jwt.john
 
 ![image](https://user-images.githubusercontent.com/70703371/177024153-6d13a21a-1a23-46dc-a3c9-f23c664f9f66.png)
 
-11. Next using this online tools , at the `decode` tab, change the user value to `admin`. Also change the jwtsign at the `Verify Signature` section to `ilovepico`.
+11. Next using [this](https://jwt.io/) online tools , at the `decode` tab, change the user value to `admin`. Also change the jwtsign at the `Verify Signature` section to `ilovepico`.
 
 ![image](https://user-images.githubusercontent.com/70703371/177024606-6009963e-b6c6-435c-9b15-4912b70419b6.png)
 
