@@ -35,40 +35,30 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZ
 ```
 
 7. Next, for this solution i tried to use JohnTheRipper to bruteforce the JWT token.
-8. First, convert the token to a format that JohnTheRipper can understand by using this python script:
+8. At your kali linux, paste the token into any file name with `.john` extension. For example i named the file `jwt.john`.
+9. For the wordlist i used `rockyou.txt` which you can download [here]().
 
-```py
-import sys
-from binascii import *
-from jwt.utils import base64url_decode
+> REASONS TO USE rockyou.txt AND NOT password.lst (on the john folder), because it is known as the best password dictionary.
 
-#Function to convert jwt token to a JohnTheRipper format
-def jwtConvert(token):
-    # STEPS:
-    # 1. Convert strings from base64 to hex
-    # 2. Seperate it from the data using '#' so John can parse it
-    jwtBytes = token.encode('ascii')
-    parts = jwtBytes.split(b'.')
-    
-    data = parts[0] + b'.' + parts[1]
-    strings = hexlify(base64url_decode(parts[2]))
-    return (data + b'#' + strings).decode('ascii')
-
-if __name__ == "__main__":
-    if (len(sys.argv) != 2):
-        print("Usage: %s JWT" % sys.argv[0])
-    else:
-        john = jwtConvert(sys.argv[1])
-        print(john)
-    
+```
+BEST PASSWORD DICTIONARY : https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/
 ```
 
-9. Now on your kali linux terminal type this command:
-
-`python3 [code.py] [jwt-token] > [output file]`
+10. Now on your kali linux terminal type this command:
 
 ```bash
-python3 jwtConverter eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZDyv5iEi7l6gQHjFCnc8-aeEpPq-E > jwt.john
+john --wordlist=/home/[your_username]/Downloads/rockyou.txt --rules jwt.john 
 ```
 
-10. 
+![image](https://user-images.githubusercontent.com/70703371/177024153-6d13a21a-1a23-46dc-a3c9-f23c664f9f66.png)
+
+
+
+
+## REFERENCES:
+```
+https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/
+https://wiki.skullsecurity.org/index.php/Passwords#Password_dictionaries
+https://askubuntu.com/questions/866596/you-do-not-have-permission-to-extract-to-this-folder
+https://jwt.io/introduction
+```
