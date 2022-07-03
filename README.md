@@ -92,6 +92,8 @@ rely on problem solving skills and creative thinking.
 |54. |[Some Assembly Required 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/fd7730f96d6e48a6ecbbb2a78a34db44c2ce6397/Asset/Some%20Assembly%20Required%201/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/152?category=1&page=1)|2021|70|✅ SOLVED|
 |55. |[Some Assembly Required 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4167b6fcca892eaf3562ccfd5035a513bf4506a0/Asset/Some%20Assembly%20Required%202/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/131?category=1&page=2)|2021|110|✅ SOLVED|
 |56. |[Some Assembly Required 3]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/153?category=1&page=2)|2021|160|❌ UNSOLVED|
+|57. |[jaWT Scratchpad](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3b915803c524d516bc6af9a25f3ec152d328f9e2/Asset/jaWT%20Scratchpad/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/25?category=1&originalEvent=1&page=1)|2019|400|✅ SOLVED|
+
 
 
 ## MEET THE TEAM MEMBERS
