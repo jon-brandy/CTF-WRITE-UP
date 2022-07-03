@@ -106,8 +106,9 @@ rely on problem solving skills and creative thinking.
 
 > CLICK THE BUTTON BELOW TO VIEW!
 <details>
-<summary> CLICK HERE </summary>
+<summary> BAY - CTF DIVISION </summary>
 <br>
+
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|College Student - Researcher|
