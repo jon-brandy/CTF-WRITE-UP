@@ -103,7 +103,11 @@ rely on problem solving skills and creative thinking.
 <p align="center">
   <img src = "https://user-images.githubusercontent.com/70703371/176472857-9575fb75-16c9-480a-b603-2c189bf22a2d.png" width = "300">
 </p>
-  
+
+> CLICK THE BUTTON BELOW TO VIEW!
+<details>
+<summary> CLICK HERE </summary>
+<br>
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
 |[jon-brandy](https://github.com/jon-brandy)|Web-Exploitation - Forensics|College Student - Researcher|
@@ -112,16 +116,10 @@ rely on problem solving skills and creative thinking.
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse-Engineering - Cryptography|College Student - Entrepreneur|
 |[stephanchandra](https://github.com/stephanchandra)|Binary Exploitation|College Student - Mentor|
+</details>
 
-## END OF FILE
+## LEARNING REFERENCES
 
-> CLICK THE BUTTON BELOW TO VIEW!
-
-<details>
-  
-<summary> LEARNING REFERENCES </summary>
-<br>
-  
 ```
 https://github.com/apsdehal/awesome-ctf/blob/master/README.md
 https://int0x33.medium.com/day-18-essential-ctf-tools-1f9af1552214
@@ -132,7 +130,6 @@ https://askubuntu.com/questions/866596/you-do-not-have-permission-to-extract-to-
 https://jwt.io/introduction
 ```
 
-</details>
 
 
 
