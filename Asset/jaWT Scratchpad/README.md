@@ -36,7 +36,7 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjoiam9uLWJyYW5kIn0.tVbfnQvNh-wi8CZ
 
 7. Next, for this solution i tried to use JohnTheRipper to bruteforce the JWT token.
 8. At your kali linux, paste the token into any file name with `.john` extension. For example i named the file `jwt.john`.
-9. For the wordlist i used `rockyou.txt` which you can download [here]().
+9. For the wordlist i used `rockyou.txt` which you can download [here](https://drive.google.com/file/d/1oKHoc6s03-hi40vlBzkPywUR4_NPAPhX/view?usp=sharing).
 
 > REASONS TO USE rockyou.txt AND NOT password.lst (on the john folder), because it is known as the best password dictionary.
 
@@ -51,7 +51,6 @@ john --wordlist=/home/[your_username]/Downloads/rockyou.txt --rules jwt.john
 ```
 
 ![image](https://user-images.githubusercontent.com/70703371/177024153-6d13a21a-1a23-46dc-a3c9-f23c664f9f66.png)
-
 
 
 
