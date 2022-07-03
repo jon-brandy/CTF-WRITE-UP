@@ -46,7 +46,7 @@ BEST PASSWORD DICTIONARY : https://cryptokait.com/2020/09/02/taking-password-cra
 
 10. Now on your kali linux terminal type this command:
 
-```bash
+```sh
 john --wordlist=/home/[your_username]/Downloads/rockyou.txt --rules jwt.john 
 ```
 
