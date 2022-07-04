@@ -12,7 +12,7 @@ According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into vario
 
 > JEOPARDY CHALLENGES
   
-|CATEGORY|ABOUT|
+|CATEGORY|ABOUT|kn
 |:------:|:---:|
 |Web Exploitation|Usually Involves `SQL Injection`, `Command Injection`, `Directory Traversal`, `XSS`, `Server Side Request Forgery`, and `Cross Site Request Forgery`|
 |Cryptography|XOR, Caesar Cipher, RSA, Stream Ciphers, Vigenere Cipher, Hashing Functions, Block Ciphers, Substitution Cipher.|
