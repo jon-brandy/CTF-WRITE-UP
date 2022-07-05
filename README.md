@@ -101,7 +101,7 @@ rely on problem solving skills and creative thinking.
 > BAY'S LOGO
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/176472857-9575fb75-16c9-480a-b603-2c189bf22a2d.png" width = "300">
+  <img src = "https://user-images.githubusercontent.com/70703371/177257904-449f9771-9787-491e-bc4e-693e6009c191.png" width = "300">
 </p>
 
 > CLICK THE BUTTON BELOW TO VIEW!
