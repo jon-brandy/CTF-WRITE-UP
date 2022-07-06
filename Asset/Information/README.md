@@ -28,6 +28,20 @@
 9. It looks like some kind of base64.
 10. So just try both of them -> `W5M0MpCehiHzreSzNTczkc9d` , `cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9`
 11. We can try this command -> `echo W5M0MpCehiHzreSzNTczkc9d | base64 -d`. Reminder `-d` means decode.
+12. Or you can use this python code:
+
+```python
+import base64
+import os
+
+os.system('cls')
+strings = 'cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9'
+base64_bytes = strings.encode('ascii')
+message_bytes = base64.b64decode(base64_bytes)
+result = message_bytes.decode('ascii')
+
+print(result)
+```
 
 ![Screenshot (345)](https://user-images.githubusercontent.com/98648342/169527615-261caa7c-7124-417f-a511-43dd2f59bf43.png)
 
