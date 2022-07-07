@@ -17,4 +17,27 @@ M21aOS9xUW0yZHBRTFdPNXp4Ym40QnREaG1jaUlOaXpieVJ4cFdMd0Qvb2VveGpmRzBOMyt6MFpkVG1Y
 
 3. Since the cookie's value is a `base64` text, let's decode it with this python code:
 
+```python
+import base64
+import os
 
+os.system('cls')
+strings = 'M21aOS9xUW0yZHBRTFdPNXp4Ym40QnREaG1jaUlOaXpieVJ4cFdMd0Qvb2VveGpmRzBOMyt6MFpkVG1YbW1KWkZRdnljV1czWWgwWC9zK2l0WjV6V3F1S05pVjRLcGY3R2d1OERRR3lxRnFNc0VVTTZlcHhCSG9LTWxhOVVTVUo='
+base64_bytes = strings.encode('ascii')
+message_bytes = base64.b64decode(base64_bytes)
+result = message_bytes.decode('ascii')
+
+print(result)
+```
+
+4. It seems the output are still in gibberish, we can conclude it still encrypted.
+
+![image](https://user-images.githubusercontent.com/70703371/177780668-fb786ac5-cef5-4c57-8acd-279a57afe9a4.png)
+
+> THE OUTPUT:
+
+```
+3mZ9/qQm2dpQLWO5zxbn4BtDhmciINizbyRxpWLwD/oeoxjfG0N3+z0ZdTmXmmJZFQvycWW3Yh0X/s+itZ5zWquKNiV4Kpf7Ggu8DQGyqFqMsEUM6epxBHoKMla9USUJ
+```
+
+5. Based from the hint, i think it is a homomorphic cipher text.
