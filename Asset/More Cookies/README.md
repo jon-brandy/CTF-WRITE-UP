@@ -43,7 +43,8 @@ print(result)
 5. Based from the hint number 1, i think it is a homomorphic cipher text.
 6. Homomorphic encryption allows you to perform operations on encrypted text. 
 
-**NOTES: 
+
+**NOTES**: 
 
 ```
 I noticed that the letters "CBC" are oddly capitalized in the challenge description. So, It's a CBC bitflip. 
