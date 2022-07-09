@@ -94,6 +94,7 @@ rely on problem solving skills and creative thinking.
 |56. |[Some Assembly Required 3]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/153?category=1&page=2)|2021|160|❌ UNSOLVED|
 |57. |[jaWT Scratchpad](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3b915803c524d516bc6af9a25f3ec152d328f9e2/Asset/jaWT%20Scratchpad/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/25?category=1&originalEvent=1&page=1)|2019|400|✅ SOLVED|
 |58. |[More Cookies]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/124?category=1&originalEvent=34&page=1)|2021|90|❌ UNSOLVED|
+|59. |[Wireshark doo dooo do doo...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/56d84868b596e93d7b20ec2dc2539c99280391af/Asset/Wireshark%20doo%20dooo%20do%20doo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/115?category=4&page=1)|2021|50|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
