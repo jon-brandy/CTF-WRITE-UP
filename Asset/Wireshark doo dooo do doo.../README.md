@@ -8,7 +8,7 @@ Can you find the flag? [shark1.pcapng]().
 2. Then open the file using wireshark.
 3. If you follow the `tcp.stream eq 0` you will find no clue at all.
 
-```
+```pcap
 POST /wsman/subscriptions/EB489718-F373-4F7F-8493-B0D1503B3C3E/37 HTTP/1.1
 Connection: Keep-Alive
 Content-Type: multipart/encrypted;protocol="application/HTTP-Kerberos-session-encrypted";boundary="Encrypted Boundary"
@@ -135,7 +135,7 @@ M........|;..."..6..R........)/.t`.H..j.....@...r..p.1...b.ew7 ...9....W..}....K
 
 ![image](https://user-images.githubusercontent.com/70703371/178090562-3b1b5a73-0f68-4633-bfd0-226cb2b8bfcf.png)
 
-```
+```pcap
 GET / HTTP/1.1
 Host: 18.222.37.134
 Connection: keep-alive
@@ -163,8 +163,21 @@ Gur synt vf cvpbPGS{c33xno00_1_f33_h_qrnqorrs}
 5. `cvpbPGS{c33xno00_1_f33_h_qrnqorrs}` -> it is known as the ROT13 ciphertext.
 6. To decode it, i used this python code:
 
+```python
+import codecs
+import os
+
+os.system("cls")
+val = codecs.decode('cvpbPGS{c33xno00_1_f33_h_qrnqorrs}', 'rot_13')
+print(val)
+```
+
+7. After run the code, finally we got the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/178090765-6008b0e0-1a0f-4d36-87e7-6266390d41ee.png)
 
 ---
 ## FLAG
 ```
+picoCTF{p33kab00_1_s33_u_deadbeef}
 ```
