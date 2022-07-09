@@ -1,4 +1,5 @@
 # Wireshark doo dooo do doo...
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you find the flag? [shark1.pcapng]().
 ## HINT:
