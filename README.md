@@ -97,7 +97,7 @@ rely on problem solving skills and creative thinking.
 |59. |[Wireshark doo dooo do doo...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/56d84868b596e93d7b20ec2dc2539c99280391af/Asset/Wireshark%20doo%20dooo%20do%20doo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/115?category=4&page=1)|2021|50|✅ SOLVED|
 
 
-## MEET THE TEAM MEMBERS
+## MEET THE TEAM MEMBER
 
 > BAY'S LOGO
 
