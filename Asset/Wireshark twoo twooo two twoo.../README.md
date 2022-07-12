@@ -32,6 +32,31 @@ Can you find the flag? [shark2.pcapng]().
 ```php
 curl http://www.reddshrimpandherring.com
 ```
+
+> OUTPUT:
+
+```html
+<html>
+        <head>
+                <script>
+                        var forwardingUrl = "/page/bouncy.php?&bpae=GbhWt6smolx797uvwVkZt3kXTsk4y6o5kxYr9vEtHeCvozli8ejbu66RQjMt7Id%2F7sjqbfF2RWJS6uRJLVU6cM1l4JPz4jN%2BdEK08uU5XoZTutPs3nk6NJZHL7zrQL9jPzLObHYglnvQjCJOZRjSxzO%2FCVgogGfHMa%2BW9CIiUsvkxfYjbS%2BH7gPMad2eIkvK0lceLuxHaNFOS36EUftr9629OTdxBoJrH9vtM8OWk9YvsYJmsDtXNeyMnbc3jeGSUNaUpys%2FeBFPEBItGU5NvlHEiKjDoy%2B7ARshbjLab8QdkfzGpTdHwX2gAWtyM8aKXAOS%2BcdOaC3eXJW%2FN5mOCl5t%2BYc7uFiRbQz6%2FaOm1RLGwKDH9cpHdb%2BROQylniESiaa0aCJUDFzfFIDLuYHiGTf00Jc%3D&redirectType=js";
+                        var destinationUrl = "/page/bouncy.php?&bpae=GbhWt6smolx797uvwVkZt3kXTsk4y6o5kxYr9vEtHeCvozli8ejbu66RQjMt7Id%2F7sjqbfF2RWJS6uRJLVU6cM1l4JPz4jN%2BdEK08uU5XoZTutPs3nk6NJZHL7zrQL9jPzLObHYglnvQjCJOZRjSxzO%2FCVgogGfHMa%2BW9CIiUsvkxfYjbS%2BH7gPMad2eIkvK0lceLuxHaNFOS36EUftr9629OTdxBoJrH9vtM8OWk9YvsYJmsDtXNeyMnbc3jeGSUNaUpys%2FeBFPEBItGU5NvlHEiKjDoy%2B7ARshbjLab8QdkfzGpTdHwX2gAWtyM8aKXAOS%2BcdOaC3eXJW%2FN5mOCl5t%2BYc7uFiRbQz6%2FaOm1RLGwKDH9cpHdb%2BROQylniESiaa0aCJUDFzfFIDLuYHiGTf00Jc%3D&redirectType=meta";
+                        var addDetection = true;
+                        if (addDetection) {
+                                var inIframe = window.self !== window.top;
+                                forwardingUrl += "&inIframe=" + inIframe;
+                                var inPopUp = (window.opener !== undefined && window.opener !== null && window.opener !== window);
+                                forwardingUrl += "&inPopUp=" + inPopUp;
+                        }
+                        window.location.replace(forwardingUrl);
+                </script>
+                <noscript>
+                        <meta http-equiv="refresh" content="1;url=/page/bouncy.php?&bpae=GbhWt6smolx797uvwVkZt3kXTsk4y6o5kxYr9vEtHeCvozli8ejbu66RQjMt7Id%2F7sjqbfF2RWJS6uRJLVU6cM1l4JPz4jN%2BdEK08uU5XoZTutPs3nk6NJZHL7zrQL9jPzLObHYglnvQjCJOZRjSxzO%2FCVgogGfHMa%2BW9CIiUsvkxfYjbS%2BH7gPMad2eIkvK0lceLuxHaNFOS36EUftr9629OTdxBoJrH9vtM8OWk9YvsYJmsDtXNeyMnbc3jeGSUNaUpys%2FeBFPEBItGU5NvlHEiKjDoy%2B7ARshbjLab8QdkfzGpTdHwX2gAWtyM8aKXAOS%2BcdOaC3eXJW%2FN5mOCl5t%2BYc7uFiRbQz6%2FaOm1RLGwKDH9cpHdb%2BROQylniESiaa0aCJUDFzfFIDLuYHiGTf00Jc%3D&redirectType=meta" />
+                </noscript>
+        </head>
+</html>                                         
+```
 10. Seems we got no clue.
 11. 
+12. 
 
