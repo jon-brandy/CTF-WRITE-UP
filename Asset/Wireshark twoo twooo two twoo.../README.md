@@ -83,6 +83,27 @@ curl http://www.reddshrimpandherring.com
 ![image](https://user-images.githubusercontent.com/70703371/178524168-87ecc221-08f5-46cc-89ed-0dac88caa840.png)
 
 
+> RESULT:
+
 ```
 cGljb0NURntkbnNFM3hmMWxfZnR3X2RlYWRiZWVmfQ==
 ```
+
+16. Finally, decode it using this command at your kali linux terminal:
+
+```bash
+echo "cGljb0NURntkbnNFM3hmMWxfZnR3X2RlYWRiZWVmfQ==" | base64 -d
+```
+
+![image](https://user-images.githubusercontent.com/70703371/178524984-4bb1b12a-1a08-40c8-b0b1-1224afb00201.png)
+
+17. We got the flag!
+
+
+---
+## FLAG
+```
+picoCTF{dnsE3xf1l_ftw_deadbeef}
+```
+
+
