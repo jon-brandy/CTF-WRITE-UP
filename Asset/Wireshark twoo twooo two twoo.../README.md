@@ -92,10 +92,13 @@ cGljb0NURntkbnNFM3hmMWxfZnR3X2RlYWRiZWVmfQ==
 16. Finally, decode it using this command at your kali linux terminal:
 
 ```bash
-echo "cGljb0NURntkbnNFM3hmMWxfZnR3X2RlYWRiZWVmfQ==" | base64 -d
+echo "cGljb0NURntkbnNfM3hmMWxfZnR3X2RlYWRiZWVmfQ==" | base64 -d
 ```
 
-![image](https://user-images.githubusercontent.com/70703371/178524984-4bb1b12a-1a08-40c8-b0b1-1224afb00201.png)
+17. Or you can use this python code:
+
+
+
 
 17. We got the flag!
 
