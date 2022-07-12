@@ -57,6 +57,32 @@ curl http://www.reddshrimpandherring.com
 </html>                                         
 ```
 10. Seems we got no clue.
-11. 
-12. 
+11. Now let's open the wireshark again, and check all of the dns traffic.
+12. We found a different DNS destination this time. It goes to `18.217.1.57`.
 
+![image](https://user-images.githubusercontent.com/70703371/178520801-1f6d8b03-73b8-4c16-a7bd-282e4b37d62d.png)
+
+13. Next, apply the filter to -> `dns and ip.dst_host == 18.217.1.57` then press enter
+
+![image](https://user-images.githubusercontent.com/70703371/178521884-847ec536-029c-4831-b650-668692867efb.png)
+
+14. If you see the packets inside, it looks like a partition of base64 encoded text.
+
+![image](https://user-images.githubusercontent.com/70703371/178522879-959ca015-796a-4756-aeff-1b24531d34ee.png)
+
+15. Now, let's follow every udp stream at this destination ip host and concate every each one of them.
+
+![image](https://user-images.githubusercontent.com/70703371/178523624-4841d885-b17f-402d-a2b7-f628ce84b189.png)
+
+![image](https://user-images.githubusercontent.com/70703371/178523714-5ec6fcd8-3aa1-4350-b3a5-78b758281000.png)
+
+![image](https://user-images.githubusercontent.com/70703371/178523917-117d3462-f593-4369-ae19-2ac49a09c98c.png)
+
+![image](https://user-images.githubusercontent.com/70703371/178523969-0c861976-adac-4ede-8b18-e3638a70dfb8.png)
+
+![image](https://user-images.githubusercontent.com/70703371/178524168-87ecc221-08f5-46cc-89ed-0dac88caa840.png)
+
+
+```
+cGljb0NURntkbnNFM3hmMWxfZnR3X2RlYWRiZWVmfQ==
+```
