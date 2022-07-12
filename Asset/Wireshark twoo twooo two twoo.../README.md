@@ -1,4 +1,5 @@
 # Wireshark twoo twooo two twoo...
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Can you find the flag? [shark2.pcapng]().
 ## HINTS:
