@@ -50,11 +50,27 @@ hexeditor tunn3l_v1s10n
 ![image](https://user-images.githubusercontent.com/70703371/178683019-73482e03-7bae-4e87-bbeb-799c46fd5967.png)
 
 14. Next, i try to change the 00h17 value to 03 and the 00h16 value to 40.
-15. 
+15. Finally we got the flag!
 
+![image](https://user-images.githubusercontent.com/70703371/178683926-839d1137-e1f2-4f66-9235-fdb25ebd6e37.png)
+
+---
+
+## FLAG:
+
+```
+picoCTF{qu1t3_a_v13w_2020}
+```
+
+**NOTES**:
+```
+I failed to solve it by myself due to lack of understanding of bitmap. 
+Big thanks to -> Mr.Carliste | github -> https://github.com/carlislemc
+```
 
 ## REFERENCES:
 
 ```
 https://en.wikipedia.org/wiki/BMP_file_format
+https://www.youtube.com/watch?v=X4kJiQdDn7M
 ```
