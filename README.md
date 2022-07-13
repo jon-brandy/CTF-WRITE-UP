@@ -96,6 +96,8 @@ rely on problem solving skills and creative thinking.
 |58. |[More Cookies]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/124?category=1&originalEvent=34&page=1)|2021|90|❌ UNSOLVED|
 |59. |[Wireshark doo dooo do doo...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/56d84868b596e93d7b20ec2dc2539c99280391af/Asset/Wireshark%20doo%20dooo%20do%20doo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/115?category=4&page=1)|2021|50|✅ SOLVED|
 |60. |[Wireshark twoo twooo two twoo...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d676c45475a62029b47f57be35e32dd544759fc3/Asset/Wireshark%20twoo%20twooo%20two%20twoo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/110?category=4&originalEvent=34&page=1)|2021|100|✅ SOLVED|
+|60. |[tunn3l v1s10n](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d676c45475a62029b47f57be35e32dd544759fc3/Asset/Wireshark%20twoo%20twooo%20two%20twoo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/112?category=4&originalEvent=34&page=1)|2021|40|✅ SOLVED|
+
 
 ## MEET THE TEAM MEMBERS
 
