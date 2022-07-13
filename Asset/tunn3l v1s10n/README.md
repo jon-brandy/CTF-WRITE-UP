@@ -31,9 +31,26 @@ hexeditor tunn3l_v1s10n
 
 ![image](https://user-images.githubusercontent.com/70703371/178681120-61a87d9b-5288-464a-a1b4-8fe727535944.png)
 
-8. 
+8. Finally we can open the image!
 
+![image](https://user-images.githubusercontent.com/70703371/178681455-1db8337a-417a-4ba1-bdd2-bef3aa3f1d6f.png)
 
+9. It says no flag.
+10. Based from the hint, maybe we should change the pixels (?)
+11. From [wikipedia](https://en.wikipedia.org/wiki/BMP_file_format), we should change the offset 0016h to change the image height.
+
+![image](https://user-images.githubusercontent.com/70703371/178682582-eb19ecae-3f4e-424c-a2f7-e986bba2d873.png)
+
+12. I changed it to 99.
+
+![image](https://user-images.githubusercontent.com/70703371/178682955-d4a55353-9907-4d20-b47a-3c691ef07c6b.png)
+
+13. I still got nothing.
+
+![image](https://user-images.githubusercontent.com/70703371/178683019-73482e03-7bae-4e87-bbeb-799c46fd5967.png)
+
+14. Next, i try to change the 00h17 value to 03 and the 00h16 value to 40.
+15. 
 
 
 ## REFERENCES:
