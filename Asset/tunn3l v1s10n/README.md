@@ -25,4 +25,19 @@ hexeditor tunn3l_v1s10n
 
 5. If you see at the top, there's two character -> `BM`. Which tells us it's a `BMP` file.
 6. Then, let's change the file extension to `.bmp`.
-7. 
+7. Since the file is still corrupted. Open the hexeditor again or HxD and change this offset:
+
+![image](https://user-images.githubusercontent.com/70703371/178680898-d695ffd7-6c0d-4249-b5e2-28db936fcf1d.png)
+
+![image](https://user-images.githubusercontent.com/70703371/178681120-61a87d9b-5288-464a-a1b4-8fe727535944.png)
+
+8. 
+
+
+
+
+## REFERENCES:
+
+```
+https://en.wikipedia.org/wiki/BMP_file_format
+```
