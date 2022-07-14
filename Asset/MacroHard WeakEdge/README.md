@@ -7,4 +7,14 @@ Can you find it? [Forensics is fun.pptm](https://github.com/jon-brandy/CTF-WRITE
 - NONE
 ## STEPS:
 1. First, download the file given.
-2. Next, open the file using this website.
+2. Next, run this command at your kali linux terminal to see hidden files inside this file.
+
+```
+binwalk 'Forensics is fun.pptm'
+```
+
+![image](https://user-images.githubusercontent.com/70703371/178912081-9a1efdc6-7536-4889-a6bf-287701be3853.png)
+
+![image](https://user-images.githubusercontent.com/70703371/178912251-05055c8d-395a-4274-a4d0-c18c101be00b.png)
+
+3. Looks like it hides many files.
