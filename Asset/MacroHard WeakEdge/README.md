@@ -21,7 +21,7 @@ binwalk 'Forensics is fun.pptm'
 
 ![image](https://user-images.githubusercontent.com/70703371/179130007-56583da0-02a1-4d70-9314-1f4ec8c11aa5.png)
 
-4. Now let's extract it by run this command:
+4. Now let's extract `'Forensics is fun.pptm'` by run this command:
 
 ```
 binwalk -e 'Forensics is fun.pptm'
