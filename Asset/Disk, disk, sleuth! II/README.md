@@ -34,5 +34,5 @@ All we know is the file with the flag is named `down-at-the-bottom.txt`... Disk 
 ---
 ## FLAG
 ```
-picoCTF{f0r3ns1c4t0r_n0u1c3_db59daa5}
+picoCTF{f0r3ns1c4t0r_n0v1c3_db59daa5}
 ```
