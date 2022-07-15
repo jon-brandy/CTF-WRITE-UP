@@ -56,5 +56,37 @@ IUSEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE.CHECKOUTTHEPHOTOS
 
 12. It's a clue to open the photos with the `program` files.
 13. When i open it, it's a tools called `steghide`.
-14. 
+14. Run this command at your kali linux terminal to extract the contents inside the image:
+
+```
+steghide extract -sf [FILE_NAME]
+```
+
+15. When i tried to extract `picture1.bmp`. It asks me a `paraphrase`.
+16. To answer that, look at the output from the `plan.txt` file, there's a string says -> `USEDTHEPROGRAMANDHIDITWITH-DUEDILIGENCE`.
+17. After that, i tried to enter the paraphrase as `DUEDILIGENCE`.
+18. But it gave me this output:
+
+![image](https://user-images.githubusercontent.com/70703371/179136405-5269b9ef-58c7-4406-a564-5aa5323d6f48.png)
+
+19. Then i tried to `picture2.bmp`, it gave me the same output.
+
+![image](https://user-images.githubusercontent.com/70703371/179136462-50295a28-e15c-499d-9a0d-aa6a0f87fabd.png)
+
+20. Finally i tried to `picture3.bmp`, it gave different output.
+
+![image](https://user-images.githubusercontent.com/70703371/179136371-3168426b-1e34-4446-b642-ec2c3f4d2215.png)
+
+21. Now open the `flag.txt` file.
+
+![image](https://user-images.githubusercontent.com/70703371/179136555-9a0692ff-31c3-46f4-863d-643edff3b8b4.png)
+
+22. We got the flag!
+
+
+---
+## FLAG:
+
+```
+```
 
