@@ -18,4 +18,5 @@ All we know is the file with the flag is named `down-at-the-bottom.txt`... Disk 
 
 ![image](https://user-images.githubusercontent.com/70703371/179229363-feb4150b-bc5a-4639-b8e9-2e5dab1ad83f.png)
 
-6. Based from the description, let's input `down-at-the-bottom.txt`
+6. Enter the username as `root` and the password as `root`.
+7. 
