@@ -88,8 +88,6 @@ steghide extract -sf [FILE_NAME]
 ## FLAG:
 
 ```
-
-
-
+picoCTF{h1dd3n_1n_pLa1n_51GHT_18375919}
 ```
 
