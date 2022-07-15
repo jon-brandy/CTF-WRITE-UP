@@ -19,4 +19,20 @@ All we know is the file with the flag is named `down-at-the-bottom.txt`... Disk 
 ![image](https://user-images.githubusercontent.com/70703371/179229363-feb4150b-bc5a-4639-b8e9-2e5dab1ad83f.png)
 
 6. Enter the username as `root` and the password as `root`.
-7. 
+7. After logged in, i run `ls` to see are there any directories or files.
+
+![image](https://user-images.githubusercontent.com/70703371/179229929-21eabd08-9af9-47de-85a5-5234c22c0575.png)
+
+8. Looks like there;s a file we've been looking for.
+9. Run `cat down-at-the-bottom.txt` to see what's inside.
+
+![image](https://user-images.githubusercontent.com/70703371/179230112-67a8ee6b-4474-44c9-987a-92be3a7898a5.png)
+
+10. Finally we found the flag!
+
+
+---
+## FLAG
+```
+picoCTF{f0r3ns1c4t0r_n0u1c3_db59daa5}
+```
