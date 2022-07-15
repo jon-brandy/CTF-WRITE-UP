@@ -101,7 +101,7 @@ rely on problem solving skills and creative thinking.
 |63. |[MacroHard WeakEdge](https://github.com/jon-brandy/CTF-WRITE-UP/blob/634527ecd5fab5c0975fca7be8fbf419e0e8afff/Asset/MacroHard%20WeakEdge/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/130?category=4&originalEvent=34&page=1)|2021|60|✅ SOLVED|
 |64. |[Trivial Flag Transfer Protocol](https://github.com/jon-brandy/CTF-WRITE-UP/blob/883a1c7dcfa1368d16a68590de3dfefa5faeff8d/Asset/Trivial%20Flag%20Transfer%20Protocol/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/103?category=4&originalEvent=34&page=1)|2021|90|✅ SOLVED|
 |65. |[Disk, disk, sleuth!](https://github.com/jon-brandy/CTF-WRITE-UP/blob/008584e207081868a220a7a73a2e1889a0351a76/Asset/Disk,%20disk,%20sleuth!/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/113?category=4&originalEvent=34&page=1)|2021|110|✅ SOLVED|
-
+|66. |[Disk, disk, sleuth! II](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d5ec0fddceb579fe5b4c7b8fbcd356d017e66030/Asset/Disk,%20disk,%20sleuth!%20II/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/137?category=4&originalEvent=34&page=1)|2021|130|✅ SOLVED|
 
 
 
