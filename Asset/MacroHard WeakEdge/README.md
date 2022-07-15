@@ -45,7 +45,7 @@ ZmxhZzogcGljb0NURntEMWRfdV9rbjB3X3BwdHNfcl96MXA1fQ
 
 8. I think it's a base64 cipher text, let's decode it by run this command at your kali linux terminal:
 
-```
+```bash
 echo 'ZmxhZzogcGljb0NURntEMWRfdV9rbjB3X3BwdHNfcl96MXA1fQ' | base64 -d
 ```
 
