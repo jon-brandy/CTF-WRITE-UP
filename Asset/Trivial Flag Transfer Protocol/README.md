@@ -88,5 +88,8 @@ steghide extract -sf [FILE_NAME]
 ## FLAG:
 
 ```
+
+
+
 ```
 
