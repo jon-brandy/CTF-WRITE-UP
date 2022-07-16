@@ -1,7 +1,7 @@
 # Mind your Ps and Qs
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-In RSA, a small e value can be problematic, but what about N? Can you decrypt this? [values]()
+In RSA, a small e value can be problematic, but what about N? Can you decrypt this? [values](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5eaa47528ad039a89549be944444270c59725eca/Asset/Mind%20your%20Ps%20and%20Qs/values)
 ## HINT:
 1. Bits are expensive, I used only a little bit over 100 to save money
 ## STEPS:
@@ -26,4 +26,5 @@ In RSA, a small e value can be problematic, but what about N? Can you decrypt th
 P : 1461849912200000206276283741896701133693
 Q : 431899300006243611356963607089521499045809
 ```
+7. 
 
