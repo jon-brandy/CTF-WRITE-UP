@@ -35,7 +35,7 @@ rely on problem solving skills and creative thinking.
 |:-:|:------:|:------:|:-----:|:--:|:----:|:----:|
 |1. |[Obedient Cat](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a6f5f727a5ec1473591469a73c81ca837cea1562/Asset/Obedient%20Cat/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/147)|2021|5|✅ SOLVED|
 |2. |[Mod 26](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a6f5f727a5ec1473591469a73c81ca837cea1562/Asset/Mod%2026/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/144)|2021|10|✅ SOLVED|
-|3. |[Wave a flag](https://github.com/jon-brandy/CTF-WRITE-UP/blob/41ef2899f2f33a541f9e509b0d1ff179b31faeec/Asset/Wave%20a%20flag/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/170)|2021|10|✅ SOLVED|
+|3. |[Wave a flag](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7474af829847f24006ab55b1598fe89f1dfb7deb/Asset/Wave%20a%20flag/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/170)|2021|10|✅ SOLVED|
 |4. |[Nice netcat...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a6f5f727a5ec1473591469a73c81ca837cea1562/Asset/Nice%20netcat.../README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/156)|2021|15|✅ SOLVED|
 |5. |[Python Wrangling](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a6f5f727a5ec1473591469a73c81ca837cea1562/Asset/Python%20Wrangling/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/166)|2021|10|✅ SOLVED|
 |6. |[Information](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a6f5f727a5ec1473591469a73c81ca837cea1562/Asset/Information/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/186)|2021|10|✅ SOLVED|
