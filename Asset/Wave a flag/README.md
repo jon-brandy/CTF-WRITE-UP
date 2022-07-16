@@ -14,9 +14,6 @@
 2. After that, make the program executable with this command `chmod +x warm`.
 3. Third, run `./warm`.
 4. Finally, we just have to run `./warm -h` and we got the flag!
----
-https://github.com/jon-shel/CTF-WRITE-UP/blob/134932d731008a07f16effb40df0ab1c85f14d32/Asset/Wave%20a%20flag/Screenshot%20(331).png
-
 
 ---
 
