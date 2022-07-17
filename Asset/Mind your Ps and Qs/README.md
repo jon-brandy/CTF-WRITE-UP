@@ -16,6 +16,19 @@ In RSA, a small e value can be problematic, but what about N? Can you decrypt th
 
 4. Now to decode it, we need the P and Q first, which are the prime numbers that multiplied in order to get the N values.
 5. Now to factorize the N values, we can use [this](http://factordb.com/) website.
+
+> NOTES:
+
+```
+C : Cipher text
+P : Factor prime 1
+Q : Factor prime 2
+E : Public key E
+N : Public key value
+D : Private key value
+
+```
+
 6. Paste the `N` values there and click `factorize`.
 
 ![image](https://user-images.githubusercontent.com/70703371/179345063-3f4c9f81-4466-42ef-9ee6-145163f5047b.png)
@@ -26,5 +39,13 @@ In RSA, a small e value can be problematic, but what about N? Can you decrypt th
 P : 1461849912200000206276283741896701133693
 Q : 431899300006243611356963607089521499045809
 ```
-7. 
+
+7. Next, to get the private key value, we need to find the `phi` value first.
+8. We can get the `phi` value by using this following formula:
+
+```bash
+(p - 1) * (q - 1)
+```
+
+9. 
 
