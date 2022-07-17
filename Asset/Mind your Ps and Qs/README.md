@@ -47,5 +47,70 @@ Q : 431899300006243611356963607089521499045809
 (p - 1) * (q - 1)
 ```
 
-9. 
+```python
+import os
+
+os.system('cls')
+n = 631371953793368771804570727896887140714495090919073481680274581226742748040342637
+e = 65537
+c = 421345306292040663864066688931456845278496274597031632020995583473619804626233684
+P = 1461849912200000206276283741896701133693
+Q = 431899300006243611356963607089521499045809
+
+# get the phi values -> (p - 1) * (q - 1)
+phi = (P - 1) * (Q - 1)
+print(phi)
+
+```
+
+> OUTPUT:
+
+```
+phi : 631371953793368771804570727896887140714061729769155038068711341335911329840163136
+```
+
+9. Now, get the private key value by follow this formula:
+
+```python
+d = pow(e, -1, phi) # -1 means inverse
+```
+
+> OUTPUT:
+
+```
+d : 86820026055294556838164569629472617179839240561509150603097892917271661878321409
+```
+
+10. Last, we need to get the bytes by follow this formula:
+
+```python
+result = pow(c, d, n)
+```
+
+> OUTPUT:
+
+```
+13016382529449106065927291425342535437996222135352905256639647889241102700065917
+```
+
+11. Finally we just have to decode it to an ascii text by using this formula:
+
+```python
+print(bytearray.fromhex(hex(result)[2:]).decode('ascii'))
+```
+
+> OUTPUT:
+
+```
+picoCTF{sma11_N_n0_g0od_55304594}
+```
+
+12. Finally we got the flag!
+
+---
+## FLAG
+
+```
+picoCTF{sma11_N_n0_g0od_55304594}
+```
 
