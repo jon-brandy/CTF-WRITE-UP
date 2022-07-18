@@ -35,7 +35,8 @@ Log in as admin Site: http://mercury.picoctf.net:24143/ Filter: http://mercury.p
 
 ![image](https://user-images.githubusercontent.com/70703371/179445439-af53a8fd-87fd-4706-9273-c54182c68776.png)
 
-```html
+
+```php
  <?php
 session_start();
 
