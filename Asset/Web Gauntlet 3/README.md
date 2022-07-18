@@ -1,5 +1,5 @@
 # Web Gauntlet 3
-## Write-up author: [jon-brandy](https://github.com/jon-brandy)
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 
 ```
