@@ -267,8 +267,6 @@ TzoxMDoiYWNjZXNzX2xvZyI6MTp7czo4OiJsb2dfZmlsZSI7czo3OiIuLi9mbGFnIjt9
 
 13. Copy the output and paste it as new cookie at this website -> `http://mercury.picoctf.net:25395/authentication.php`
 
-![image](https://user-images.githubusercontent.com/70703371/179663928-46abc6eb-957e-493d-ac9f-c4cae5cdea7c.png)
-
 ![image](https://user-images.githubusercontent.com/70703371/179663888-9f31295d-7289-4486-a02c-29a90e3a90b0.png)
 
 15. Finally we got the flag!
