@@ -104,7 +104,7 @@ rely on problem solving skills and creative thinking.
 |66. |[Disk, disk, sleuth! II](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d5ec0fddceb579fe5b4c7b8fbcd356d017e66030/Asset/Disk,%20disk,%20sleuth!%20II/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/137?category=4&originalEvent=34&page=1)|2021|130|✅ SOLVED|
 |67. |[Mind your Ps and Qs](https://github.com/jon-brandy/CTF-WRITE-UP/blob/35ef0d2e6461096d36c107ac393a656d69362e6f/Asset/Mind%20your%20Ps%20and%20Qs/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/162?category=2&originalEvent=34&page=1)|2021|20|✅ SOLVED|
 |68. |[Web Gauntlet 3](https://github.com/jon-brandy/CTF-WRITE-UP/blob/244afd8d672b0bcedfba795b015d40ec5f8c846f/Asset/Web%20Gauntlet%203/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/128?category=1&page=3)|2021|300|✅ SOLVED|
-
+|69. |[Super Serial](https://github.com/jon-brandy/CTF-WRITE-UP/blob/501e755a6d239997af44bb653fc12904c6e918b9/Asset/Super%20Serial/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/180?category=1&originalEvent=34&page=1)|2021|130|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
