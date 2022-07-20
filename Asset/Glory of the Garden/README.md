@@ -1,5 +1,5 @@
 # Glory of the Garden
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 This [garden]() contains more than it seems.
 ## HINT:
