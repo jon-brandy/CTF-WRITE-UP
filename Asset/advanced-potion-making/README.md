@@ -14,5 +14,9 @@ CHALLENGE ENDPOINTS
 
 ![image](https://user-images.githubusercontent.com/70703371/179985299-a9197fde-04ac-43a3-80de-0a3710a7215a.png)
 
-3. Since we got no clue, let's open it using `hexeditor`. For this solution i used `HxD` at windows.
-4. 
+3. Since we got no clue and based from the description, since it's a corrupted file.
+4. We can fix it by change the `hex` value. let's open it using `hexeditor`. For this solution i used `HxD` at windows.
+
+![image](https://user-images.githubusercontent.com/70703371/179985451-368b952d-c8f7-410c-aa77-4df76aba34cc.png)
+
+5. 
