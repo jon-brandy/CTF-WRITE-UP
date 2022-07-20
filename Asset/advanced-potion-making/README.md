@@ -5,7 +5,7 @@ Ron just found his own copy of advanced potion making, but its been corrupted by
 ```
 CHALLENGE ENDPOINTS
 ```
-[download-here]()
+[download](https://github.com/jon-brandy/CTF-WRITE-UP/blob/df1caf301eb0452ea593a0258b731f2631c61fdc/Asset/advanced-potion-making/advanced-potion-making)
 ## HINT:
 - NONE
 ## STEPS:
