@@ -1,7 +1,7 @@
 # Glory of the Garden
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-This [garden]() contains more than it seems.
+This [garden](https://github.com/jon-brandy/CTF-WRITE-UP/blob/dfda4f9d98c4b81e238258d25147b13611911e1b/Asset/Glory%20of%20the%20Garden/garden.jpg) contains more than it seems.
 ## HINT:
 1. What is a hex editor?
 ## STEPS:
