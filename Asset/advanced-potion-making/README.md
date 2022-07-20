@@ -1,5 +1,5 @@
 # advanced-potion-making
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Ron just found his own copy of advanced potion making, but its been corrupted by some kind of spell. Help him recover it! 
 ```
