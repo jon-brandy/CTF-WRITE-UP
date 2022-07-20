@@ -10,4 +10,9 @@ CHALLENGE ENDPOINTS
 - NONE
 ## STEPS:
 1. First, download the file given.
-2. N
+2. Next i tried to see what does the file type by run `file` command.
+
+![image](https://user-images.githubusercontent.com/70703371/179985299-a9197fde-04ac-43a3-80de-0a3710a7215a.png)
+
+3. Since we got no clue, let's open it using `hexeditor`. For this solution i used `HxD` at windows.
+4. 
