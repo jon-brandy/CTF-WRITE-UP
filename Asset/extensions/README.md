@@ -21,3 +21,15 @@ file flag.txt
 convert flag.txt flag.png
 ```
 
+4. Now, let's open the image file.
+
+![image](https://user-images.githubusercontent.com/70703371/180367173-08f1ef49-f5b7-4f3f-98a3-061679938664.png)
+
+5. Finally we got the flag!
+
+---
+## FLAG
+
+```
+picoCTF{now_you_know_about_extensions}
+```
