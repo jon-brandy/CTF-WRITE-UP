@@ -23,26 +23,9 @@ ANS FROM HINT NUMBER 2
 Scotty the Scottie Dog
 ```
 
-4. It is known there's a tool at kali linux called **qsstv**.
+4. For this solution i used RXSSTV.
 
-> INSTALLATION
+![image](https://user-images.githubusercontent.com/70703371/180455032-6a1775f8-ebe2-441a-b6cb-500b6894f133.png)
 
-```
-sudo apt-get install qsstv
-```
-
-6. Now let's open `qsstv` at kali linux by run this command at the terminal:
-
-```
-qsstv 
-```
-
-7. Next, choose `options` then choose `configuration`.
-
-![image](https://user-images.githubusercontent.com/70703371/180446557-1e4453c4-fe09-4251-a7cd-384547859974.png)
-
-8. Then choose `sound` and select the `PulseAudio`.
-
-![image](https://user-images.githubusercontent.com/70703371/180446735-0af22be3-9293-4dcd-ae6d-958601aaf75d.png)
-
-9. 
+5. Play the audio and press the following button at the `RXSSTV` software.
+6. 
