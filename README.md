@@ -110,6 +110,8 @@ rely on problem solving skills and creative thinking.
 |68. |[Web Gauntlet 3](https://github.com/jon-brandy/CTF-WRITE-UP/blob/244afd8d672b0bcedfba795b015d40ec5f8c846f/Asset/Web%20Gauntlet%203/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/128?category=1&page=3)|2021|300|✅ SOLVED|
 |69. |[Super Serial](https://github.com/jon-brandy/CTF-WRITE-UP/blob/501e755a6d239997af44bb653fc12904c6e918b9/Asset/Super%20Serial/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/180?category=1&originalEvent=34&page=1)|2021|130|✅ SOLVED|
 |70. |[Glory of the Garden](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f80bb8fd87ebab7451ae7cefd57ed4a9e622b610/Asset/Glory%20of%20the%20Garden/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/44?page=1&search=glory)|2019|50|✅ SOLVED|
+|71. |[advanced-potion-making](https://github.com/jon-brandy/CTF-WRITE-UP/blob/8ec63d5730880fbe6e83bd0536d72ab54f492490/Asset/advanced-potion-making/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/205?category=4&originalEvent=67&page=1&search=)|picoMini by redpwn|100|✅ SOLVED|
+
 
 
 ## MEET THE TEAM MEMBERS
