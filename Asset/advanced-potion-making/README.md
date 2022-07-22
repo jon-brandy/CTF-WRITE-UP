@@ -30,6 +30,19 @@ CHALLENGE ENDPOINTS
 ![image](https://user-images.githubusercontent.com/70703371/180355734-f1c80438-a897-4084-a1ef-2f7cfb6ad2e4.png)
 
 7. For this solution, i downloaded any PNG image, then i opened it using the HxD.
-8. For example i download [this]() iamge. Then i opened it on HxD.
-9. 
+8. For example i download [this](https://github.com/jon-brandy/CTF-WRITE-UP/blob/60f23e5255d0501b43696f31fd1aa263be0144f4/Asset/advanced-potion-making/Logo-Binus-University-Universitas-Bina-Nusantara-Original-PNG.png) iamge. Then i opened it on HxD.
+
+![image](https://user-images.githubusercontent.com/70703371/180356703-4d3094d1-7149-47df-a975-36e3b4c59955.png)
+
+9. It seems there's 8 different bits. Let's copy the value and paste it on the challenge file.
+
+![image](https://user-images.githubusercontent.com/70703371/180356893-786c9d06-b0e5-4c68-9764-0c016edf5111.png)
+
+10. Then press `ctrl + s`.
+11. Now open the image file.
+
+![image](https://user-images.githubusercontent.com/70703371/180357149-f0eb97cd-f6ac-4488-a5db-ebd7b7d614cf.png)
+
+12. Hmm.. We got nothing.
+13. This reminds me of `steganography`. So i tried to use `stegsolve.jar`
 
