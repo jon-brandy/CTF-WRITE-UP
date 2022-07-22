@@ -34,5 +34,15 @@ sudo apt-get qsstv
 6. Now let's open `qsstv` at kali linux by run this command at the terminal:
 
 ```
-qsstv message.wav
+qsstv 
 ```
+
+7. Next, choose `options` then choose `configuration`.
+
+![image](https://user-images.githubusercontent.com/70703371/180446557-1e4453c4-fe09-4251-a7cd-384547859974.png)
+
+8. Then choose `sound` and select the `PulseAudio`.
+
+![image](https://user-images.githubusercontent.com/70703371/180446735-0af22be3-9293-4dcd-ae6d-958601aaf75d.png)
+
+9. 
