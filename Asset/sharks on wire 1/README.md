@@ -1,7 +1,7 @@
 # sharks on wire 1
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-We found this [packet capture](). Recover the flag.
+We found this [packet capture](https://github.com/jon-brandy/CTF-WRITE-UP/blob/53def509075156862ddf59a0695ad6e960aff299/Asset/sharks%20on%20wire%201/capture.pcap). Recover the flag.
 ## HINTS:
 1. Try using a tool like Wireshark
 2. What are streams?
