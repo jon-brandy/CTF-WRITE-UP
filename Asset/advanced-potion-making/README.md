@@ -30,7 +30,6 @@ CHALLENGE ENDPOINTS
 ![image](https://user-images.githubusercontent.com/70703371/180355734-f1c80438-a897-4084-a1ef-2f7cfb6ad2e4.png)
 
 7. For this solution, i downloaded any PNG image, then i opened it using the HxD.
-8. For example i download this image.
-
-![image](https://user-images.githubusercontent.com/70703371/180356343-07eda481-c2eb-4287-89bc-d0f13833faef.png)
+8. For example i download [this]() iamge. Then i opened it on HxD.
+9. 
 
