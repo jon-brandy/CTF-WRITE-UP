@@ -112,7 +112,7 @@ rely on problem solving skills and creative thinking.
 |70. |[Glory of the Garden](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f80bb8fd87ebab7451ae7cefd57ed4a9e622b610/Asset/Glory%20of%20the%20Garden/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/44?page=1&search=glory)|2019|50|✅ SOLVED|
 |71. |[advanced-potion-making](https://github.com/jon-brandy/CTF-WRITE-UP/blob/8ec63d5730880fbe6e83bd0536d72ab54f492490/Asset/advanced-potion-making/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/205?category=4&originalEvent=67&page=1&search=)|picoMini by redpwn|100|✅ SOLVED|
 |72. |[Milkslap](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3269294095ef2ad3ae2a23aa2ec54a0958310d77/Asset/Milkslap/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/139?category=4&originalEvent=34&page=1&search=)|2021|120|✅ SOLVED|
-
+|73. |[shark on wire 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9daceaa51ac539d4e4a50bf7554a07e255455741/Asset/sharks%20on%20wire%201/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/30?category=4&page=2&search=)|2019|150|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
