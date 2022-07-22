@@ -17,4 +17,15 @@ We found this [packet capture](). Recover the flag.
 
 ![image](https://user-images.githubusercontent.com/70703371/180363723-3ba3a8e9-8f4a-47c1-af13-ed2b4fdbcbd3.png)
 
-4. For 
+4. For `udp.stream eq 4` i got no clue.
+5. Then i tried to change the `eq` value.
+6. Finally at `udp.stream eq 6` we got the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/180364005-a998e642-7195-499f-89b3-9be3937d36d6.png)
+
+---
+## FLAG
+
+```
+picoCTF{StaT31355_636f6e6e}
+```
