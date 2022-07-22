@@ -27,8 +27,19 @@ Scotty the Scottie Dog
 
 ![image](https://user-images.githubusercontent.com/70703371/180455032-6a1775f8-ebe2-441a-b6cb-500b6894f133.png)
 
-5. Play the audio and press the following button at the `RXSSTV` software.
+5. Play the audio at my phone and put it beside the mic, then press the following button at the `RXSSTV` software.
 
 ![image](https://user-images.githubusercontent.com/70703371/180455709-c87ed558-46c2-43ac-b328-da40ea4ec892.png)
 
-6. 
+6. Finally we got the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/180457460-12bdb6d1-80fe-47fc-b665-49c8c4394be8.png)
+
+![decoded](https://user-images.githubusercontent.com/70703371/180457648-57a0a00a-28fc-4061-842c-1d5c7057ccc6.jpg)
+
+---
+## FLAG
+
+```
+
+```
