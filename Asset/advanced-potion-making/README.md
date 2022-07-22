@@ -46,3 +46,20 @@ CHALLENGE ENDPOINTS
 12. Hmm.. We got nothing.
 13. This reminds me of `steganography`. So i tried to use `stegsolve.jar`
 
+![image](https://user-images.githubusercontent.com/70703371/180360217-12ce743c-3ece-46ad-b8e7-5a9314f8d1da.png)
+
+14. Press the `right` button if you still can't see the flag.
+
+![image](https://user-images.githubusercontent.com/70703371/180360001-9496f404-e8c5-441d-9cc8-7e17a22e518f.png)
+
+15. Finally, at the red plane 0, we got the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/180360285-a1f49109-c4e4-45d6-9d4d-1cf0b7cee056.png)
+
+
+---
+## FLAG
+
+```
+picoCTF{w1z4rdry}
+```
