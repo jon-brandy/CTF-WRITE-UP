@@ -7,4 +7,32 @@ Decode this [message](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f1c374c5e0
 2. What is the CMU mascot?, that might help select a RX option
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Then, i tried to listen to the `.wav` file but didn't get any clue.
+3. So i did small research at the clue number 1 and number 2.
+
+> NOTES:
+```
+ANS FROM HINT NUMBER 1
+----------------------
+NASA selected a scan converter manufactured by RCA to convert the black-and-white SSTV signals from the Apollo 7, 8, 9 and 11 missions. When the Apollo TV camera radioed its images, the ground stations received its raw unconverted SSTV signal and split it into two branches.
+```
+
+```
+ANS FROM HINT NUMBER 2
+----------------------
+Scotty the Scottie Dog
+```
+
+4. It is known there's a tool at kali linux called **qsstv**.
+
+> INSTALLATION
+
+```
+sudo apt-get qsstv
+```
+
+6. Now let's open `qsstv` at kali linux by run this command at the terminal:
+
+```
+qsstv message.wav
+```
