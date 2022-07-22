@@ -23,4 +23,14 @@ CHALLENGE ENDPOINTS
 
 ![WhatsApp Image 2022-07-22 at 10 12 30 AM](https://user-images.githubusercontent.com/70703371/180355048-3e50bc1e-77ae-4bfb-bbf7-1e26c17ddbdf.jpeg)
 
-6. 
+![WhatsApp Image 2022-07-22 at 10 15 23 AM](https://user-images.githubusercontent.com/70703371/180355226-3fb64248-d9a2-485c-a0f2-34d5134d00e0.jpeg)
+
+6. This header PNG is broken, the value should be PNG. So we need to change the value.
+
+![image](https://user-images.githubusercontent.com/70703371/180355734-f1c80438-a897-4084-a1ef-2f7cfb6ad2e4.png)
+
+7. For this solution, i downloaded any PNG image, then i opened it using the HxD.
+8. For example i download this image.
+
+![image](https://user-images.githubusercontent.com/70703371/180356343-07eda481-c2eb-4287-89bc-d0f13833faef.png)
+
