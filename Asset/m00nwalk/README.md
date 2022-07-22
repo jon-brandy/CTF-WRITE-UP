@@ -41,5 +41,5 @@ Scotty the Scottie Dog
 ## FLAG
 
 ```
-
+picoCTF{beep_boop_im_in_space}
 ```
