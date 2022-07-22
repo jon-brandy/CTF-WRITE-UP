@@ -28,7 +28,7 @@ Scotty the Scottie Dog
 > INSTALLATION
 
 ```
-sudo apt-get qsstv
+sudo apt-get install qsstv
 ```
 
 6. Now let's open `qsstv` at kali linux by run this command at the terminal:
