@@ -1,7 +1,7 @@
 # extensions
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-This is a really weird text file TXT? Can you find the flag?
+This is a really weird text file [TXT](https://github.com/jon-brandy/CTF-WRITE-UP/blob/81e72a25a0ff78e9c112061944c02713bcbb1601/Asset/extensions/flag.txt)? Can you find the flag?
 ## HINTS:
 1. How do operating systems know what kind of file it is? (It's not just the ending!
 2. Make sure to submit the flag as picoCTF{XXXXX}
