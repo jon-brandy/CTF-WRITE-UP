@@ -1,7 +1,7 @@
 # What Lies Within
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-There's something in the [building]. Can you retrieve the flag?
+There's something in the [building](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c67d516859aee563643bfbd735a4a10abcafc16c/Asset/What%20Lies%20Within/buildings.png). Can you retrieve the flag?
 ## HINTS:
 1. There is data encoded somewhere... there might be an online decoder.
 ## STEPS:
