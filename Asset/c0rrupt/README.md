@@ -31,19 +31,26 @@ We found this [file](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a157f557d91
 
 ![image](https://user-images.githubusercontent.com/70703371/180592685-8e1ac720-9208-4d80-8c89-8aa187ed4d7c.png)
 
+![image](https://user-images.githubusercontent.com/70703371/180598592-9711e626-004e-44d2-bbae-ac947194a386.png)
+
 > VALUE CHANGED AT THE MYSTERY FILE:
 
 ![image](https://user-images.githubusercontent.com/70703371/180592681-9ca595fd-ed8e-4cd9-a838-2ce51d95e946.png)
 
-9. When i tried to open the image file, it won't open. Means there's still a corrupt.
-10. Now to check which value are corrupt, run this command at your kali linux terminal:
+![image](https://user-images.githubusercontent.com/70703371/180598625-9c3f6932-1804-4b66-9bd6-58e452191c71.png)
+
+9. Now, let's open the image file by adding `.png` at the end of the file.
+
+![image](https://user-images.githubusercontent.com/70703371/180598722-a4d09727-31f9-4e49-843e-c3ca6c7f2d25.png)
+
+10. Finally we got the flag!
+
+---
+## FLAG
 
 ```
-pngcheck -v mystery.png
+picoCTF{c0rrupt10n_1847995}
 ```
-> OUTPUT:
 
-![image](https://user-images.githubusercontent.com/70703371/180592810-f2de2c5c-1ba9-44a4-88be-27322df78abb.png)
 
-11. 
 
