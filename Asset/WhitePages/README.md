@@ -11,7 +11,7 @@ I stopped using YellowPages and moved onto WhitePages... but the [page they gave
 
 ![image](https://user-images.githubusercontent.com/70703371/180591565-d2cc5927-f76c-4dfa-9e0d-473311898a00.png)
 
-4. But if you press `ctrl + a` it selected a hidden characters.
+4. But if you press `ctrl + a` (SELECT ALL) it selected a hidden characters.
 
 ![image](https://user-images.githubusercontent.com/70703371/180591599-a0b37fc0-ee7b-409e-bfe7-751c90928eb2.png)
 
