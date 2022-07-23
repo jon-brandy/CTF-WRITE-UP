@@ -117,7 +117,7 @@ rely on problem solving skills and creative thinking.
 |75. |[What Lies Within](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4a7c565cd31213c12a502a5f2e90f41085a2baff/Asset/What%20Lies%20Within/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/74?category=4&originalEvent=1&page=1&search=)|2019|150|✅ SOLVED|
 |76. |[m00nwalk](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f4b443c2b810b37291faa8c2c26cc01dae90534e/Asset/m00nwalk/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/26?category=4&originalEvent=1&page=1&search=)|2019|250|✅ SOLVED|
 |77. |[WhitePages](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5860592da7e95c172270a028895fd987dac9a104/Asset/WhitePages/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/51?category=4&originalEvent=1&page=1&search=)|2019|250|✅ SOLVED|
-
+|79. |[c0rrupt]()|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/53?category=4&originalEvent=1&page=1&search=)|2019|250|❌ UNSOLVED|
 
 ## MEET THE TEAM MEMBERS
 
