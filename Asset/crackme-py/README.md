@@ -1,7 +1,7 @@
 # crackme-py
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-[crackme.py]()
+[crackme.py](https://github.com/jon-brandy/CTF-WRITE-UP/blob/cf02c0b241bdc42759e2f23448b19b82c6abb767/Asset/crackme-py/crackme.py)
 ## HINT:
 - NONE
 ## STEPS:
