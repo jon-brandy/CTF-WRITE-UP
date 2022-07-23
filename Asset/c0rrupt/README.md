@@ -25,7 +25,7 @@ We found this [file](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a157f557d91
 
 > IMAGE I DOWNLOAD:
 
-![image](https://user-images.githubusercontent.com/70703371/180592570-7fd26f04-5445-466e-a502-dc81a1f81a25.png)
+[image](https://user-images.githubusercontent.com/70703371/180592570-7fd26f04-5445-466e-a502-dc81a1f81a25.png)
 
 > HEXEDITOR OUTPUT AND VALUE WE NEED TO COPY:
 
