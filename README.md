@@ -155,6 +155,7 @@ https://cryptokait.com/2020/09/02/taking-password-cracking-to-the-next-level/
 https://wiki.skullsecurity.org/index.php/Passwords#Password_dictionaries
 https://askubuntu.com/questions/866596/you-do-not-have-permission-to-extract-to-this-folder
 https://jwt.io/introduction
+https://blog.didierstevens.com/2020/12/14/decrypting-tls-streams-with-wireshark-part-1/
 ```
 
 
