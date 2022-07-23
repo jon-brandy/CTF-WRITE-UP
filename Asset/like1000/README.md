@@ -1,7 +1,7 @@
 # like1000
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-This [.tar]() file got tarred a lot.
+This [.tar](https://github.com/jon-brandy/CTF-WRITE-UP/blob/642e6bcd3d5ecb293d021739e79aab8d28fb290b/Asset/like1000/1000.tar) file got tarred a lot.
 ## HINT:
 1. Try and script this, it'll save you a lot of time.
 ## STEPS:
