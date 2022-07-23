@@ -1,7 +1,7 @@
 # WhitePages
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-I stopped using YellowPages and moved onto WhitePages... but the page they gave me is all blank!
+I stopped using YellowPages and moved onto WhitePages... but the [page they gave me]() is all blank!
 ## HINT:
 - NONE
 ## STEPS:
