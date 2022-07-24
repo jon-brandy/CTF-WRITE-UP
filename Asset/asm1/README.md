@@ -63,7 +63,29 @@ asm1:
 
 ![image](https://user-images.githubusercontent.com/70703371/180649608-70103084-a810-4580-8361-9330b9c7cf25.png)
 
-12. At line `+29`, the program extract 
+12. At line `+29`, the program fill the eax as `0x2e0`, then at line `+32`, the program substract `eax` to `0xa`. If you search at the internet for the result. We got -> **726**.
+13. Then we jump to line `+60` and the program do exit.
+
+![image](https://user-images.githubusercontent.com/70703371/180650236-9ee5c87b-bb64-4d75-840d-d934ded4e3f2.png)
+
+14. Finally we just have to convert the integer result to hexadecimal.
+15. For this solution i used python code.
+
+```py
+
+import os
+
+os.system("cls")
+num = 726
+print(hex(num))
+
+```
+
+> OUTPUT:
+
+![image](https://user-images.githubusercontent.com/70703371/180650345-71d41365-2ac6-48db-93b4-1cab376ca238.png)
+
+
 
 ## REFERENCES:
 
@@ -75,5 +97,5 @@ https://stackoverflow.com/questions/25658069/what-does-mov-eax-dword-ptr-eax-do
 ## FLAG
 
 ```
-0x2D6
+0x2d6
 ```
