@@ -3,7 +3,7 @@
 ## DESCRIPTION:
 This vault uses some complicated arrays! 
 I hope you can make sense of it, special agent. 
-The source code for this vault is here: [VaultDoor1.java]()
+The source code for this vault is here: [VaultDoor1.java](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9eca4f2ab3bb77120e2432514b252e727e427726/Asset/vault-door-1/VaultDoor1.java)
 ## HINT:
 1. Look up the charAt() method online.
 ## STEPS:
