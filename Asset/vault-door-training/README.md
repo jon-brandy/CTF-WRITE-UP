@@ -6,7 +6,7 @@ The laboratory is protected by a series of locked vault doors. Each door is cont
 Unfortunately, our undercover agents have not been able to obtain the secret passwords for the vault doors, 
 but one of our junior agents obtained the source code for each vault's computer! 
 You will need to read the source code for each level to figure out what the password is for that vault door. 
-As a warmup, we have created a replica vault in our training facility. The source code for the training vault is here: [VaultDoorTraining.java]()
+As a warmup, we have created a replica vault in our training facility. The source code for the training vault is here: [VaultDoorTraining.java](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4ced07115e9fad9c65ff2715e101c0fac7a23c54/Asset/vault-door-training/VaultDoorTraining.java)
 ## HINT:
 1. The password is revealed in the program's source code.
 ## STEPS:
