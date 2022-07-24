@@ -87,15 +87,16 @@ print(hex(num))
 
 
 
-## REFERENCES:
-
-```
-https://stackoverflow.com/questions/25658069/what-does-mov-eax-dword-ptr-eax-do
-```
-
 ---
 ## FLAG
 
 ```
 0x2d6
 ```
+
+## REFERENCES:
+
+```
+https://stackoverflow.com/questions/25658069/what-does-mov-eax-dword-ptr-eax-do
+```
+
