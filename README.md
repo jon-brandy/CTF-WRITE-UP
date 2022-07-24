@@ -123,6 +123,7 @@ rely on problem solving skills and creative thinking.
 |82. |[crackme-py](https://github.com/jon-brandy/CTF-WRITE-UP/blob/59eb5541de1993e177ed8f0d438478a86b36619b/Asset/crackme-py/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/175?category=3&originalEvent=34&page=1&search=)|2021|30|✅ SOLVED|
 |83. |[WebNet1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/b68a878a2e21c74ee99fb8b8f8912e62aa6fdc8c/Asset/WebNet1/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/42?category=4&originalEvent=1&page=2&search=)|2019|450|✅ SOLVED|
 |84. |[vault-door-training](https://github.com/jon-brandy/CTF-WRITE-UP/blob/cf03ef441f5e7145e85ea8daf6af24c14144984b/Asset/vault-door-training/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/7?category=3&page=1&search=)|2019|50|✅ SOLVED|
+|84. |[vault-door-1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c386414b6e67980fd19772812b6aaea67e3fd480/Asset/vault-door-1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/12?category=3&originalEvent=1&page=1&search=)|2019|100|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
