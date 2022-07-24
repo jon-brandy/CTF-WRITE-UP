@@ -133,6 +133,28 @@ wasm-decompile qCCYI0ajpD
 > OUTPUT:
 
 ```go
+export memory memory(initial: 2, max: 0);
+
+global g_a:int = 66864;
+export global input:int = 1072;
+export global key:int = 1067;
+export global dso_handle:int = 1024;
+export global data_end:int = 1328;
+export global global_base:int = 1024;
+export global heap_base:int = 66864;
+export global memory_base:int = 0;
+export global table_base:int = 1;
+
+table T_a:funcref(min: 1, max: 1);
+
+data d_nAfab23d(offset: 1024) =
+  "\9dn\93\c8\b2\b9A\8b\c2\97\d4f\c7\93\c4\d4a\c2\c6\c9\ddb\94\9e\c2\892\91"
+  "\90\c1\dd3\91\91\97\8bd\c1\92\c4\90\00\00";
+data d_b(offset: 1067) = "\f1\a7\f0\07\ed";
+
+export function wasm_call_ctors() {
+}
+
 export function strcmp(a:int, b:int):int {
   var c:int = g_a;
   var d:int = 32;
@@ -236,6 +258,7 @@ function copy(a:int, b:int) {
   var s:byte_ptr = e[2];
   s[1072] = r;
 }
+
 
 ```
 
