@@ -18,6 +18,12 @@ NOTE: Your submission for this question will NOT be in the normal flag format. [
 
 4. Looks like it's an assembly code.
 
+> NOTES:
+
+```
+All the values in assembly are hexadecimal
+```
+
 ```asm
 asm1:
 	<+0>:	push   ebp
