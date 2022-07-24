@@ -49,3 +49,30 @@ asm1:
 	<+61>:	ret    
 
 ```
+
+5. To solve this, we need to read and follow the program.
+6. At this part, we compare `0x2e0` (from the picoCTF description) to `0x3fb`.
+
+![image](https://user-images.githubusercontent.com/70703371/180649431-f0f6d123-f4ad-43cb-b482-abf308deab93.png)
+
+7. It is known `0x2e0` is lower than `0x3fb`. 
+8. So we skip the `+10` line.
+9. At line `+12`, compare `0x2e0` to `0x280`.
+10. It is known that `0x2e0` is not equal to `0x280`.
+11. So at line `+19` , we jump to line `+29`.
+
+![image](https://user-images.githubusercontent.com/70703371/180649608-70103084-a810-4580-8361-9330b9c7cf25.png)
+
+12. At line `+29`, the program extract 
+
+## REFERENCES:
+
+```
+https://stackoverflow.com/questions/25658069/what-does-mov-eax-dword-ptr-eax-do
+```
+
+---
+## FLAG
+
+```
+```
