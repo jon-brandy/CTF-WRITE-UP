@@ -1,5 +1,5 @@
 # asm1
-#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy) & [PlasmaRing](https://github.com/PlasmaRing)
 ## DESCRIPTION:
 What does asm1(0x2e0) return? 
 Submit the flag as a hexadecimal value (starting with '0x'). 
