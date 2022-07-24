@@ -95,9 +95,9 @@ rely on problem solving skills and creative thinking.
 |53. |[unpackme](https://github.com/jon-brandy/CTF-WRITE-UP/blob/774f0bb3d9da1cceff3bc3fe9a6caabd3f1f562b/Asset/unpackme/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/313?category=3&originalEvent=70&page=1)|2022|300|✅ SOLVED|
 |54. |[Some Assembly Required 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/fd7730f96d6e48a6ecbbb2a78a34db44c2ce6397/Asset/Some%20Assembly%20Required%201/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/152?category=1&page=1)|2021|70|✅ SOLVED|
 |55. |[Some Assembly Required 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4167b6fcca892eaf3562ccfd5035a513bf4506a0/Asset/Some%20Assembly%20Required%202/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/131?category=1&page=2)|2021|110|✅ SOLVED|
-|56. |[Some Assembly Required 3]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/153?category=1&page=2)|2021|160|❌ UNSOLVED|
+|56. |[Some Assembly Required 3]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/153?category=1&page=2)|2021|160|❌ SOLVED|
 |57. |[jaWT Scratchpad](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3b915803c524d516bc6af9a25f3ec152d328f9e2/Asset/jaWT%20Scratchpad/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/25?category=1&originalEvent=1&page=1)|2019|400|✅ SOLVED|
-|58. |[More Cookies]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/124?category=1&originalEvent=34&page=1)|2021|90|❌ UNSOLVED|
+|58. |[More Cookies]()|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/124?category=1&originalEvent=34&page=1)|2021|90|❌ SOLVED|
 |59. |[Wireshark doo dooo do doo...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/56d84868b596e93d7b20ec2dc2539c99280391af/Asset/Wireshark%20doo%20dooo%20do%20doo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/115?category=4&page=1)|2021|50|✅ SOLVED|
 |60. |[Wireshark twoo twooo two twoo...](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d676c45475a62029b47f57be35e32dd544759fc3/Asset/Wireshark%20twoo%20twooo%20two%20twoo.../README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/110?category=4&originalEvent=34&page=1)|2021|100|✅ SOLVED|
 |61. |[tunn3l v1s10n](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4e7e3236d048821c9e4958af70c17cfc6eeb85ac/Asset/tunn3l%20v1s10n/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/112?category=4&originalEvent=34&page=1)|2021|40|✅ SOLVED|
@@ -124,7 +124,7 @@ rely on problem solving skills and creative thinking.
 |83. |[WebNet1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/b68a878a2e21c74ee99fb8b8f8912e62aa6fdc8c/Asset/WebNet1/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/42?category=4&originalEvent=1&page=2&search=)|2019|450|✅ SOLVED|
 |84. |[vault-door-training](https://github.com/jon-brandy/CTF-WRITE-UP/blob/cf03ef441f5e7145e85ea8daf6af24c14144984b/Asset/vault-door-training/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/7?category=3&page=1&search=)|2019|50|✅ SOLVED|
 |84. |[vault-door-1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c386414b6e67980fd19772812b6aaea67e3fd480/Asset/vault-door-1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/12?category=3&originalEvent=1&page=1&search=)|2019|100|✅ SOLVED|
-
+|85. |[asm1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c386414b6e67980fd19772812b6aaea67e3fd480/Asset/vault-door-1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/20?category=3&originalEvent=1&page=1&search=)|2019|200|❌ SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
