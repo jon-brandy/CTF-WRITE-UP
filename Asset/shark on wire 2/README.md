@@ -55,12 +55,15 @@ We found this [packet capture](). Recover the flag that was pilfered from the ne
 ![image](https://user-images.githubusercontent.com/70703371/180696719-bf9e18bf-63ed-46a1-af60-0e702aca1d52.png)
 
 12. And so on.
-13. I think the clue we are looking for is the `source port` value between **stream eq 32** and **stream eq 60**.
+13. I think the clue we are looking for is the `source port` value between **stream eq** and **stream eq 60**.
+
+![image](https://user-images.githubusercontent.com/70703371/180696914-24b3a29b-13d7-4e08-881f-edc2d90b40cd.png)
+
 
 > RESULT:
 
 **NOTES** : 5000 - [CURR_SOURCE-PORT_VALUE]
 
 ```
-
+112 105 99 111 67 84 70 123 49 76 76 102 51 114 51 100 95 100 95 100 97 116 97 95 118 49 97 95 115 116 51 103 48 125
 ```
