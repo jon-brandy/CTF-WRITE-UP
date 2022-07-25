@@ -14,7 +14,8 @@ What do the [flags](https://github.com/jon-brandy/CTF-WRITE-UP/blob/96646d3ccad2
 
 > IMAGE:
 
-![image](https://user-images.githubusercontent.com/70703371/180735621-15ad6608-7f41-4154-b6af-238ec5e59345.png)
+![image](https://user-images.githubusercontent.com/70703371/180737360-5f670481-e788-40a4-826e-d22ab7113c24.png)
+
 
 4. After i did small research, i found a cheatsheet.
 
