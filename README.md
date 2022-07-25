@@ -126,7 +126,7 @@ rely on problem solving skills and creative thinking.
 |84. |[vault-door-1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c386414b6e67980fd19772812b6aaea67e3fd480/Asset/vault-door-1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/12?category=3&originalEvent=1&page=1&search=)|2019|100|✅ SOLVED|
 |85. |[asm1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/39f2d7c550d46dc6be7339652b8a424c16b7bacd/Asset/asm1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/20?category=3&originalEvent=1&page=1&search=)|2019|200|✅ SOLVED|
 |86. |[shark on wire 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0809f0d04f56128e12f171c9a4fc4920a671ae1a/Asset/shark%20on%20wire%202/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/84?category=4&page=1&search=shark%20on%20wire)|2019|300|✅ SOLVED|
-
+|87. |[Easy1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0fb733e9f39c6e4c2d0679aa66bea046609c7723/Asset/Easy1/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/43?category=2&originalEvent=1&page=1)|2019|100|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
