@@ -128,6 +128,9 @@ rely on problem solving skills and creative thinking.
 |86. |[shark on wire 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0809f0d04f56128e12f171c9a4fc4920a671ae1a/Asset/shark%20on%20wire%202/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/84?category=4&page=1&search=shark%20on%20wire)|2019|300|✅ SOLVED|
 |87. |[Easy1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0fb733e9f39c6e4c2d0679aa66bea046609c7723/Asset/Easy1/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/43?category=2&originalEvent=1&page=1)|2019|100|✅ SOLVED|
 |88. |[caesar](https://github.com/jon-brandy/CTF-WRITE-UP/blob/acef7a5a8156776590e8edff4157f75cf5eb18fd/Asset/caesar/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/64?category=2&originalEvent=1&page=1)|2019|100|✅ SOLVED|
+|89. |[la cifra de](https://github.com/jon-brandy/CTF-WRITE-UP/blob/c91a5fd6f33322d6e1a37c17438b7b09ab14c6e6/Asset/la%20cifra%20de/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/3?category=2&originalEvent=1&page=1)|2019|200|✅ SOLVED|
+
+
 
 ## MEET THE TEAM MEMBERS
 
