@@ -65,5 +65,43 @@ We found this [packet capture](). Recover the flag that was pilfered from the ne
 **NOTES** : 5000 - [CURR_SOURCE-PORT_VALUE]
 
 ```
-112 105 99 111 67 84 70 123 49 76 76 102 51 114 51 100 95 100 95 100 97 116 97 95 118 49 97 95 115 116 51 103 48 125
+112 105 99 111 67 84 70 123 112 49 76 76 102 51 114 51 100 95 100 95 100 97 116 97 95 118 49 97 95 115 116 51 103 48 125
+```
+
+14. I think it's a ASCII code, let's convert it to strings.
+15. For this solution i used this `c` code.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void)
+{
+    system("cls");
+    char asciiCode[] = {112, 105, 99, 111, 67, 84, 70, 123, 112, 49, 76, 76, 102, 51, 114, 51,
+           100, 95, 100, 95, 100, 97, 116, 97, 95, 118, 49, 97, 95, 115, 116, 51, 103, 48, 125};
+
+    for(int i = 0; i < sizeof(asciiCode); i++)
+    {
+        printf("%c", asciiCode[i]);
+    }
+}
+
+
+```
+
+> OUTPUT:
+
+![image](https://user-images.githubusercontent.com/70703371/180697978-11d2fbf1-c5fd-42b7-a57b-0ea3aa1bc30f.png)
+
+16. Remove these extra characters:
+
+![image](https://user-images.githubusercontent.com/70703371/180698311-438f983a-7920-41aa-a856-28e5fdc5fca9.png)
+
+---
+## FLAG
+
+```
+picoCTF{p1LLf3r3d_data_v1a_st3g0}
 ```
