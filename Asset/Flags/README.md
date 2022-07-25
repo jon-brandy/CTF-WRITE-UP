@@ -31,9 +31,17 @@ What do the [flags](https://github.com/jon-brandy/CTF-WRITE-UP/blob/96646d3ccad2
 5. Based from the cheatsheet we got this output:
 
 ```
-
+PICOCTF{F1AG5AND5TUFF}
 ```
 
+5. Finally we got the flag!
+
+---
+## FLAG
+
+```
+picoCTF{F1AG5AND5TUFF}
+```
 
 ## REFERENCES
 
