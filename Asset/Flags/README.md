@@ -14,6 +14,9 @@ What do the [flags]() mean?
 
 > IMAGE:
 
+![Uploading image.png…]()
+
+
 
 
 ## REFERENCES
