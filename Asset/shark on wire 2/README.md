@@ -38,4 +38,29 @@ We found this [packet capture](). Recover the flag that was pilfered from the ne
 
 ![image](https://user-images.githubusercontent.com/70703371/180695052-6ae789d8-3cf4-473b-8647-b752b9810f55.png)
 
-9. 
+9. Seems like at **Stream eq 32** it has different source.
+
+![image](https://user-images.githubusercontent.com/70703371/180695235-e5565ad4-fbd3-4977-b247-4f35159e69fd.png)
+
+10. Let's filter the ip by type this at the filter area -> `ip.addr == 10.0.0.66`.
+
+![image](https://user-images.githubusercontent.com/70703371/180695398-a3b77a23-25fd-4c51-a710-db6bccab389d.png)
+
+11. Notice at the `start` packet it srouce port value is **5000**. Then the next stream `eq` has different value.
+
+![image](https://user-images.githubusercontent.com/70703371/180696689-5aa14c25-277c-4bc9-bead-e517e54c03f1.png)
+
+![image](https://user-images.githubusercontent.com/70703371/180696654-f6a443bc-ec56-43f3-bd82-d778588be998.png)
+
+![image](https://user-images.githubusercontent.com/70703371/180696719-bf9e18bf-63ed-46a1-af60-0e702aca1d52.png)
+
+12. And so on.
+13. I think the clue we are looking for is the `source port` value between **stream eq 32** and **stream eq 60**.
+
+> RESULT:
+
+**NOTES** : 5000 - [CURR_SOURCE-PORT_VALUE]
+
+```
+
+```
