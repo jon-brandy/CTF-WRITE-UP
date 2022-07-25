@@ -9,6 +9,9 @@ Can you use this [table](https://github.com/jon-brandy/CTF-WRITE-UP/blob/18cdaea
 2. Please use all caps for the message.
 ## STEPS:
 1. First, download the file given.
+
+![image](https://user-images.githubusercontent.com/70703371/180723625-98c5baf0-cab4-48f9-a292-4ba056a24e14.png)
+
 2. Based from the description and the downloaded file. We can identify it's a vigenere cipher.
 
 > FROM WIKIPEDIA
