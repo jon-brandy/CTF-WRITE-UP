@@ -169,6 +169,7 @@ https://jwt.io/introduction
 https://blog.didierstevens.com/2020/12/14/decrypting-tls-streams-with-wireshark-part-1/
 https://www.tutorialspoint.com/assembly_programming/assembly_conditions.htm
 https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+https://www.wattpad.com/437456092-codes-and-ciphers-maritime-signal-flags
 ```
 
 
