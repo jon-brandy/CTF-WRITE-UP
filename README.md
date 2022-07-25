@@ -133,7 +133,7 @@ rely on problem solving skills and creative thinking.
 |91. |[Flags](https://github.com/jon-brandy/CTF-WRITE-UP/blob/00e82cf1e512650ba5b548039fcda4c5e5a7eeff/Asset/Flags/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/31?category=2&originalEvent=1&page=1)|2019|200|✅ SOLVED|
 |92. |[Mr-Worldwide](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0ebac5c6655a826189d18ff43f6de21b652c2cc6/Asset/Mr-Worldwide/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/40?category=2&originalEvent=1&page=1)|2019|200|✅ SOLVED|
 |93. |[waves over lambda](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4ff39268b7e0d85e1422c0aa254f73ef305152dc/Asset/waves%20over%20lambda/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/38?category=2&originalEvent=1&page=1)|2019|300|✅ SOLVED|
-
+|94. |[miniRSA]()|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/73?category=2&originalEvent=1&page=1)|2019|300|❌ UNSOLVED|
 
 ## MEET THE TEAM MEMBERS
 
