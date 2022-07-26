@@ -287,7 +287,7 @@ int main(void)
 picoCTF{I_l05t_4ll_my_m0n3y_6045d60d}o¥ÿ
 ```
 
-Or you may use this `.c` code.
+Or you may use this `.c` program made by my friend -> [raphael-lesmana](https://github.com/raphael-lesmana).
 
 ```c
 #include <stdio.h>
