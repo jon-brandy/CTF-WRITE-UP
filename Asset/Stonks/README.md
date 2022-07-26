@@ -283,7 +283,7 @@ int main(void)
 
 Or you may use this `.c` code.
 
-```
+```c
 #include <stdio.h>
 #include <string.h>
 
