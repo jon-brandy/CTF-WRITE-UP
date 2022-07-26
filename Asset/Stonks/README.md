@@ -281,6 +281,12 @@ int main(void)
 }
 ```
 
+> RESULT
+
+```
+picoCTF{I_l05t_4ll_my_m0n3y_6045d60d}o¥ÿ
+```
+
 Or you may use this `.c` code.
 
 ```c
@@ -319,11 +325,6 @@ int main(void)
 }
 ```
 
-> RESULT
-
-```
-picoCTF{I_l05t_4ll_my_m0n3y_6045d60d}o¥ÿ
-```
 
 11. Finally we got the flag!
 
