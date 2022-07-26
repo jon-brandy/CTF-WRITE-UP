@@ -207,3 +207,129 @@ printf(user_buf);
 
 ![image](https://user-images.githubusercontent.com/70703371/180951374-c15b1de7-f57d-4d74-9337-e25f5dec52fc.png)
 
+8. These characters caught my attention:
+
+```
+ocip{FTC0l_I4_t5m_ll0m_y_y3n5406d06dÿ¥}
+```
+
+9. It must be the flag, but each 4 characters block are reversed.
+10. For this solution i used `.c` program to reversed it every 4 characters.
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// ocip{FTC0l_I4_t5m_ll0m_y_y3n5406d06dÿ¥o}
+
+int main(void)
+{
+    char strings[] = {"ocip"};
+    char strings2[] = {"{FTC"};
+    char strings3[] = {"0l_I"};
+    char strings4[] = {"4_t5"};
+    char strings5[] = {"m_ll"};
+    char strings6[] = {"0m_y"};
+    char strings7[] = {"_y3n"};
+    char strings8[] = {"5406"};
+    char strings9[] = {"d06d"};
+    char strings10[] = {"ÿ¥o}"};
+    for(int i = strlen(strings) - 1; i >= 0; i--)
+    {
+        printf("%c", strings[i]);
+    }
+    for(int i =  strlen(strings2) - 1; i >= 0; i--)
+    {
+        printf("%c", strings2[i]);
+    }
+    for(int i =  strlen(strings3) - 1; i >= 0; i--)
+    {
+        printf("%c", strings3[i]);
+    }
+    for(int i =  strlen(strings4) - 1; i >= 0; i--)
+    {
+        printf("%c", strings4[i]);
+    }
+    for(int i =  strlen(strings5) - 1; i >= 0; i--)
+    {
+        printf("%c", strings5[i]);
+    }
+    for(int i =  strlen(strings6) - 1; i >= 0; i--)
+    {
+        printf("%c", strings6[i]);
+    }
+    for(int i =  strlen(strings7) - 1; i >= 0; i--)
+    {
+        printf("%c", strings7[i]);
+    }
+    for(int i =  strlen(strings8) - 1; i >= 0; i--)
+    {
+        printf("%c", strings8[i]);
+    }
+    for(int i =  strlen(strings9) - 1; i >= 0; i--)
+    {
+        printf("%c", strings9[i]);
+    }
+    for(int i =  strlen(strings10) - 1; i >= 0; i--)
+    {
+        printf("%c", strings10[i]);
+    }
+
+
+    return 0;
+}
+```
+
+Or you may use this `.c` code.
+
+```
+#include <stdio.h>
+#include <string.h>
+
+char *str = "ocip{FTC0l_I4_t5m_ll0m_y_y3n5406d06dÿ¥o}";
+
+int main(void)
+{
+    int len = strlen(str);
+    int x = len;
+    int i = 0;
+    int k = 0;
+    int l = 0;
+    char output[len + 1];
+    char tmp[4];
+    while (l < len)
+    {
+        k = 0;
+        for (int j = 0 + i; j < 4 + i; j++)
+        {
+            tmp[k++] = str[j];
+            x--;
+            if (x < 1)
+                break;
+        }
+        for (int j = k - 1; j >= 0; j--)
+        {
+            output[l++] = tmp[j];
+        }
+        i += 4;
+    }
+    output[len] = '\0';
+    printf("%s\n", output);
+}
+```
+
+> RESULT
+
+```
+picoCTF{I_l05t_4ll_my_m0n3y_6045d60d}o¥ÿ
+```
+
+11. Finally we got the flag!
+
+---
+## FLAG
+
+```
+picoCTF{I_l05t_4ll_my_m0n3y_6045d60d}
+```
