@@ -1,5 +1,5 @@
 # Magikarp Ground Mission
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Do you know how to move between directories and read files in the shell? 
 Start the container, `ssh` to it, and then `ls` once connected to begin. 
