@@ -71,8 +71,11 @@ while c >= 0:
 
 ![image](https://user-images.githubusercontent.com/70703371/181180236-82f6dce1-6452-4078-b23d-49d358674e24.png)
 
+3. Now, if you enter any random character to encrypt, it will always give you 32 bytes encrypted flag.
 
+![image](https://user-images.githubusercontent.com/70703371/181182664-8f37a5ce-68c8-402c-b858-c2749bd6d358.png)
 
+4. 
 
 
 ## REFERENCES
