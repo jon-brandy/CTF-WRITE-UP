@@ -6,7 +6,7 @@ A one-time pad is unbreakable, but can you manage to recover the flag?
 ## HINT:
 1. Maybe there's a way to make this a 2x pad.
 ## STEPS:
-1. First download the python file given and view the source-code.
+1. First download the python file given.
 
 > CODE
 
@@ -63,4 +63,19 @@ c = startup(0)
 while c >= 0:
 	c = encrypt(c)
 
+```
+
+2. Next, run the netcat command -> `nc mercury.picoctf.net 11188`.
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/181180236-82f6dce1-6452-4078-b23d-49d358674e24.png)
+
+
+
+
+
+## REFERENCES
+```
+https://en.wikibooks.org/wiki/Cryptography/One_time_pads
 ```
