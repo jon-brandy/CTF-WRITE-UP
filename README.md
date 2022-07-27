@@ -135,6 +135,7 @@ rely on problem solving skills and creative thinking.
 |93. |[waves over lambda](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4ff39268b7e0d85e1422c0aa254f73ef305152dc/Asset/waves%20over%20lambda/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/38?category=2&originalEvent=1&page=1)|2019|300|✅ SOLVED|
 |94. |[miniRSA]()|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/73?category=2&originalEvent=1&page=1)|2019|300|❌ UNSOLVED|
 |95. |[Stonks](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2c453edfd81cd44ff2284e7ab5f359da45cee14c/Asset/Stonks/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/105?category=6&originalEvent=34&page=1)|2021|20|✅ SOLVED|
+|96. |[Magikarp Ground Mission](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f994e72af39d14faf923ce63a4b2e25157e9b69e/Asset/Magikarp%20Ground%20Mission/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/189?page=2)|2021|30|✅ SOLVED|
 
 
 
