@@ -137,6 +137,8 @@ rely on problem solving skills and creative thinking.
 |95. |[Stonks](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2c453edfd81cd44ff2284e7ab5f359da45cee14c/Asset/Stonks/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/105?category=6&originalEvent=34&page=1)|2021|20|✅ SOLVED|
 |96. |[Magikarp Ground Mission](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f994e72af39d14faf923ce63a4b2e25157e9b69e/Asset/Magikarp%20Ground%20Mission/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/189?page=2)|2021|30|✅ SOLVED|
 |97. |[Easy Peasy]()|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/125?page=2)|2021|40|❌ UNSOLVED|
+|98. |[Surfing the Waves](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2c03533bf4c6db0764ac342a00e250f9233a0f94/Asset/Surfing%20the%20Waves/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/117?category=4&originalEvent=34&page=1)|2021|250|✅ SOLVED|
+
 
 
 ## MEET THE TEAM MEMBERS
