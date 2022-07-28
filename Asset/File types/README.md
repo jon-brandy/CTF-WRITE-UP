@@ -246,4 +246,38 @@ Run [man cpio] to see all the commands / payloads available.
 
 ![image](https://user-images.githubusercontent.com/70703371/181432808-1a24d1f3-6561-4e2d-b409-3b9b74e95879.png)
 
-12. 
+12. It's a bzip file.
+
+![image](https://user-images.githubusercontent.com/70703371/181433212-8e686b06-609c-4b1f-8ae6-2bf463e59624.png)
+
+13. Now run -> `bunzip2 flag` to extract it.
+
+![image](https://user-images.githubusercontent.com/70703371/181433635-3299d2db-2d4b-4d5e-b47b-982ec4bf6fa2.png)
+
+14. Check the newly extracted file.
+
+![image](https://user-images.githubusercontent.com/70703371/181433727-0d68e6db-6dab-4135-9532-58b5c1172cce.png)
+
+15. It's a gzip file. Rename it by run -> `mv flag.out flag.gz`.
+16. Then extract it by run -> `gunzip flag.gz`.
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/181434107-884a7a8c-767e-4a4c-beb6-79035296e3e7.png)
+
+17. Run `file` to check the file type.
+
+![image](https://user-images.githubusercontent.com/70703371/181434200-689a19cf-6771-4fb0-b537-55b70b639932.png)
+
+18. It's an `lzip` file. Extract it by run -> `lzip -d flag`.
+19. We got another file type now!
+
+![image](https://user-images.githubusercontent.com/70703371/181434595-2fa1878e-dad0-4cb8-959f-48ee92ee4a11.png)
+
+20. Since `lz4` need a file output when extract it, run this command then -> `lz4 -d flag.out outputfile`.
+
+![image](https://user-images.githubusercontent.com/70703371/181435156-3d7c4bc6-a5e8-4c61-aa9c-9fe6f6e2220a.png)
+
+![image](https://user-images.githubusercontent.com/70703371/181435207-6da002e7-9825-4812-80e1-5e0c9b6e632f.png)
+
+
