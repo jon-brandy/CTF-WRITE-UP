@@ -280,4 +280,59 @@ Run [man cpio] to see all the commands / payloads available.
 
 ![image](https://user-images.githubusercontent.com/70703371/181435207-6da002e7-9825-4812-80e1-5e0c9b6e632f.png)
 
+21. It's a `LZMA` file now.
 
+![image](https://user-images.githubusercontent.com/70703371/181435378-8311bc74-9981-4f95-a428-295e0b903e4b.png)
+
+22. To extract `lzma` file, we need to rename add `.lzma`.
+23. Run -> `unlzma outputfile.lzma`.
+24. Seems we got another file type.
+
+![image](https://user-images.githubusercontent.com/70703371/181435928-d866aa3c-fa1e-41ad-aff4-f8aec11c752e.png)
+
+25. Again, to extract the file, we need to add `.lzop`.
+26. Run -> `lzop -x outputfile.lzop`.
+27. We got `lzip` file type again.
+
+![image](https://user-images.githubusercontent.com/70703371/181436843-16caa294-ead4-47ba-a26b-e33973fa2d7b.png)
+
+28. Extract the `.lzip` file by run -> `lzip -d flag`.
+29. We got another file type.
+
+![image](https://user-images.githubusercontent.com/70703371/181437046-1a54b774-52db-4026-a630-0f0dd16002e8.png)
+
+30. To extract `.xz` file, add `.xz` to the file we want to extract, so we can extract it without error.
+31. Run -> `unxz flag.xz`.
+32. Looks like it's the flag file!
+
+![image](https://user-images.githubusercontent.com/70703371/181437662-b8bf6f0d-380b-4fc2-84de-3efc27f44206.png)
+
+![image](https://user-images.githubusercontent.com/70703371/181437712-d21c12c5-cae9-4d8c-9955-4399c94bbe8f.png)
+
+33. Since it's a hex strings, for this solution i used python code.
+
+```py
+import os
+
+os.system("cls")
+
+strings = "7069636f4354467b66316c656e406d335f6d406e3170756c407431306e5f6630725f3062326375723137795f39353063346665657d0a"
+result = bytearray.fromhex(strings)
+fin = result.decode()
+print(fin)
+```
+
+> OUTPUT
+
+```
+picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee}
+```
+
+34. Finally we got the flag!
+
+---
+## FLAG
+
+```
+picoCTF{f1len@m3_m@n1pul@t10n_f0r_0b2cur17y_950c4fee}
+```
