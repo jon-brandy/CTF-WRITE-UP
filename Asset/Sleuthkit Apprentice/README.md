@@ -15,4 +15,8 @@ download and extract the disk image into /tmp not your home directory.
 
 ![image](https://user-images.githubusercontent.com/70703371/181508488-1d041825-f778-49bf-9d0b-5bc4a5e55c0e.png)
 
-3. 
+3. I tried to run `strings` but we got no clue.
+
+![image](https://user-images.githubusercontent.com/70703371/181509235-e12492eb-cdc4-485c-90eb-1a1f2df47f0b.png)
+
+4. 
