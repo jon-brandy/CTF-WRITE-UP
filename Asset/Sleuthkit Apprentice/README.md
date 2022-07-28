@@ -1,5 +1,5 @@
 # Sleuthkit Apprentice
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Download this disk image and find the flag. Note: if you are using the webshell, 
 download and extract the disk image into /tmp not your home directory.
