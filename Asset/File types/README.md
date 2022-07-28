@@ -191,5 +191,59 @@ exit 0
 
 ```
 
-4. Looks like it's a `bash` file.
-5. 
+4. Looks like it's a `shell` file.
+5. Based from this clue:
+
+```
+# everything before the '#!/bin/sh' line above, then type 'sh FILE'.
+```
+
+Let's run it by type this command -> `sh ./Flag.pdf` at your kali linux terminal.
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/181431331-c3db665a-5ac9-42df-89ce-7b8762318725.png)
+
+6. Great! Now we have another file to check.
+
+![image](https://user-images.githubusercontent.com/70703371/181431442-1e686bb1-f7c2-40b0-90b6-e6bd2ea490be.png)
+
+7. Let's check the `flag` file type.
+
+![image](https://user-images.githubusercontent.com/70703371/181431604-fc3e95da-300d-428e-87d6-0b3a0628fdee.png)
+
+8. Since it's an `ar` archive, let's extract it by run -> `ar xv flag`.
+
+> NOTES
+
+```
+Run [man ar] , to see all the ar commands / payloads available.
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/181431957-a70d6bad-fc82-428f-b0a6-89a527dc1f56.png)
+
+9. It extracted a fila named `flag`, run `file` again to check the file type.
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/181432122-489f3e68-52b2-47bd-a778-1f6666fdb8c0.png)
+
+10. Let's extract the `.cpio` file , but first, rename it to `.cpio` to avoid collision. Run -> `mv flag flag.cpio`.
+
+![image](https://user-images.githubusercontent.com/70703371/181432655-c4f14061-b92e-452a-afd1-b23c6bb02334.png)
+
+11. Let's extract it by run -> `cpio --file flag.cpio --extract`.
+
+> NOTES
+
+```
+Run [man cpio] to see all the commands / payloads available.
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/181432808-1a24d1f3-6561-4e2d-b409-3b9b74e95879.png)
+
+12. 
