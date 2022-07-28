@@ -140,6 +140,7 @@ rely on problem solving skills and creative thinking.
 |98. |[Surfing the Waves](https://github.com/jon-brandy/CTF-WRITE-UP/blob/2c03533bf4c6db0764ac342a00e250f9233a0f94/Asset/Surfing%20the%20Waves/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/117?category=4&originalEvent=34&page=1)|2021|250|✅ SOLVED|
 |99. |[CVE-XXXX-XXXX](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7cd4dd4d066dd00646d97c96e2ed9b612904134e/Asset/CVE-XXXX-XXXX/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/262?category=6&page=1)|2022|100|✅ SOLVED|
 |100. |[File types](https://github.com/jon-brandy/CTF-WRITE-UP/blob/250669dcad5330c334ba6ba1e15318a9430806f9/Asset/File%20types/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/268?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
+|101. |[Sleuthkit Apprentice](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3380660d3fd2c1bacd4e2fcdf8fb21576eb52057/Asset/Sleuthkit%20Apprentice/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/300?category=4&originalEvent=70&page=1)|2022|200|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
