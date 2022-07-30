@@ -142,6 +142,7 @@ rely on problem solving skills and creative thinking.
 |99. |[CVE-XXXX-XXXX](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7cd4dd4d066dd00646d97c96e2ed9b612904134e/Asset/CVE-XXXX-XXXX/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/262?category=6&page=1)|2022|100|✅ SOLVED|
 |100. |[File types](https://github.com/jon-brandy/CTF-WRITE-UP/blob/250669dcad5330c334ba6ba1e15318a9430806f9/Asset/File%20types/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/268?category=4&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |101. |[Sleuthkit Apprentice](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3380660d3fd2c1bacd4e2fcdf8fb21576eb52057/Asset/Sleuthkit%20Apprentice/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/300?category=4&originalEvent=70&page=1)|2022|200|✅ SOLVED|
+|102. |[PW Crack 5](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7115b9376438c66bd2f208f4a2800f92e9b3f209/Asset/PW%20Crack%205/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/249?category=5&page=3)|picoMini 2022|100|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
