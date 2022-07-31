@@ -159,12 +159,15 @@ int main(void)
         printf("%d\n", jamming);
         tommy = 74; // playing rock
         printf("%d\n", tommy);
-        // They are dazzled audiences
-        printf("it\n");
+        int they = 79;// They are dazzled audiences
+        printf("it\n"); // refers to print the int they
+        printf("%d\n", they);
         int rock = 86; // electric heaven
-        printf("it\n");
+        printf("it\n"); //refers to print the int rock
+        printf("%d\n", rock);
         tommy = 73; // jukebox god
-        puts("it");
+        puts("it"); // refers to print the int tommy
+        printf("%d\n", tommy);
         //break;
         puts("Bring on the rock!");
     }
@@ -180,7 +183,18 @@ int main(void)
 
 9. Run the final code.
 
-> INPUT
+> FIRST INPUT
 
 ```
+136
 ```
+
+> SECOND INPUT
+
+```
+1970
+```
+
+> OUTPUT
+
+
