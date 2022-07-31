@@ -4,7 +4,7 @@
 Can you get the flag? Download this [binary]().
 Here's the test drive instructions:
 
-```bash
+```sh
 $ chmod +x gdbme
 $ gdb gdbme
 (gdb) layout asm
