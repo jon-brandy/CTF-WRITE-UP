@@ -1,7 +1,7 @@
 # GDB Test Drive
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-Can you get the flag? Download this [binary]().
+Can you get the flag? Download this [binary](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9c15c025ae8d0450d63bcf16e2113b6f5894fefc/Asset/GDB%20Test%20Drive/gdbme).
 Here's the test drive instructions:
 
 ```sh
