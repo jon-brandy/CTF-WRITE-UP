@@ -144,7 +144,7 @@ int main(void)
     getchar();
     if(theMusic == aGuitar)
     {
-        printf("Keep on rocking!");
+        printf("Keep on rocking!\n");
     }
     int rhytm;
     scanf("%d", &rhytm);
@@ -152,28 +152,27 @@ int main(void)
     if(rhytm - music == 0)
     {
         tommy = 66; // rockin guitar
-        printf("%d", tommy);
+        printf("%d\n", tommy);
         music = 79; // amazing sensation
         int jamming = 78; // awesome presence
-        printf("%d", music);
-        printf("%d", jamming);
+        printf("%d\n", music);
+        printf("%d\n", jamming);
         tommy = 74; // playing rock
-        printf("%d", tommy);
+        printf("%d\n", tommy);
         // They are dazzled audiences
-        printf("it");
+        printf("it\n");
         int rock = 86; // electric heaven
-        printf("it");
+        printf("it\n");
         tommy = 73; // jukebox god
-        printf("it");
+        puts("it");
         //break;
-        printf("Bring on the rock!");
+        puts("Bring on the rock!");
     }
     else
     {
         printf("That ain't it, Chief!");
         //break;
     }
-
 
     return 0;
 }
