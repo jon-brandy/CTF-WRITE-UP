@@ -88,4 +88,15 @@ int main(void)
 }
 ```
 
+> NOTES
+
+```
+Words with 10 or more characters are count as 0.
+Since -> razzmatazz! -> are <= 10, so it will count as 0.
+```
+
 5. `right` -> `true` , `wrong` -> `false` , `a six string` -> `a: 1` , `six: 3` , `string: 6`.
+6. `a billboard-burning razzmatazz!` -> `1970`.
+7. 
+
+
