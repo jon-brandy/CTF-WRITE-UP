@@ -97,6 +97,91 @@ Since -> razzmatazz! -> are <= 10, so it will count as 0.
 
 5. `right` -> `true` , `wrong` -> `false` , `a six string` -> `a: 1` , `six: 3` , `string: 6`.
 6. `a billboard-burning razzmatazz!` -> `1970`.
-7. 
+7. `Listen` -> `scanf` , `if` -> `if`.
+8. Now for these lines.
+
+> BEFORE
+
+```
+Listen to the rhythm
+If the rhythm without Music is nothing
+Tommy is rockin guitar
+Shout Tommy!                    
+Music is amazing sensation 
+Jamming is awesome presence
+Scream Music!                   
+Scream Jamming!                 
+Tommy is playing rock           
+Scream Tommy!       
+They are dazzled audiences                  
+Shout it!
+Rock is electric heaven                     
+Scream it!
+Tommy is jukebox god            
+Say it!                                     
+Break it down
+Shout "Bring on the rock!"
+Else Whisper "That ain't it, Chief"                 
+Break it down 
+```
+
+> AFTER (CONCATE THE PREVIOUS LINES)
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void)
+{
+    bool rocknroll = true;
+    bool silence = false;
+    int aGuitar = 136;
+    int tommy = 4;
+    int music = 1970;
+    int theMusic;
+    scanf("%d", &theMusic);
+    getchar();
+    if(theMusic == aGuitar)
+    {
+        printf("Keep on rocking!");
+    }
+    int rhytm;
+    scanf("%d", &rhytm);
+    getchar();
+    if(rhytm - music == 0)
+    {
+        tommy = 66; // rockin guitar
+        printf("%d", tommy);
+        music = 79; // amazing sensation
+        int jamming = 78; // awesome presence
+        printf("%d", music);
+        printf("%d", jamming);
+        tommy = 74; // playing rock
+        printf("%d", tommy);
+        // They are dazzled audiences
+        printf("it");
+        int rock = 86; // electric heaven
+        printf("it");
+        tommy = 73; // jukebox god
+        printf("it");
+        //break;
+        printf("Bring on the rock!");
+    }
+    else
+    {
+        printf("That ain't it, Chief!");
+        //break;
+    }
 
 
+    return 0;
+}
+```
+
+9. Run the final code.
+
+> INPUT
+
+```
+```
