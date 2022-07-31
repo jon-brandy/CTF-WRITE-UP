@@ -197,4 +197,44 @@ int main(void)
 
 > OUTPUT
 
+![image](https://user-images.githubusercontent.com/70703371/182018557-9dfd4423-edc2-4530-a24c-b2edec5b1536.png)
+
+10. Now take all the ASCII code and convert it to a char.
+
+> CODE
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int main(void)
+{
+    int ascii[] = {66,79,78,74,79,86,73};
+    for(int i = 0; i < 7; i++)
+    {
+        printf("%c", ascii[i]);
+    }
+
+    return 0;
+}
+```
+
+> OUTPUT
+
+
+![image](https://user-images.githubusercontent.com/70703371/182018740-09d80312-7035-484b-b382-32cd9663b57a.png)
+
+11. Finally we got the flag!
+
+> WRAP THE FLAG WITH picoCTF{}
+
+---
+
+## FLAG
+
+```
+picoCTF{BONJOVI}
+```
+
 
