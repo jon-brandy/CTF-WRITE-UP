@@ -144,6 +144,7 @@ rely on problem solving skills and creative thinking.
 |101. |[Sleuthkit Apprentice](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3380660d3fd2c1bacd4e2fcdf8fb21576eb52057/Asset/Sleuthkit%20Apprentice/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/300?category=4&originalEvent=70&page=1)|2022|200|✅ SOLVED|
 |102. |[PW Crack 5](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7115b9376438c66bd2f208f4a2800f92e9b3f209/Asset/PW%20Crack%205/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/249?category=5&page=3)|picoMini 2022|100|✅ SOLVED|
 |103. |[1_wanna_b3_a_r0ck5tar](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1e31c7aa50a7ab596c16b333a46d83a04f11900c/Asset/1_wanna_b3_a_r0ck5tar/README.md)|General Skills|[picoCTF](https://play.picoctf.org/practice/challenge/82?category=5&page=3)|2019|350|✅ SOLVED|
+|104. |[GDB Test Drive](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0d933bfa013e1244f18e1650a8f4332b092a1b4b/Asset/GDB%20Test%20Drive/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/273?category=3&page=1&search=GDB)|2022|100|✅ SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
