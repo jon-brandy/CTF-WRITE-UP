@@ -28,4 +28,28 @@ $ gdb gdbme
 
 ![image](https://user-images.githubusercontent.com/70703371/182019516-1c8da663-a7cb-4206-8ffe-1b934dd128b8.png)
 
-5. 
+5. Based from the instructions given, type `layout asm`, then press enter.
+
+![image](https://user-images.githubusercontent.com/70703371/182019582-cdcade41-d0cd-4059-9cb1-3b6ad93b35db.png)
+
+6. Then type `break *(main+99)`.
+
+![image](https://user-images.githubusercontent.com/70703371/182019641-a2643c66-ed64-4f25-ac12-42bd8bfe6f12.png)
+
+7. Type `run` then press enter.
+
+![image](https://user-images.githubusercontent.com/70703371/182019656-0ba92f41-9150-43bb-bff0-f81b64b9a793.png)
+
+8. Simply followed the last instruction by type `jump *(main+104)` then press enter.
+
+![image](https://user-images.githubusercontent.com/70703371/182019696-46ab7111-3dfc-47d4-b71e-3fa492fae342.png)
+
+9. We found the flag!
+
+---
+
+## FLAG
+
+```
+picoCTF{d3bugg3r_dr1v3_7776d758}
+```
