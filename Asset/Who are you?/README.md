@@ -42,4 +42,36 @@ http://mercury.picoctf.net:34588/
 ![image](https://user-images.githubusercontent.com/70703371/182083191-ed04d5be-f8be-413d-b5b5-16c77b849c9a.png)
 
 9. We're doing great so far.
-10. 
+10. `i don't trust users who can be tracked` means we must add `DNT` header and input the value as `1` (true).
+
+> NOTES & RESEARCH LINK
+
+```
+Do Not Track (DNT) is a browser setting that sends a message to websites and advertising networks requesting that they don't track the user. Firefox, Internet Explorer and Safari provide DNT settings.
+
+https://www.techtarget.com/whatis/definition/Do-Not-Track-DNT
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182083664-55ef45c6-4b71-434d-939c-85d86b2d5a5b.png)
+
+12. `Is only for people from Sweden` means we have to change our IP.
+13. Now add a header called `X-Forwarded-For` and input the value as `1.208.1.45`
+
+> RESEARCH LINK
+
+```
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
+```
+
+14. 
+
+
+## REFERENCES
+
+```
+http://www.lingoes.net/en/translator/langcode.htm
+https://www.techtarget.com/whatis/definition/Do-Not-Track-DNT
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
+```
