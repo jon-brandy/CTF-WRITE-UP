@@ -27,4 +27,19 @@ http://mercury.picoctf.net:34588/
 
 ![image](https://user-images.githubusercontent.com/70703371/182081891-1f304a8d-a0c5-4605-9584-329e5117a5ee.png)
 
-5. Since they don't trust us, now change the va
+5. The clue here is `from another site`, means we may have to add a header called `Referer` and input the url from the description as it's value, then press the `send` button.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182082840-c3d0f4c3-df58-418c-9a7c-56a05b1cf810.png)
+
+6. Seems we are making new progress.
+7. `Only worked in 2018` means we may have to add a new header again called `Date`.
+8. Now add `Date: Mon, 1 Jan 2018 01:00:00 GMT` then press the `send` button.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182083191-ed04d5be-f8be-413d-b5b5-16c77b849c9a.png)
+
+9. We're doing great so far.
+10. 
