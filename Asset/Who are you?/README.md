@@ -62,6 +62,7 @@ https://www.techtarget.com/whatis/definition/Do-Not-Track-DNT
 > RESEARCH LINK
 
 ```
+https://en.wikipedia.org/wiki/X-Forwarded-For
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
 ```
 
@@ -74,4 +75,5 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
 http://www.lingoes.net/en/translator/langcode.htm
 https://www.techtarget.com/whatis/definition/Do-Not-Track-DNT
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
+https://en.wikipedia.org/wiki/X-Forwarded-For
 ```
