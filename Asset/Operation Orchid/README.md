@@ -13,6 +13,12 @@ Download this disk image and find the flag. Note: if you are using the webshell,
 
 ![image](https://user-images.githubusercontent.com/70703371/182151554-4ca60849-443e-42cb-b653-f8ebc0a7b775.png)
 
+**NOTES**: 
+
+```
+BASED FROM THE DESCRIPTION, UNZIP THE FILE INTO /tmp.
+```
+
 3. Now unzip the `.gz` file by run -> `gunzip disk.flag.img.gz`.
 
 > RESULT
@@ -74,4 +80,22 @@ Download this disk image and find the flag. Note: if you are using the webshell,
 openssl aes256 -d -salt -in flag.txt.enc -out flag.txt -k unbreakablepassword1234567
 ```
 
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182159451-2b5d31e9-12f2-441c-b940-12154ebe7129.png)
+
+
 20. Now check the `flag.txt` file.
+
+![image](https://user-images.githubusercontent.com/70703371/182159492-440751de-d619-4fbd-8d4f-9d1c852ededf.png)
+
+21. Finally! We got the flag.
+
+
+---
+
+## FLAG
+
+```
+picoCTF{h4un71ng_p457_1d02081e}
+```
