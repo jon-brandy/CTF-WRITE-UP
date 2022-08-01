@@ -57,16 +57,96 @@ https://www.techtarget.com/whatis/definition/Do-Not-Track-DNT
 ![image](https://user-images.githubusercontent.com/70703371/182083664-55ef45c6-4b71-434d-939c-85d86b2d5a5b.png)
 
 12. `Is only for people from Sweden` means we have to change our IP.
-13. Now add a header called `X-Forwarded-For` and input the value as `1.208.1.45`
+13. Now add a header called `X-Forwarded-For` and input the value as `1.208.107.42`
 
 > RESEARCH LINK
 
 ```
 https://en.wikipedia.org/wiki/X-Forwarded-For
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
+https://lite.ip2location.com/sweden-ip-address-ranges?lang=en_US
 ```
 
-14. 
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182092086-82bb8382-b677-4d88-94a6-4503e14146f4.png)
+
+14. `don't speak swedish` means we must change the `accept-language` value to `sv-SE` (swedish-sweden), then click the `send` button.
+
+> RESEARCH LINK
+
+```
+http://www.lingoes.net/en/translator/langcode.htm
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182092459-75a59929-cdda-4acf-a03b-c936217f7224.png)
+
+15. Finally, we got the flag!
+16. Choose the `raw` tab to copy the flag easily.
+
+```html
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 1062
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Who are you?</title>
+
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<body>
+
+    <div class="container">
+      <div class="jumbotron">
+        <p class="lead"></p>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<h3 style="color:green">What can I say except, you are welcome</h3>
+			</div>
+		</div>
+		<br/>
+		
+			<b>picoCTF{http_h34d3rs_v3ry_c0Ol_much_w0w_79e451a7}</b>
+		
+	</div>
+    <footer class="footer">
+        <p>&copy; PicoCTF</p>
+    </footer>
+
+</div>
+<script>
+$(document).ready(function(){
+    $(".close").click(function(){
+        $("myAlert").alert("close");
+    });
+});
+</script>
+</body>
+
+</html>
+```
+---
+
+## FLAG
+
+```
+picoCTF{http_h34d3rs_v3ry_c0Ol_much_w0w_79e451a7}
+```
 
 
 ## REFERENCES
@@ -76,4 +156,5 @@ http://www.lingoes.net/en/translator/langcode.htm
 https://www.techtarget.com/whatis/definition/Do-Not-Track-DNT
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Forwarded-For
 https://en.wikipedia.org/wiki/X-Forwarded-For
+https://lite.ip2location.com/sweden-ip-address-ranges?lang=en_US
 ```
