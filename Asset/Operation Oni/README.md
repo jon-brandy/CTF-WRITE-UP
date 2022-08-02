@@ -4,7 +4,7 @@
 Download this disk image, find the key and log into the remote machine.
 Note: if you are using the webshell, download and extract the disk image into `/tmp` not your home directory.
 - [Download disk image]()
-- Remote machine: `ssh -i key_file -p 52054 ctf-player@saturn.picoctf.net`
+- Remote machine: `ssh -i key_file -p 54121 ctf-player@saturn.picoctf.net`
 ## HINT:
 - NONE
 ## STEPS:
