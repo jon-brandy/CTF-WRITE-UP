@@ -59,15 +59,55 @@ Note: if you are using the webshell, download and extract the disk image into `/
 
 ![image](https://user-images.githubusercontent.com/70703371/182286423-d78fe840-5c5d-452f-aabe-5e77e8eca96a.png)
 
-16. Let's copy the private key value to a file named `pvt_key`.
-17. Then make it useable by run -> `chmod 400 pvt_key` at super user mode `sudo su`.
-18.
+16. Let's copy the private key value to a file named `pvt_key` and run the `ssh` command.
+
+![image](https://user-images.githubusercontent.com/70703371/182291604-29060d2d-d505-43d1-9ef8-6bb63f49ea33.png)
+
+18. Forgot to make it useable by run -> `chmod 400 pvt_key` at super user mode `sudo su`.
 
 > RESEARCH LINK
 
 ```
 https://www.linuxtopia.org/online_books/introduction_to_linux/linux_The_chmod_command.html
 ```
+
+19. Now run the `ssh` command again.
+20. `ssh -i pvt_key -p 54121 ctf-player@saturn.picoctf.net`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182292689-92a3940c-f059-47e2-8349-c6976812244b.png)
+
+20. Seems, i forgot to give an enter at the EOF.
+
+![image](https://user-images.githubusercontent.com/70703371/182292783-c32da856-883a-4420-a196-77f77009c544.png)
+
+21. Now save it with another file named `pvtKey`, then run `chmod 400 pvtKey` and run `ssh` again.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182292995-88fdb445-ab6d-41a8-8585-e3b568d0cbfc.png)
+
+22. Next, try to run `ls`.
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/182293054-523d849f-58db-4c53-b0af-c4dc49e9e7c7.png)
+
+23. i Think this might be the flag, run the `strings` command.
+24. Finally we found the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/182293135-64a6a492-e908-45bb-a84b-78643b412509.png)
+
+
+---
+
+## FLAG
+
+```
+picoCTF{k3y_5l3u7h_339601ed}
+```
+
 
 ## REFERENCES
 
