@@ -59,8 +59,8 @@ Note: if you are using the webshell, download and extract the disk image into `/
 
 ![image](https://user-images.githubusercontent.com/70703371/182286423-d78fe840-5c5d-452f-aabe-5e77e8eca96a.png)
 
-16. Let's copy the private key value to a file named `pvt.key`.
-17. Then make it useable by run -> `chmod 400 pvt.key` at super user mode `sudo su`.
+16. Let's copy the private key value to a file named `pvt_key`.
+17. Then make it useable by run -> `chmod 400 pvt_key` at super user mode `sudo su`.
 18.
 
 > RESEARCH LINK
