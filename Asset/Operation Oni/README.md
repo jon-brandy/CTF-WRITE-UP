@@ -1,5 +1,5 @@
 # Operation Oni
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Download this disk image, find the key and log into the remote machine.
 Note: if you are using the webshell, download and extract the disk image into `/tmp` not your home directory.
@@ -20,7 +20,7 @@ Note: if you are using the webshell, download and extract the disk image into `/
 
 ![image](https://user-images.githubusercontent.com/70703371/182288253-207f5fee-827d-4d5e-919e-1cdd53bce1c3.png)
 
-5. But for this solution i run `binwalk`.
+5. I think we can run the same steps as `Operation Orchid` challenge.
 6. Run `binwalk -e disk.img` to extract every hidden file inside.
 7. Open the extracted folder.
 
@@ -58,4 +58,20 @@ Note: if you are using the webshell, download and extract the disk image into `/
 ![image](https://user-images.githubusercontent.com/70703371/182286402-28e3d899-f941-4c53-a94c-e31c16d6b6fd.png)
 
 ![image](https://user-images.githubusercontent.com/70703371/182286423-d78fe840-5c5d-452f-aabe-5e77e8eca96a.png)
+
+16. Let's copy the private key value to a file named `pvt.key`.
+17. Then make it useable by run -> `chmod 400 pvt.key` at super user mode `sudo su`.
+18.
+
+> RESEARCH LINK
+
+```
+https://www.linuxtopia.org/online_books/introduction_to_linux/linux_The_chmod_command.html
+```
+
+## REFERENCES
+
+```
+https://www.linuxtopia.org/online_books/introduction_to_linux/linux_The_chmod_command.html
+```
 
