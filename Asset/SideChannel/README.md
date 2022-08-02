@@ -10,6 +10,17 @@ connect to the master server using nc saturn.picoctf.net 52680 and provide it th
 3. Don't run your attacks against the master server, it is secured against them. The PIN code you get from the `pin_checker` binary is the same as the one for the master server.
 ## STEPS:
 1. First, download the PIN checker program.
+2. Check the file type.
 
-> SOURCE-CODE
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/182294601-2f86d474-a736-4790-8e0b-fb6c9c1eb75f.png)
+
+3. Let's make it executable by run -> `chmod +x pin_checker`.
+4. Now run it by -> `./pin_checker`.
+
+![image](https://user-images.githubusercontent.com/70703371/182294796-ab384ba3-f2c8-4764-8f30-12bf0640c378.png)
+
+5. Based from the hint number 1, let's do small research about `timing based side-channel attacks`.
+
 
