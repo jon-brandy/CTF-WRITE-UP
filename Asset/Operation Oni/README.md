@@ -63,7 +63,7 @@ Note: if you are using the webshell, download and extract the disk image into `/
 
 ![image](https://user-images.githubusercontent.com/70703371/182291604-29060d2d-d505-43d1-9ef8-6bb63f49ea33.png)
 
-18. Forgot to make it useable by run -> `chmod 400 pvt_key` at super user mode `sudo su`.
+18. Forgot to make it NOT accesible by others, simply run -> `chmod 400 pvt_key` at super user mode `sudo su`.
 
 > RESEARCH LINK
 
