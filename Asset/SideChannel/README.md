@@ -23,4 +23,7 @@ connect to the master server using nc saturn.picoctf.net 52680 and provide it th
 
 5. Based from the hint number 1, let's do small research about `timing based side-channel attacks`.
 
+```
+In cryptography, a timing attack is a side-channel attack in which the attacker attempts to compromise a cryptosystem by analyzing the time taken to execute cryptographic algorithms. Every logical operation in a computer takes time to execute, and the time can differ based on the input; with precise measurements of the time for each operation, an attacker can work backwards to the input. Finding secrets through timing information may be significantly easier than using cryptanalysis of known plaintext, ciphertext pairs. Sometimes timing information is combined with cryptanalysis to increase the rate of information leakage.
+```
 
