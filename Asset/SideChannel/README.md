@@ -33,3 +33,21 @@ Every logical operation in a computer takes time to execute, and the time can di
 Finding secrets through timing information may be significantly easier than using cryptanalysis of known plaintext, ciphertext pairs. Sometimes timing information is combined with cryptanalysis to increase the rate of information leakage.
 ```
 
+6. Since i can't make the `python` script, so i bruteforced it.
+7. At first, i started by enter `00000000`.
+8. Runt the program again at your kali linux using this command -> `time ./pin_checker`.
+
+> NOTES:
+
+```
+The "time" command -> In computing, time is a command in Unix and Unix-like operating systems. It is used to determine the duration of execution of a particular command.
+```
+
+> RESULT
+
+## REFERENCES
+
+```
+https://en.wikipedia.org/wiki/Time_(Unix)
+https://en.wikipedia.org/wiki/Timing_attack
+```
