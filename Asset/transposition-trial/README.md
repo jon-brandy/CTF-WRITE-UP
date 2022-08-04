@@ -12,6 +12,10 @@ Download the corrupted message [here](https://github.com/jon-brandy/CTF-WRITE-UP
 
 ![image](https://user-images.githubusercontent.com/70703371/182869969-ad1399e4-a715-429f-b416-01b3ba39f405.png)
 
+```
+heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_V9AAB1F8}7
+```
+
 3. Well it is the flag, but the flag is corrupted.
 4. Based from the hint, we may split the message into blocks of 3 and see how the first block is scrambled.
 5. 
