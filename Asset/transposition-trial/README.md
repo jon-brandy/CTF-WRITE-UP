@@ -18,4 +18,10 @@ heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_V9AAB1F8}7
 
 3. Well it is the flag, but the flag is corrupted.
 4. Based from the hint, we may split the message into blocks of 3 and see how the first block is scrambled.
-5. 
+5. Since i can't make the script, so i did it manually by check if the current characters of the block is the third one, then move it to the front.
+
+> RESULT
+
+```
+The Flag is
+```
