@@ -31,4 +31,54 @@ Reverse engineer this [binary](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6
 
 ![image](https://user-images.githubusercontent.com/70703371/183071120-7aa5bb8a-7886-4e15-96da-ead579d95db1.png)
 
-8. 
+8. Now press `f5` to see the `psuedocode` pov.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/183080157-f01dafb5-000f-4ea2-a0ee-2b9ea7e1ffd2.png)
+
+```pseudocode
+__int64 __fastcall main(int a1, char **a2, char **a3)
+{
+  int v4; // [rsp+10h] [rbp-40h] BYREF
+  int v5; // [rsp+14h] [rbp-3Ch]
+  char *s; // [rsp+18h] [rbp-38h]
+  char v7[40]; // [rsp+20h] [rbp-30h] BYREF
+  unsigned __int64 v8; // [rsp+48h] [rbp-8h]
+
+  v8 = __readfsqword(0x28u);
+  strcpy(v7, "A:4@r%uL4Ff0f9b03=_cf0cc7fc2e_N");
+  printf("What's my favorite number? ");
+  v5 = 863305;
+  __isoc99_scanf("%d", &v4);
+  v5 = 863305;
+  if ( v4 == 549255 )
+  {
+    v5 = 863305;
+    s = (char *)sub_1249(0LL, v7);
+    fputs(s, stdout);
+    putchar(10);
+    free(s);
+  }
+  else
+  {
+    puts("Sorry, that's not it!");
+  }
+  return 0LL;
+}
+```
+
+9. There's something caught my attention, if you try to analyze the if statements, we can conclude that the secret number might be -> `549255`.
+10. Let's run the program again and input the secret number as `549255`.
+
+![image](https://user-images.githubusercontent.com/70703371/183080546-077dd23c-edb0-4537-be48-dfcb9ce350cf.png)
+
+11. Finally we got the flag!
+
+---
+
+## FLAG
+
+```
+picoCTF{cu7_7h3_bl047_44f74a60}
+```
