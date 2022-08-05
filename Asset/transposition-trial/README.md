@@ -23,5 +23,17 @@ heTfl g as iicpCTo{7F4NRP051N5_16_35P3X51N3_V9AAB1F8}7
 > RESULT
 
 ```
-The Flag is
+The flag is picoCTF{7R4N5P051N6_15_3XP3N51V3_A9AFB178}
 ```
+
+6. Finally we have the flag!
+
+---
+
+## FLAG
+
+```
+The flag is picoCTF{7R4N5P051N6_15_3XP3N51V3_A9AFB178}
+```
+
+
