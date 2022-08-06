@@ -31,7 +31,7 @@ Reverse engineer this [binary](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6
 
 ![image](https://user-images.githubusercontent.com/70703371/183071120-7aa5bb8a-7886-4e15-96da-ead579d95db1.png)
 
-8. Now press `f5` to decompiled it in `c` code.
+8. Now press `f5` to decompiled it to `c` code.
 
 > RESULT
 
