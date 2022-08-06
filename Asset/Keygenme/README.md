@@ -90,3 +90,9 @@ __int64 __fastcall sub_1209(const char *a1)
   return 1LL;
 }
 ```
+
+7. If you look carefully, there's half piece of the flag.
+
+![image](https://user-images.githubusercontent.com/70703371/183235949-5b320bf7-457a-4790-b72d-dc520949c2b4.png)
+
+8. 
