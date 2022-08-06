@@ -37,7 +37,7 @@ Reverse engineer this [binary](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6
 
 ![image](https://user-images.githubusercontent.com/70703371/183080157-f01dafb5-000f-4ea2-a0ee-2b9ea7e1ffd2.png)
 
-```pseudocode
+```c
 __int64 __fastcall main(int a1, char **a2, char **a3)
 {
   int v4; // [rsp+10h] [rbp-40h] BYREF
