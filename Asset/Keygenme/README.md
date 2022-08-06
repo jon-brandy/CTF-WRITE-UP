@@ -95,4 +95,10 @@ __int64 __fastcall sub_1209(const char *a1)
 
 ![image](https://user-images.githubusercontent.com/70703371/183235949-5b320bf7-457a-4790-b72d-dc520949c2b4.png)
 
+> HALF PIECE 
+
+```
+picoCTF{br1ng_y0ur_0wn_k3y_
+```
+
 8. 
