@@ -29,7 +29,7 @@ Reverse engineer this [binary]().
 
 ![image](https://user-images.githubusercontent.com/70703371/183235909-a09d185e-70d0-4005-8d2b-381e31064cde.png)
 
-```asm
+```c
 __int64 __fastcall sub_1209(const char *a1)
 {
   size_t v1; // rax
