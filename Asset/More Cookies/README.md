@@ -44,12 +44,5 @@ print(result)
 6. Homomorphic encryption allows you to perform operations on encrypted text. 
 
 
-**NOTES**: 
-
-```
-I noticed that the letters "CBC" are oddly capitalized in the challenge description. So, It's a CBC bitflip. 
-Meaning the encrypted text contains a bit that determines if it's admin or not, so probably something like `admin=0` and if we change the correct bit, 
-then we can set `admin=1`. But I don't know it's position so I brute forced it with this python code:
-```
 
 
