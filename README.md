@@ -150,7 +150,7 @@ rely on problem solving skills and creative thinking.
 |107. |[Operation Oni](https://github.com/jon-brandy/CTF-WRITE-UP/blob/de9f3a0f4219959ce5b14edab8df184929929f2a/Asset/Operation%20Oni/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/284?page=1&search=operation%20oni)|2022|300|✅ SOLVED|
 |108. |[SideChannel](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9aeb9961fc3bb896061a46e119111f0384f3bf6d/Asset/SideChannel/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/298?category=4&page=4)|2022|400|✅ SOLVED|
 |109. |[transposition-trial](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5eb85ed040278c9a390584fe51d658dd8bc8cade/Asset/transposition-trial/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/312?category=2&originalEvent=70&page=1)|2022|100|✅ SOLVED|
-|110. |[Bbbbloat](https://github.com/jon-brandy/CTF-WRITE-UP/blob/8164eba8dbae5a09828cda791ea9e7ec31ce86aa/Asset/Bbbbloat/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/255?category=3&originalEvent=70&page=1)|2022|300|✅ SOLVED|
+|110. |[Bbbbloat](https://github.com/jon-brandy/CTF-WRITE-UP/blob/efc27af72c007183d8902c3b958f6533f6a1b13b/Asset/Bbbbloat/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/255?category=3&originalEvent=70&page=1)|2022|300|✅ SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
