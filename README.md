@@ -153,7 +153,7 @@ rely on problem solving skills and creative thinking.
 |108. |[SideChannel](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9aeb9961fc3bb896061a46e119111f0384f3bf6d/Asset/SideChannel/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/298?category=4&page=4)|2022|400|✅ SOLVED|
 |109. |[transposition-trial](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5eb85ed040278c9a390584fe51d658dd8bc8cade/Asset/transposition-trial/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/312?category=2&originalEvent=70&page=1)|2022|100|✅ SOLVED|
 |110. |[Bbbbloat](https://github.com/jon-brandy/CTF-WRITE-UP/blob/efc27af72c007183d8902c3b958f6533f6a1b13b/Asset/Bbbbloat/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/255?category=3&originalEvent=70&page=1)|2022|300|✅ SOLVED|
-
+|111. |[RPS](https://github.com/jon-brandy/CTF-WRITE-UP/blob/ec428e61aaec6207d1ff5c5f48a98f3e9acecb17/Asset/RPS/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/293?category=6&page=1)|2022|200|✅ SOLVED|
 ## MEET THE TEAM MEMBERS
 
 
