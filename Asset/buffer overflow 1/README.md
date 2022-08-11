@@ -29,7 +29,6 @@ WE MAY:
 
 Do bufferoverflow
 Inject shellcode
-
 ````
 
 7. 
