@@ -9,4 +9,5 @@ You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/9cda6
 1. Make sure you consider big Endian vs small Endian.
 2. Changing the address of the return pointer can call different functions.
 ## STEPS:
-1. First
+1. First, download both file given.
+2. Next,
