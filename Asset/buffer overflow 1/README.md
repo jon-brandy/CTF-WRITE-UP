@@ -31,4 +31,6 @@ Do bufferoverflow
 Inject shellcode
 ````
 
-7. 
+7. But let's decompile it first, i used `IDA` to decompile it.
+
+
