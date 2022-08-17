@@ -200,4 +200,10 @@ picoCTF{c0ntr0ll3d_clutt3r_1n_my_buff3r}
 ```
 
 
+## REFERENCES:
+
+```
+https://int0x33.medium.com/day-1-rop-emporium-ret2win-64bit-bb0d1893a3b0
+https://0xrick.github.io/binary-exploitation/bof1/
+```
 
