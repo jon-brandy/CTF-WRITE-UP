@@ -86,3 +86,16 @@ int main(void)
 }
 
 ```
+
+7. Notice there's a vuln here, where we can do buffer overflow.
+
+![image](https://user-images.githubusercontent.com/70703371/185035940-9ac136f3-5b71-43d8-bdd9-50d715f3c453.png)
+
+8. Since the string input is not specified -> `gets` not `fgets`.
+9. Also we may get the `flag.txt` if we meet this conditions.
+
+![image](https://user-images.githubusercontent.com/70703371/185036242-626aa7af-d749-4876-935a-bd2d586bc8f1.png)
+
+> If the code variable has the same size as GOAL -> 0xdeadbeef, got the flag.
+
+
