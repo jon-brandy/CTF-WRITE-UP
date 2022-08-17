@@ -85,7 +85,7 @@ int main(void)
   return 0;
 }
 
-```
+```S
 
 7. Notice there's a vuln here, where we can do buffer overflow.
 
@@ -97,5 +97,54 @@ int main(void)
 ![image](https://user-images.githubusercontent.com/70703371/185036242-626aa7af-d749-4876-935a-bd2d586bc8f1.png)
 
 > If the code variable has the same size as GOAL -> 0xdeadbeef, got the flag.
+
+10. Next, let's open `gdb` to check out the bufferoverflow and see where the offset is at.
+11. Now enter `disass main`.
+
+![image](https://user-images.githubusercontent.com/70703371/185041129-64e1dd84-b861-4d7b-a2af-aff73c5be1a8.png)
+
+
+> NOTES:
+
+```
+SIZE -> 0x100 = 256. To buffer it let's input more thatn 256 bytes.
+```
+
+12. Let's input `300` characters.
+13. To simplified that i made the `.c` program.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    char a = 'A';
+    for(int i = 1; i <= 300; i++)
+    {
+        printf("%c", a);
+    }
+
+    return 0;
+}
+```
+
+14. Copy the output.
+15. Now enter `run` at your `pwndbg` terminal.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/185042312-2c31de6b-d6c5-4a6f-9956-dc58e92e7e3b.png)
+
+16. Paste the output.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/185042370-663e2a4e-4fb5-442c-b0d0-841e2392ebaf.png)
+
+![image](https://user-images.githubusercontent.com/70703371/185042391-945fbea6-4172-4cb5-9390-3b3e8adca532.png)
+
+17. The program crashed, because we just overflown the buffer.
+18.
+
 
 
