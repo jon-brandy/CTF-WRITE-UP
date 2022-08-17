@@ -205,5 +205,7 @@ https://www.linuxtopia.org/online_books/introduction_to_linux/linux_The_chmod_co
 https://hackr.io/blog/sql-injection-cheat-sheet
 https://en.wikipedia.org/wiki/Time_(Unix)
 https://en.wikipedia.org/wiki/Timing_attack
+https://int0x33.medium.com/day-1-rop-emporium-ret2win-64bit-bb0d1893a3b0
+https://0xrick.github.io/binary-exploitation/bof1/
 ```
 
