@@ -144,7 +144,16 @@ int main(void)
 ![image](https://user-images.githubusercontent.com/70703371/185042391-945fbea6-4172-4cb5-9390-3b3e8adca532.png)
 
 17. The program crashed, because we just overflown the buffer.
-18.
+18. Notice here, the program knowledged that the input we enter is equal to this.
+
+![image](https://user-images.githubusercontent.com/70703371/185042736-2ed627da-59e2-494c-a605-ba6a6eef21a1.png)
+
+19. Not the `deadbeef`.
+20. Let's take this value and convert it to ascii.
+
+![image](https://user-images.githubusercontent.com/70703371/185043105-2f347ebf-0caa-486d-8888-222f4f062ec4.png)
+
+21. 
 
 
 
