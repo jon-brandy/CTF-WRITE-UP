@@ -110,8 +110,10 @@ int main(void)
 SIZE -> 0x100 = 256. To buffer it let's input more thatn 256 bytes.
 ```
 
+
 12. Let's input `300` characters.
 13. To simplified that i made the `.c` program.
+
 
 ```c
 #include <stdio.h>
@@ -127,6 +129,7 @@ int main(void)
     return 0;
 }
 ```
+
 
 14. Copy the output.
 15. Now enter `run` at your `pwndbg` terminal.
