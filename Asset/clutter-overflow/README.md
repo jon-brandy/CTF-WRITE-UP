@@ -85,7 +85,7 @@ int main(void)
   return 0;
 }
 
-```S
+```
 
 7. Notice there's a vuln here, where we can do buffer overflow.
 
