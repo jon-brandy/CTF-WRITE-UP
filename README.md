@@ -210,5 +210,10 @@ https://en.wikipedia.org/wiki/Time_(Unix)
 https://en.wikipedia.org/wiki/Timing_attack
 https://int0x33.medium.com/day-1-rop-emporium-ret2win-64bit-bb0d1893a3b0
 https://0xrick.github.io/binary-exploitation/bof1/
+https://www.imperva.com/learn/application-security/buffer-overflow/
+https://www.youtube.com/c/CyberSecurityIPB
+https://int0x33.medium.com/day-1-rop-emporium-ret2win-64bit-bb0d1893a3b0
+https://ctf101.org/binary-exploitation/heap-exploitation/
+https://infosecwriteups.com/into-the-art-of-binary-exploitation-0x000001-stack-based-overflow-50fe48d58f10
 ```
 
