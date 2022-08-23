@@ -16,7 +16,7 @@ Download [suspicious.dd.sda1]()
 
 > COMMAND
 
-```
+```sh
 fls suspicious.dd.sda1
 ```
 
@@ -29,7 +29,7 @@ fls suspicious.dd.sda1
 
 > COMMAND
 
-```
+```sh
 icat suspicious.dd.sda1 12
 ```
 
@@ -48,5 +48,72 @@ unlike other data strings that only store letters and numbers.
 ```
 
 8. But for this solution i view this file system as a blob.
-9. 
+9. So let's find the offset of the `Nothing to see` content from the `suspicious.dd.sda1` by run this command:
+
+```sh
+strings -a -t x suspicious.dd.sda1 | grep "Nothing to see"
+```
+
+> NOTES
+
+```
+-a -> scan all
+-t -> print the offset
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/186071027-516afb2f-fbf1-46eb-9ce9-4cf04cafccce.png)
+
+
+10. Great! We found the offset.
+11. Now let's jump to the offset by run this command :
+
+```sh
+xxd -s 0x200400 -l 200 suspicious.dd.sda1.
+```
+
+> NOTES
+
+```
+-s -> seek the offset bytes.
+-l -> len.
+The len is 200 because we want to seek the bytes at 0x200.
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/186071547-c8948ab9-990f-4218-89c8-56ac44ebf4e6.png)
+
+12. I think we found the flag, but the flag is reversed.
+13. So i copied the bytes value and reversed it using `.c` program.
+
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    char strings[] = {"}129088ab_3<_|Lm_111t5_3b{FTCocip"};
+    for(int i = strlen(strings) - 1; i >= 0; i--)
+    {
+        printf("%c", strings[i]);
+    }
+    
+    return 0;
+}
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/186072927-9abab037-77c6-4cb8-a352-8067f20f09ea.png)
+
+14. Finally! We got the flag.
+
+## FLAG
+
+```
+picoCTF{b3_5t111_mL|_<3_ba880921}
+```
 
