@@ -215,5 +215,6 @@ https://www.youtube.com/c/CyberSecurityIPB
 https://int0x33.medium.com/day-1-rop-emporium-ret2win-64bit-bb0d1893a3b0
 https://ctf101.org/binary-exploitation/heap-exploitation/
 https://infosecwriteups.com/into-the-art-of-binary-exploitation-0x000001-stack-based-overflow-50fe48d58f10
+https://cloudsecurityalliance.org/blog/2022/05/04/what-is-a-blob-binary-large-object-can-it-be-tokenized/
 ```
 
