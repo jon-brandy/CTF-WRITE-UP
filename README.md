@@ -154,6 +154,9 @@ rely on problem solving skills and creative thinking.
 |110. |[Bbbbloat](https://github.com/jon-brandy/CTF-WRITE-UP/blob/efc27af72c007183d8902c3b958f6533f6a1b13b/Asset/Bbbbloat/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/255?category=3&originalEvent=70&page=1)|2022|300|✅ SOLVED|
 |111. |[RPS](https://github.com/jon-brandy/CTF-WRITE-UP/blob/ec428e61aaec6207d1ff5c5f48a98f3e9acecb17/Asset/RPS/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/293?category=6&page=1)|2022|200|✅ SOLVED|
 |112. |[clutter-overflow](https://github.com/jon-brandy/CTF-WRITE-UP/blob/79a0d053bb99d84ef4fb4c8fc86d0badafdbb391/Asset/clutter-overflow/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/216?category=6&page=1)|picoMini|150|✅ SOLVED|
+|113. |[Pitter, Patter, Platters](https://github.com/jon-brandy/CTF-WRITE-UP/blob/adfece2afb7d3b2d27a38f4838924213921e28c0/Asset/Pitter%20,%20Patter,%20Platters/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/87?category=4&page=2)|picoMini|200|✅ SOLVED|
+
+
 
 
 ## MEET THE TEAM MEMBERS
