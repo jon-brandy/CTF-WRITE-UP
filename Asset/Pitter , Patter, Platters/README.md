@@ -42,7 +42,9 @@ icat suspicious.dd.sda1 12
 > NOTES
 
 ```
-BLOB stands for a “Binary Large Object,” a data type that stores binary data. Binary Large Objects (BLOBs) can be complex files like images or videos, unlike other data strings that only store letters and numbers.
+BLOB stands for a “Binary Large Object,” a data type that stores binary data. 
+Binary Large Objects (BLOBs) can be complex files like images or videos, 
+unlike other data strings that only store letters and numbers.
 ```
 
 8. But for this solution i view this file system as a blob.
