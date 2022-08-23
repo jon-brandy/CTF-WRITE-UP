@@ -7,4 +7,32 @@ We think this transmission contains a hidden message. There are also some clues 
 1. Use the clues to extract the another flag from the .wav file.
 ## STEPS:
 1. First, download all the files given.
-2. 
+2. I think we may use the same step as the `m00nwalk` challenge.
+3. So i open `RXSSTV` and play the audio at my phone (set the phone as the speaker) and select `scottie 1` as the mode.
+
+> MESSAGE.WAV
+
+![image](https://user-images.githubusercontent.com/70703371/186167745-e66c12de-07a5-4987-978f-519c98a9ce34.png)
+
+> CLUE1.WAV -> i use Martin 1 as the mode.
+
+![image](https://user-images.githubusercontent.com/70703371/186168966-b02552c3-be23-4169-8482-bc7459bcf818.png)
+
+> CLUE2.WAV -> i use scottie 2 as the mode.
+
+![image](https://user-images.githubusercontent.com/70703371/186170230-425f5143-89be-41cd-8016-5cc3b7ac143a.png)
+
+> CLUE3.WAV
+
+![image](https://user-images.githubusercontent.com/70703371/186170721-a334440f-0d01-4180-9aca-5f184f06b222.png)
+
+4. Hmm.. From all of the images we received, seems there's two images that caught my attention.
+5. The first one is the `stego` , it's obvious we may use tools related to **steganography** and the password for extraction is `hidden_password`. For the `future boys` image, if we try to search that on the internet.
+6. I found this.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/186171559-3a6fc0b9-f21f-44e9-bb65-abce9dc3e4fd.png)
+
+7. Now it's more obvious that it's a steganography.
+8. For this solution i used stegsolve
