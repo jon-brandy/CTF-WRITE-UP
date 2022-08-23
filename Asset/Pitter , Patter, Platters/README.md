@@ -37,5 +37,14 @@ icat suspicious.dd.sda1 12
 
 ![image](https://user-images.githubusercontent.com/70703371/186069278-4bf157f2-ed70-447e-a612-93f7c926cee5.png)
 
-6. Well let's try to use an online tools called [Autopsy]().
+6. Based from the hint number 1, we may view this file as a blob or an actual mounted disk. What's come in my mind is, we may use [Autopsy](https://www.autopsy.com/) or [Sleuthkit](https://www.sleuthkit.org/).
+
+> NOTES
+
+```
+BLOB stands for a “Binary Large Object,” a data type that stores binary data. Binary Large Objects (BLOBs) can be complex files like images or videos, unlike other data strings that only store letters and numbers.
+```
+
+8. But for this solution i view this file system as a blob.
+9. 
 
