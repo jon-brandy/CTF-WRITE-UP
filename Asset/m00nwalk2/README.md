@@ -35,4 +35,24 @@ We think this transmission contains a hidden message. There are also some clues 
 ![image](https://user-images.githubusercontent.com/70703371/186171559-3a6fc0b9-f21f-44e9-bb65-abce9dc3e4fd.png)
 
 7. Now it's more obvious that it's a steganography.
-8. For this solution i used stegsolve
+8. For this solution i used `steghide`.
+9. Run this command -> `steghide extract -sf message.wav -p hidden_stegosaurus`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/186172610-c71a219d-51ff-4b15-8bdf-b640ba894574.png)
+
+10. Open the extracted `.txt` file.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/186172835-89330947-b5bc-4b41-9d21-ce3b17af38bb.png)
+
+
+11. Finally, we got the flag!
+
+## FLAG
+
+```
+picoCTF{the_answer_lies_hidden_in_plain_sight}
+```
