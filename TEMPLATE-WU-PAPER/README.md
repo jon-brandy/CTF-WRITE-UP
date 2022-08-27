@@ -1,18 +1,25 @@
-# [TITLE]
+# TITLE
 #### Write-up author : [GITHUB_USERNAME]()
 ## DESCRIPTION:
 
-## HINT:
+## HINT(S):
+
+> IF NONE -> -
 
 
 ## STEPS:
+1. 
 
-
----
 
 
 
 ## FLAG:
+
 ```
-picoCTF{..}
+CTF{..}
+```
+
+## REFERENCES (IF ALVAILABLE)
+
+```
 ```
