@@ -35,7 +35,7 @@ The file is stripped so we can't see the functions name.
 
 ![image](https://user-images.githubusercontent.com/70703371/187009348-09d65a36-ba4e-480c-b0d7-95caa8b8da1c.png)
 
-8. At the if statements, notice there's a function called `sub_1209`. Now let's open that function.
+7. At the if statements, notice there's a function called `sub_1209`. Now let's open that function.
 
 > FUNCTION sub_1209
 
@@ -103,7 +103,7 @@ __int64 __fastcall sub_1209(const char *a1)
 }
 ```
 
-7. If you look carefully, there's half piece of the flag.
+8. If you look carefully, there's half piece of the flag.
 
 ![image](https://user-images.githubusercontent.com/70703371/183235949-5b320bf7-457a-4790-b72d-dc520949c2b4.png)
 
@@ -113,4 +113,9 @@ __int64 __fastcall sub_1209(const char *a1)
 picoCTF{br1ng_y0ur_0wn_k3y_
 ```
 
-8. 
+9. Let's go back to our main function.
+10. I tried to jump to the `readfs` function.
+
+![image](https://user-images.githubusercontent.com/70703371/187009470-344db756-49c2-44ab-ba0c-49cbcdd08a4a.png)
+
+11. 
