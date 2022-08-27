@@ -113,9 +113,61 @@ __int64 __fastcall sub_1209(const char *a1)
 picoCTF{br1ng_y0ur_0wn_k3y_
 ```
 
-9. Let's go back to our main function.
-10. I tried to jump to the `readfs` function.
+9. Also notice there's another variable there that might be stored the full flag but we only see the curly brackets.
 
-![image](https://user-images.githubusercontent.com/70703371/187009470-344db756-49c2-44ab-ba0c-49cbcdd08a4a.png)
+![image](https://user-images.githubusercontent.com/70703371/187011487-8f961db1-ed4e-472b-9ada-913562407a3b.png)
 
-11. 
+10. Let's run the program using gdb and set the breakpoint at this offset:
+
+![image](https://user-images.githubusercontent.com/70703371/187011764-75626f16-3266-4421-92f8-2887f70de475.png)
+
+11. Since i can't see the offset using `IDA`, so used `Cutter` to see the offset.
+
+> USING CUTTER WE GOT -> 0x140a
+
+![image](https://user-images.githubusercontent.com/70703371/187011722-941a4433-b532-4bde-8b72-a19dcc33df5c.png)
+
+12. Then i tried to use `gdb`.
+13. Run the program and press `ctrl + c`.
+
+![image](https://user-images.githubusercontent.com/70703371/187011837-4199c4cb-cfe0-42a2-a19a-dc2ffe7a8e31.png)
+
+> SET BREAKPOINT MOMENT
+
+14. Now enter `breakrva 0x140a`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/187011896-45f4c568-281c-4a35-b214-d4386c4df587.png)
+
+15. Press `c` to continue.
+16. Now enter any numbers, but we don't need to enter the length as the program want us to.
+17. So i enter 1234567.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/187011938-d95373ec-ea2b-4672-9bd3-3b0ecd5e7807.png)
+
+18. Now enter `x/64gx $rsp` to see the all the hex at the current offset.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/187012030-1a7d030d-d3e0-4ba1-8bd8-868ef131db78.png)
+
+20. Let's make it represent as strings by input `x/64s $rsp`
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/187012051-82095a53-f195-42c5-868b-7dcd4e9e8225.png)
+
+
+21. Finally we found the flag!
+
+
+## FLAG
+
+```
+picoCTF{br1ng_y0ur_0wn_k3y_9d74d90d}
+```
+
+
