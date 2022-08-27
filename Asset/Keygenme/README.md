@@ -31,7 +31,11 @@ The file is stripped so we can't see the functions name.
 
 ![image](https://user-images.githubusercontent.com/70703371/183235867-b82da72c-e8aa-4ea1-a8c2-d79bc129078d.png)
 
-6. At the if statements, notice there's a function called `sub_1209`. Now let's open that function.
+6. Notice there's a canary to prevent buffer overflows there.
+
+![image](https://user-images.githubusercontent.com/70703371/187009348-09d65a36-ba4e-480c-b0d7-95caa8b8da1c.png)
+
+8. At the if statements, notice there's a function called `sub_1209`. Now let's open that function.
 
 > FUNCTION sub_1209
 
