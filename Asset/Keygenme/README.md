@@ -8,11 +8,17 @@ Reverse engineer this [binary]().
 ## HINT:
 - NONE
 ## STEPS:
-1. First, download the file given.
+1. First, download the file given then check the file type.
 
-![image](https://user-images.githubusercontent.com/70703371/183235700-6d1e0d57-c5a2-4f0b-b5d3-4ba184d5d45b.png)
+![image](https://user-images.githubusercontent.com/70703371/187009192-0946031f-6269-4b30-9c28-7ec74ac56c56.png)
 
-2. Since, make it executeable by run -> `chmod +x keygenme`.
+> NOTES
+
+```
+The file is stripped so we can't see the functions name.
+```
+
+2. Since it's an ELF 64 bit file, let's make it executeable by run -> `chmod +x keygenme`.
 3. Now, let's run the program.
 
 ![image](https://user-images.githubusercontent.com/70703371/183235724-cd305486-62c1-43dd-b442-fdfe5be70baf.png)
