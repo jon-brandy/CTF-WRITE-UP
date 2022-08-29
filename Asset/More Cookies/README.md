@@ -63,7 +63,6 @@ yK30fLBL10jNr2I6H7iDwrxse8Af+jwwCpYn9wPdj2dRqRYbcfM+UwI3pxsaBvqZdFQ/RHIjNrVf2C+s
 ```py
 
 ```
-6. Homomorphic encryption allows you to perform operations on encrypted text. 
 
 
 ## REFERENCES:
