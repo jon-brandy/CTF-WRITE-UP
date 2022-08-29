@@ -46,6 +46,14 @@ print(result)
 yK30fLBL10jNr2I6H7iDwrxse8Af+jwwCpYn9wPdj2dRqRYbcfM+UwI3pxsaBvqZdFQ/RHIjNrVf2C+sV6kxo5znPtS1dhb0eaXHv4SgYmphz/NMIsGY35r6IsrL2Gnh
 ```
 
+5. Well i tried to decode it once more and we still got unidentified output.
+
+> THE OUTPUT:
+
+
+![image](https://user-images.githubusercontent.com/70703371/187215966-c8a87151-e323-429f-b0cd-a2cdcf5118d5.png)
+
+
 5. Based from the hint number 1, i notice that we don't have to decrypt the text to find the flag, but we may perform operations on an encrypted text to find the flag.
 6. What comes to my mind it **bit-flipping**.
 
