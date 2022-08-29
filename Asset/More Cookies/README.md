@@ -54,8 +54,11 @@ yK30fLBL10jNr2I6H7iDwrxse8Af+jwwCpYn9wPdj2dRqRYbcfM+UwI3pxsaBvqZdFQ/RHIjNrVf2C+s
 ![image](https://user-images.githubusercontent.com/70703371/187209124-fab4599c-b8dc-4cea-b73f-53ce423ef41d.png)
 
 7. Notice at the description, the letter `C` , and `B` are capitalized.
-8. Which gave us a clue that we may have to use `CBC bit-flip` attack to the encrypted text.
-9. Hence, i made this script:
+
+![image](https://user-images.githubusercontent.com/70703371/187211319-f68e2de5-294c-4d40-b64a-13f940c7fb1b.png)
+
+9. Which gave us a clue that we may have to use `CBC bit-flip` attack to the encrypted text.
+10. Hence, i made this script:
 
 ```py
 
