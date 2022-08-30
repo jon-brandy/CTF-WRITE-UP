@@ -126,7 +126,7 @@ let exports;
 9. It looks like a `wasm` file, download the file by changing the url to this -> `mercury.picoctf.net:12557/qCCYI0ajpD`.
 10. For this solution i decode the file by run this command at kali linux terminal.
 
-```bash
+```sh
 wasm-decompile qCCYI0ajpD
 ```
 
@@ -261,4 +261,54 @@ function copy(a:int, b:int) {
 
 
 ```
+
+11. I think this is **go** language (?)
+12. So i put the output to a file named `output.go`.
+
+> COMMAND
+
+```sh
+wasm-decompile -o output.go
+```
+
+13. There's something caught my attention here.
+
+![image](https://user-images.githubusercontent.com/70703371/187349178-708f1229-b53d-437b-9978-8b8df2e73a2a.png)
+
+14. Looks like it's a hex byte but we need to add the `x` in front of each value so it would be perfect hexadecimal byte.
+
+> MODIFIED HEX BYTES:
+
+```py
+hexa1024 = "\x9dn\x93\xc8\xb2\xb9A\x8b\xc2\x97\xd4f\xc7\x93\xc4\xd4a\xc2\xc6\xc9\xddb\x94\x9e\xc2\x892\x91\x90\xc1\xdd3\x91\x91\x97\x8bd\xc1\x92\xc4\x90\x00\x00"
+hexa1067= "\xf1\xa7\xf0\x07\xed"
+```
+
+15. If we try to analyze the `go` code, we can conclude that the flag is xored.
+16. To decode it, i used this python script:
+
+```py
+import os
+
+os.system('clear')
+
+hexa1024 = "\x9dn\x93\xc8\xb2\xb9A\x8b\xc2\x97\xd4f\xc7\x93\xc4\xd4a\xc2\xc6\xc9\xddb\x94\x9e\xc2\x892\x91\x90\xc1\xdd3\x91\x91\x97\x8bd\xc1\x92\xc4\x90\x00\x00"
+hexa1067= "\xf1\xa7\xf0\x07\xed"
+
+for i in range(len(hexa1024)):
+    print(chr(ord(hexa1024[i])^ord(hexa1067[4 - (i % 5)])), end="")
+```
+
+> OUTPUT:
+
+![image](https://user-images.githubusercontent.com/70703371/187351256-1864c08f-2cfa-4808-a856-cd9fea70cc59.png)
+
+17. Finally we got the flag!
+
+## FLAG
+
+```
+picoCTF{ef9a7459f2a80ed93d5a7004a6ffc155}
+```
+
 
