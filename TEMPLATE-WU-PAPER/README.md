@@ -10,6 +10,7 @@
 ## STEPS:
 1. 
 
+> NOTES (OPTIONAL)
 
 
 
