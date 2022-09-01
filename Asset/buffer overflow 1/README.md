@@ -154,8 +154,17 @@ https://en.wikipedia.org/wiki/Endianness
 ```py
 sys.stdout.buffer.write()
 ```
-23. 
+
+23. So for the strings would be like this:
+
+```py
+b'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xf6\x91\x04\x08'
+```
 
 
+## LEARNING REFERENCES:
 
+```
+https://en.wikipedia.org/wiki/Endianness
+```
 
