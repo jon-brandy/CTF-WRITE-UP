@@ -140,6 +140,22 @@ Cutter vuln
 0x080491f6
 ```
 
-20.
+20. Based from the hint number 1 about endian, we know we can't display hexa bytes like this -> `0x080491f6`. We must display it in `Little-Endian`.
+
+> ABOUT LITTLE ENDIAN
+
+```
+https://en.wikipedia.org/wiki/Endianness
+```
+
+21. And to add the little endian behind the A string, we can't use print.
+22. But use:
+
+```py
+sys.stdout.buffer.write()
+```
+23. 
+
+
 
 
