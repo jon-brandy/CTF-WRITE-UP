@@ -158,6 +158,8 @@ rely on problem solving skills and creative thinking.
 |113. |[clutter-overflow](https://github.com/jon-brandy/CTF-WRITE-UP/blob/79a0d053bb99d84ef4fb4c8fc86d0badafdbb391/Asset/clutter-overflow/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/216?category=6&page=1)|picoMini redPwn|150|✅ SOLVED|
 |114. |[Pitter, Patter, Platters](https://github.com/jon-brandy/CTF-WRITE-UP/blob/adfece2afb7d3b2d27a38f4838924213921e28c0/Asset/Pitter%20,%20Patter,%20Platters/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/87?category=4&page=2)|picoMini 2020|200|✅ SOLVED|
 |115. |[Keygenme](https://github.com/jon-brandy/CTF-WRITE-UP/blob/6001ae8fe3bedea7bb138341a33267d712d5c67a/Asset/Keygenme/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/276?category=3&originalEvent=70&page=1)|2022|400|✅ SOLVED|
+|116. |[Pixelated](https://github.com/jon-brandy/CTF-WRITE-UP/blob/b4419544cb1e524a3b0d38f7312537039c3654e7/Asset/Pixelated/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/100?category=2&page=1)|2021|100|✅ SOLVED|
+
 
 
 
