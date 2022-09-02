@@ -100,5 +100,46 @@ arg2 must be -> 0xF00DF00D
 win() address -> 0x8049296
 ```
 
+11. Now let's run the program.
 
+> RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/188069254-a10261de-a5f7-4413-8b33-715daec8e591.png)
+
+12. Let's try to input the same size as the buffer -> 100.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/188069350-40a8a62d-e1fe-444f-9775-0c9da587e507.png)
+
+13. Let's add another 4 bytes.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/188069415-4e7143ae-2d77-42f7-92b1-a5e6a9d800a7.png)
+
+14. Add another 4 bytes again.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/188069527-ecac073e-59e2-469a-adee-6a51c025a3e0.png)
+
+15. Great the program crashed.
+16. But at this point we didn't know did we just change the return address or not. 
+17. So we need to find the `offset` of the **EIP**.
+
+> NOTES
+
+```
+A standard buffer overflow is used to overwrite the EIP. It is usually possible to predict an appropriate EIP value that will land execution within 
+the NOPs which will “execute” until the payload (usually shellcode) is encountered. 
+• The shellcode then spawns a process to download and execute malware.
+```
+
+18.
+
+## REFERENCES:
+
+```
+https://www.sciencedirect.com/topics/computer-science/extended-instruction-pointer
+```
