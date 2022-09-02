@@ -2,8 +2,8 @@
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Control the return address and arguments This time you'll need to control the arguments to the function you return to! 
-Can you get the flag from this [program?]() 
-You can view source [here](). And connect with it using `nc saturn.picoctf.net 53709`.
+Can you get the flag from this [program?](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f4988ca3e1525733628e10f39c3873e83589c97f/Asset/buffer%20overflow%202/vuln) 
+You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f4988ca3e1525733628e10f39c3873e83589c97f/Asset/buffer%20overflow%202/vuln.c). And connect with it using `nc saturn.picoctf.net 53709`.
 ## HINT:
 1. Try using GDB to print out the stack once you write to it.
 ## STEPS:
