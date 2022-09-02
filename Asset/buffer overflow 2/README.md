@@ -12,3 +12,18 @@ You can view source [here](). And connect with it using `nc saturn.picoctf.net 5
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/188063140-c8571087-3b43-4285-a497-fc02f80176ac.png)
+
+3. Since it's not stripped we can see the function in gdb then.
+4. But i want to check the protector available here, so let's run `checksec --file vuln`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/188063279-a839274b-0c72-46ac-adad-983d54e0aaf2.png)
+
+5. Great **no canary** found and **no pie**.
+6. Now let's analyze the source code first.
+
+> VULN.C  
+
+
