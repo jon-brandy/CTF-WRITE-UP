@@ -136,7 +136,25 @@ the NOPs which will “execute” until the payload (usually shellcode) is encou
 • The shellcode then spawns a process to download and execute malware.
 ```
 
-18.
+18. To found the offset let's make cyclic pattern with the 1024 as the size.
+
+> I USED GDB FOR THIS STEPS
+
+![image](https://user-images.githubusercontent.com/70703371/188070976-129eefdb-9fe2-46ad-a827-2d5a912b0cb1.png)
+
+> RUN THE PROGRAM & PASTE THE STRINGS
+
+![image](https://user-images.githubusercontent.com/70703371/188071041-581dbc79-7d65-4f2c-85de-aa39787eb020.png)
+
+> FIND THE OFFSET OF $EIP
+
+![image](https://user-images.githubusercontent.com/70703371/188071166-839f09c6-19f8-4110-9f99-e1ad39d9751d.png)
+
+> FOUND AT 112
+
+![image](https://user-images.githubusercontent.com/70703371/188071195-84200e05-dbb6-4d4e-a52f-11bb03a218ae.png)
+
+19.
 
 ## REFERENCES:
 
