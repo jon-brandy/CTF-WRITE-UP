@@ -77,7 +77,7 @@ int main(int argc, char **argv){
 ![image](https://user-images.githubusercontent.com/70703371/188063545-c5fbdb3d-339a-4b33-b167-e14efef15c09.png)
 
 8. I think this challenge is quite similiar to the previous one, but based from the description we need to control the arguments too not just the return address.
-9. The win function caught my attention, because of the condition we must to fullfill in order to got the flag.
+9. The win function caught my attention, because of the condition we must to fullfill to get the flag. 
 
 ![image](https://user-images.githubusercontent.com/70703371/188063795-b1c206bc-c2fd-4e19-87d4-fd8cfdddf37a.png)
 
