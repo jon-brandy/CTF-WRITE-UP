@@ -110,3 +110,14 @@ int main(int argc, char **argv){
 
 ```
 
+7. It seems we need to find the `win()` function's address.
+
+![image](https://user-images.githubusercontent.com/70703371/188172478-79333a8c-77ab-46d1-a766-3b574b24b1ab.png)
+
+8. And these part is quite interesting.
+
+![image](https://user-images.githubusercontent.com/70703371/188172567-1d71dcbf-b669-49ae-97f6-e3f17be89f25.png)
+
+![image](https://user-images.githubusercontent.com/70703371/188172710-681b4d70-526f-4101-9f73-cc981f987f4c.png)
+
+9. 
