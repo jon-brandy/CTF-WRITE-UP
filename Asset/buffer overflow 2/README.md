@@ -74,4 +74,20 @@ int main(int argc, char **argv){
 
 ```
 
-7. 
+7. Found the vuln here because of the `gets()` function.
+
+![image](https://user-images.githubusercontent.com/70703371/188063545-c5fbdb3d-339a-4b33-b167-e14efef15c09.png)
+
+8. I think this challenge is quite similiar to the previous one, but based from the description we need to control the arguments too not just the return address.
+9. The win function caught my attention, because of the hex bytes.
+
+![image](https://user-images.githubusercontent.com/70703371/188063795-b1c206bc-c2fd-4e19-87d4-fd8cfdddf37a.png)
+
+> NOTES
+
+```
+arg1 must be -> 0xCAFEF00D
+arg2 must be -> 0xF00DF00D
+```
+
+10. 
