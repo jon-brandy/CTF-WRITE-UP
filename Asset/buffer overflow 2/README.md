@@ -70,8 +70,6 @@ int main(int argc, char **argv){
   vuln();
   return 0;
 }
-
-
 ```
 
 7. Found the vuln here because of the `gets()` function.
