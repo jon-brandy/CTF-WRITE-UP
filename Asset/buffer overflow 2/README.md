@@ -88,4 +88,16 @@ arg1 must be -> 0xCAFEF00D
 arg2 must be -> 0xF00DF00D
 ```
 
-10. 
+10. Anyway let's get the **win()** function's address first by run `gdb`.
+
+> STEPS
+
+![image](https://user-images.githubusercontent.com/70703371/188064249-f34a5f04-ef34-424a-8a08-92665044f17d.png)
+
+![image](https://user-images.githubusercontent.com/70703371/188064277-23c6d1b1-9a53-4851-93b1-33c2bd3b7662.png)
+
+```
+win() address -> 0x8049296
+```
+
+11. 
