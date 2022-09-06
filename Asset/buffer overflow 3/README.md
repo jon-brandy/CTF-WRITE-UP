@@ -134,4 +134,26 @@ int main(int argc, char **argv){
 
 12. I input the text `FLAG{}` inside the `canary.txt`.
 13. Now let's run it again.
-14. 
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/188622760-ad52a965-ddd9-44e7-841d-cfb527b03694.png)
+
+14. Let's input 10 as the buffer and lots of A's character as the input.
+
+![image](https://user-images.githubusercontent.com/70703371/188622963-a8bee08a-4e83-4346-b9b8-8cee0ad387d9.png)
+
+15. Seems we can't do it this way, so let's decompile the code using `Cutter`.
+
+![image](https://user-images.githubusercontent.com/70703371/188624102-ad49863f-091d-4b58-a3d1-897377e987fc.png)
+
+16. Let's jump to the `vuln()` function.
+
+![image](https://user-images.githubusercontent.com/70703371/188624166-0185c470-20e8-4802-8853-148bc01a3271.png)
+
+17. Great we found the **global_canary** here, seems it uses `s2` as the variable.
+
+![image](https://user-images.githubusercontent.com/70703371/188624740-692884a0-129a-499f-8b47-27ca170157e6.png)
+
+18. 
+
