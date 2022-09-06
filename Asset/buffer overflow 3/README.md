@@ -126,4 +126,12 @@ int main(int argc, char **argv){
 ![image](https://user-images.githubusercontent.com/70703371/188622192-402f89e7-d5ba-43b3-8bc2-8171ad5d66ed.png)
 
 10. If the canary does not match the global canary then the program will detect that we tried to overflowing.
-11. 
+11. Now let's try to run the `program` file.
+
+> RESULTS
+
+![image](https://user-images.githubusercontent.com/70703371/188622563-f75f334d-df59-4e04-a531-03de2cab7836.png)
+
+12. I input the text `FLAG{}` inside the `canary.txt`.
+13. Now let's run it again.
+14. 
