@@ -44,4 +44,28 @@ for i, c in enumerate(b16):
 print(enc)
 ```
 
-3. 
+3. The assert function is new to me, so i need to do a research about it.
+
+> RESEARCH RESULTS
+
+```
+In Python, the assert statement is used to continue the execute if the given condition evaluates to True. 
+If the assert condition evaluates to False, then it raises the AssertionError exception with the specified error message.
+```
+
+4. Based from the scripts, the key needs to be only one character long and the chracter must be between a and p.
+
+![image](https://user-images.githubusercontent.com/70703371/188619544-924d75a4-dbbc-44ba-b9dd-bce23b24906e.png)
+
+![image](https://user-images.githubusercontent.com/70703371/188619643-2d14ad2a-42c4-4749-a875-a580b14f0a2b.png)
+
+![image](https://user-images.githubusercontent.com/70703371/188619687-c8553582-424b-47b7-84b5-fc7fd23fb017.png)
+
+5. 
+
+
+## LEARNING REFERENCES:
+
+```
+https://www.tutorialsteacher.com/python/python-assert
+```
