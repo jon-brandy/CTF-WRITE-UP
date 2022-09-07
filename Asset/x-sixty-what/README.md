@@ -75,3 +75,20 @@ int main(int argc, char **argv){
 
 ![image](https://user-images.githubusercontent.com/70703371/188837621-3209223f-60c9-42ff-af39-eda4e688d98e.png)
 
+9. Since we can't see what address we jumped to, let's run the program using gdb and create pattern of strings.
+
+![image](https://user-images.githubusercontent.com/70703371/188853146-978f0577-35e5-49e4-9271-3b2328640110.png)
+
+10. Copy the strings, now run the program and paste the strings as input.
+
+> RESULTS
+
+![image](https://user-images.githubusercontent.com/70703371/188853468-31758b86-5ddf-4dc3-a559-9cae8b4559fd.png)
+
+![image](https://user-images.githubusercontent.com/70703371/188853500-d2c10f45-f3b0-442e-8a8a-bf6c7e2f81f2.png)
+
+11. Notice here, somehow **rip** does not have our input.
+
+![image](https://user-images.githubusercontent.com/70703371/188854058-6e90c4d1-ba23-47ff-8ad5-c17670eb579a.png)
+
+12. 
