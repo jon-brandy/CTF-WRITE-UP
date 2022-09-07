@@ -1,5 +1,5 @@
 # x-sixty-what
-#### Write-up author: [jon-brandy]()
+#### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
 Overflow x64 code 
 Most problems before this are 32-bit x86.
