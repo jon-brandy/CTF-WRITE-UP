@@ -229,5 +229,6 @@ https://cloudsecurityalliance.org/blog/2022/05/04/what-is-a-blob-binary-large-ob
 https://owasp.org/www-community/attacks/XPATH_Injection
 https://book.hacktricks.xyz/pentesting-web/xpath-injection
 https://crypto.stackexchange.com/questions/66085/bit-flipping-attack-on-cbc-mode/66086#66086
+https://www.felixcloutier.com/x86/mov
 ```
 
