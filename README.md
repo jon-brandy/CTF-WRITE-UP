@@ -182,9 +182,9 @@ rely on problem solving skills and creative thinking.
 
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
-|[jon-brandy](https://github.com/jon-brandy)|Web Exploitation - Forensics - Binary Exploitation|College Student - Researcher|
-|[Q](https://github.com/tkxldk)|Cryptography - Forensics|College Student - Designer|
-|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student|
+|[jon-brandy](https://github.com/jon-brandy)|Web Exploitation - Forensic - Binary Exploitation|College Student - Researcher|
+|[Q](https://github.com/tkxldk)|Cryptography - Forensic|College Student - Designer|
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensic|College Student|
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse Engineering - Cryptography|College Student - Entrepreneur|
 |[stephanchandra](https://github.com/stephanchandra)|Binary Exploitation|College Student - Mentor|
