@@ -71,4 +71,7 @@ int main(int argc, char **argv){
 
 ```
 
-8. 
+8. At the `vuln()` function, we can take advantage of the `gets()` function to do bufferoverflow.
+
+![image](https://user-images.githubusercontent.com/70703371/188837621-3209223f-60c9-42ff-af39-eda4e688d98e.png)
+
