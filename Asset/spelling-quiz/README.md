@@ -57,3 +57,20 @@ for filename in files:
     open(filename, 'w').write(encrypted)
 
 ```
+
+6. Seems, there's few important clues.
+
+> CLUES
+
+![image](https://user-images.githubusercontent.com/70703371/189390610-a0927167-c226-47cb-8027-8e3db011a487.png)
+
+
+8. Because the chars always shuffled, so the dictionary does the same.
+
+> DICTIONARY
+
+![image](https://user-images.githubusercontent.com/70703371/189391210-f0b2196f-a325-4c95-b84c-a3bfd132ed35.png)
+
+9. 
+
+
