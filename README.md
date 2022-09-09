@@ -161,8 +161,7 @@ rely on problem solving skills and creative thinking.
 |117. |[buffer overflow 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/dccab309e583151a5606535964c860d498cd786d/Asset/buffer%20overflow%201/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/258?category=6&page=1)|2022|200|✅ SOLVED|
 |118. |[buffer overflow 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/e49ae571d82c10cb1800907b1daa46a512cc7d82/Asset/buffer%20overflow%202/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/259?category=6&page=2)|2022|300|✅ SOLVED|
 |119. |[x-sixty-what](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7500632464d01a4401bd1625796f69aed3c607f9/Asset/x-sixty-what/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/319?category=6&originalEvent=70&page=1&search=)|2022|200|✅ SOLVED|
-
-
+|120. |[spelling-quiz](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5b947ed4ee2de28aa10675fa1ec5c11fe4ed8d48/Asset/spelling-quiz/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/210?category=2&page=2)|picoMini|100|✅ SOLVED|
 
 ## MEET THE TEAM MEMBERS
 
