@@ -71,6 +71,33 @@ for filename in files:
 
 ![image](https://user-images.githubusercontent.com/70703371/189391210-f0b2196f-a325-4c95-b84c-a3bfd132ed35.png)
 
-9. 
+9. Luckily there's an online [tools](https://quipqiup-com.translate.goog/?_x_tr_sl=auto&_x_tr_tl=id&_x_tr_hl=en&_x_tr_pto=op,wapp) that can help us to solve this type of cryptography.
+
+> THE WEBSITE
+
+![image](https://user-images.githubusercontent.com/70703371/189392957-c8662905-fc06-496f-b5d2-aff067e95448.png)
+
+10. To use this, print the `dictionary` at the python script.
+11. Copy the output and paste it on the website as `CLUES`.
+12. For the puzzle, simply paste the output from the `flag.txt` strings.
+13. Don't forget to remove the semicolon `{` , `}` and change `a = x` not `:` & `'`.
+
+![image](https://user-images.githubusercontent.com/70703371/189394445-daa1f957-cca3-4912-b36c-d622a9b4fd8d.png)
+
+14. Press the solve button.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/189394544-1442d9f5-03b9-48c4-89b9-53fab5dc5211.png)
+
+
+15. Finally, we got the flag! 
+16. Wrap the flag with `picoCTF{}`.
+
+## FLAG
+
+```
+picoCTF{perhaps_the_dog_jumped_over_was_just_tired}
+```
 
 
