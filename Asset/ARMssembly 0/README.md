@@ -1,7 +1,7 @@
 # ARMssembly 
 #### Write-up author: [jon-brandy](https://github.com/jon-brandy)
 ## DESCRIPTION:
-What integer does this program print with arguments **4112417903** and **1169092511**? 
+What integer does this program print with arguments `4112417903` and `1169092511`? 
 File: [chall.S]() Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
 ## HINT:
 1. Simple compare
@@ -11,7 +11,7 @@ File: [chall.S]() Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 
 
 > OUTPUT:
 
-```asm
+```s
 .arch armv8-a
 	.file	"chall.c"
 	.text
