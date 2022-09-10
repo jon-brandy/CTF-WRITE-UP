@@ -7,7 +7,13 @@ Not all ancient ciphers were so bad... The flag is not in standard format.
 - NONE
 ## STEPS:
 1. First, download the python script given.
-2. Next let's analyze the script.
+2. Next let's run the netcat.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/189480460-fce21cbd-a848-4edd-a174-6ca876a4eb98.png)
+
+3. 
 
 > PLAYFAIR.PY
 
@@ -71,4 +77,3 @@ if resp and resp == msg:
 # https://en.wikipedia.org/wiki/Playfair_cipher
 ```
 
-3. 
