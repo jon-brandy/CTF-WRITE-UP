@@ -23,7 +23,7 @@ There is something on my shop network running at `nc mercury.picoctf.net 33596`,
 > RESULT
 
 
-![image](https://user-images.githubusercontent.com/70703371/189484967-7d1e32aa-8498-4511-96a2-19137585d79e.png)
+![image](https://user-images.githubusercontent.com/70703371/189485094-2575d234-25bd-49c3-b610-d83e53bd9048.png)
 
 
 5. Finally, we got the flag!
