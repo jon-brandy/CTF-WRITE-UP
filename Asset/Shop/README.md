@@ -6,4 +6,15 @@ Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: [source](https://github
 - Always check edge cases when programming
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Now, let's check the file type.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/189481826-67c7af56-d10a-474b-be2a-ee2c97e6ca09.png)
+
+3. Since it's an executable file and **not stripped**.
+4. Let's run the file in gdb, but make it executable first by run -> `chmod +x source`.
+
+> GDB
+
+
