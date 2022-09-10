@@ -20,11 +20,7 @@ There is something on my shop network running at `nc mercury.picoctf.net 33596`,
 3. Simply using [this](https://ncviewer.com/) online tools, which can read gcode.
 4. Paste the gcode at the new file and click the `plot` button.
 
-> RESULT
-
-
 ![image](https://user-images.githubusercontent.com/70703371/189485094-2575d234-25bd-49c3-b610-d83e53bd9048.png)
-
 
 
 5. Finally, we got the flag!
