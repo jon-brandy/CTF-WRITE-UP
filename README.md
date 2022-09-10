@@ -163,6 +163,7 @@ rely on problem solving skills and creative thinking.
 |119. |[x-sixty-what](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7500632464d01a4401bd1625796f69aed3c607f9/Asset/x-sixty-what/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/319?category=6&originalEvent=70&page=1&search=)|2022|200|✅ SOLVED|
 |120. |[spelling-quiz](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5b947ed4ee2de28aa10675fa1ec5c11fe4ed8d48/Asset/spelling-quiz/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/210?category=2&page=2)|picoMini|100|✅ SOLVED|
 |121. |[Shop](https://github.com/jon-brandy/CTF-WRITE-UP/blob/66b6392e08e45eba74d326442f63353321dcd850/Asset/Shop/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/134?category=3&page=1)|2021|50|✅ SOLVED|
+|122. |[speeds and feeds](https://github.com/jon-brandy/CTF-WRITE-UP/blob/50eed7ea4a8d89e0eba6edb9956ea057cd5c238d/Asset/speeds%20and%20feeds/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/116?category=3&page=1)|2021|50|✅ SOLVED|
 
 
 ## MEET THE TEAM MEMBERS
