@@ -7,7 +7,14 @@ File: [chall.S]() Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 
 1. Simple compare
 ## STEPS:
 1. First, download the file given.
-2. Next, try to see what's inside by run -> `strings chall.S`
+2. Let's check the file type first.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/189480628-fcd3c2d6-c800-4379-b81d-e21f4c01a0bf.png)
+
+3. Looks like inside is an assembly code.
+4. Now let's analyze the code.
 
 > OUTPUT:
 
