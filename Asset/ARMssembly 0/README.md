@@ -11,7 +11,7 @@ File: [chall.S]() Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 
 
 > OUTPUT:
 
-```s
+```asm
 .arch armv8-a
 	.file	"chall.c"
 	.text
