@@ -19,4 +19,9 @@ Best Stuff - Cheap Stuff, Buy Buy Buy... Store Instance: [source](https://github
 
 ![image](https://user-images.githubusercontent.com/70703371/189481878-5eee7a22-7306-4703-a953-6b942582f8dd.png)
 
-5. 
+5. It seems, somehow we need to manipulate the money so we can buy the fruitful flag.
+
+![image](https://user-images.githubusercontent.com/70703371/189481944-0e9d8efb-dbd3-4f6d-9138-08882d1c13ba.png)
+
+
+
