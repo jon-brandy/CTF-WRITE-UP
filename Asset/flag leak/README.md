@@ -32,7 +32,8 @@ And connect with it using: `nc saturn.picoctf.net 61389`
 
 ![image](https://user-images.githubusercontent.com/70703371/189511980-4beb33e4-5c09-4b38-81d2-24d07714d14c.png)
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/70703371/189512037-78b9c5a6-0361-4196-9105-95ee2676d144.png)
+
 
 8. Hmm let's analyze the source code.
 
