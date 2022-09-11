@@ -120,4 +120,16 @@ print(value)
 
 ![image](https://user-images.githubusercontent.com/70703371/189512608-4aad9a0d-a14d-461c-b4b9-a22047626236.png)
 
-13. 
+13. Also notice here, few memory addresses are repeated.
+14. Since it's a stack, maybe we can climb up to the `flag` variable.
+15. So let's input our own local flag.
+
+> I INPUT bctf{FLAG} at flag.txt
+
+16. Run the program again, but this time input the `%x` with delimiter as many as you want until you see a different address pattern.
+
+> RUN
+
+
+
+
