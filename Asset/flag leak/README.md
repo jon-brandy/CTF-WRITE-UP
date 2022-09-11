@@ -88,4 +88,36 @@ int main(int argc, char **argv){
 }
 ```
 
-9. 
+9. Based from the hint, the vuln is right here.
+
+![image](https://user-images.githubusercontent.com/70703371/189512352-4d32c0ce-1a45-4283-a707-b42eb5506808.png)
+
+10. We can exploit that, for example i input `%x`.
+
+> %x
+
+![image](https://user-images.githubusercontent.com/70703371/189512371-6a223b61-821e-421e-a488-fbb88c209726.png)
+
+11. Maybe with a delimiter, since the `scanf` function does not specify the `%[^\n]`.
+
+> WITH DELIMITER
+
+![image](https://user-images.githubusercontent.com/70703371/189512570-b094ecb1-f917-4284-843e-e941d52f4928.png)
+
+
+12. But the memory addresses we recieve is the `%x.%`, which is our input.
+
+> USING PWNTOOLS
+
+```py
+from pwn import *
+
+value = p32(0x252e7825)
+print(value)
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/189512608-4aad9a0d-a14d-461c-b4b9-a22047626236.png)
+
+13. 
