@@ -130,6 +130,29 @@ print(value)
 
 > RUN
 
+![image](https://user-images.githubusercontent.com/70703371/189512833-307357b3-eed3-40e5-9fa6-aadcad688aba.png)
+
+17. We got different address pattern now.
+
+![image](https://user-images.githubusercontent.com/70703371/189512842-bc917436-4fb8-4160-95c5-85c2efbbdf33.png)
+
+18. Let's copy the first memory address of the newly created pattern and convert it to strings using [this](https://www.rapidtables.com/convert/number/hex-to-decimal.html) online tools
+
+> USING ONLINE TOOLS
+
+![image](https://user-images.githubusercontent.com/70703371/189513131-a30687d8-a034-4745-a1fd-ce26ff10f7d6.png)
+
+19. It must be our local flag then.
+20. The conclusion is, this is a `FORMAT STRINGS ATTACK`.
+
+
+
+
+## LEARNING REFERENCES:
+
+```
+https://owasp.org/www-community/attacks/Format_string_attack
+```
 
 
 
