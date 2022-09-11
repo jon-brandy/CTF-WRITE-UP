@@ -232,5 +232,6 @@ https://owasp.org/www-community/attacks/XPATH_Injection
 https://book.hacktricks.xyz/pentesting-web/xpath-injection
 https://crypto.stackexchange.com/questions/66085/bit-flipping-attack-on-cbc-mode/66086#66086
 https://www.felixcloutier.com/x86/mov
+https://owasp.org/www-community/attacks/Format_string_attack
 ```
 
