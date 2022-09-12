@@ -145,4 +145,11 @@ int main(int argc, char **argv)
 
 ```
 
-10. 
+10. Looks like we founc the vuln here.
+
+![image](https://user-images.githubusercontent.com/70703371/189648245-1b5fe43f-3fda-4677-9cb7-0d308dfa87a7.png)
+
+11. Since the `fun` has 10 buffer and the if statements validate that the input for num1 must be less than 10.
+12. Then the number will be the index of the `fun` buffer.
+13. Notice here, we can input **minus** integer value.
+14. 
