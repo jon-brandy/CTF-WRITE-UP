@@ -14,6 +14,7 @@ And connect with it using `nc saturn.picoctf.net 54627`
 > RESULT
 
 
+![image](https://user-images.githubusercontent.com/70703371/189645861-3bf1b93a-dbc4-453a-84ab-25efe35503ab.png)
 
 
 3. It's an ELF 32 bit and **not stripped** , means we can see the functions name.
@@ -22,12 +23,15 @@ And connect with it using `nc saturn.picoctf.net 54627`
 > RESULT
 
 
+![image](https://user-images.githubusercontent.com/70703371/189645915-39435f02-0d7e-4655-aeca-074aac836f33.png)
+
 
 5. **No canary** and **no pie**.
 6. Let's make the program executeable by run ->  `chmod +x vuln`.
 7. Now let's run the program without the gdb.
 8. Let's input the value the program want.
 
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/70703371/189645969-8fe297d5-7054-4a6b-8b37-a9ddd0fc1ee1.png)
+
 
 9.
