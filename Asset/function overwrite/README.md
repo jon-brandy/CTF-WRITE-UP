@@ -29,7 +29,7 @@ And connect with it using `nc saturn.picoctf.net 54627`
 5. **No canary** and **no pie**.
 6. Let's make the program executeable by run ->  `chmod +x vuln`.
 7. Now let's run the program without the gdb.
-8. Let's input the value the program want.
+8. Let's input values the program want.
 
 ![image](https://user-images.githubusercontent.com/70703371/189645969-8fe297d5-7054-4a6b-8b37-a9ddd0fc1ee1.png)
 
