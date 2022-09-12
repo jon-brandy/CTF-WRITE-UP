@@ -156,9 +156,12 @@ int main(int argc, char **argv)
 
 > GDB
 
+
 ![image](https://user-images.githubusercontent.com/70703371/189650104-86302580-36a1-4064-a999-bd07563f102b.png)
 
+
 15. Set breakpoints at the main function.
+
 
 ![image](https://user-images.githubusercontent.com/70703371/189650221-d09a82a3-ed54-448b-83ae-ca26b59ac367.png)
 
