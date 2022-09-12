@@ -152,4 +152,13 @@ int main(int argc, char **argv)
 11. Since the `fun` has 10 buffer and the if statements validate that the input for num1 must be less than 10.
 12. Then the number will be the index of the `fun` buffer.
 13. Notice here, we can input **minus** integer value.
-14. 
+14. Let's run the program using gdb.
+
+> GDB
+
+![image](https://user-images.githubusercontent.com/70703371/189650104-86302580-36a1-4064-a999-bd07563f102b.png)
+
+15. Set breakpoints at the main function.
+
+![image](https://user-images.githubusercontent.com/70703371/189650221-d09a82a3-ed54-448b-83ae-ca26b59ac367.png)
+
