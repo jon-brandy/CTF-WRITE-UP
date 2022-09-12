@@ -13,3 +13,21 @@ And connect with it using `nc saturn.picoctf.net 54627`
 
 > RESULT
 
+
+
+
+3. It's an ELF 32 bit and **not stripped** , means we can see the functions name.
+4. Now let's check the file protector.
+
+> RESULT
+
+
+
+5. **No canary** and **no pie**.
+6. Let's make the program executeable by run ->  `chmod +x vuln`.
+7. Now let's run the program without the gdb.
+8. Let's input the value the program want.
+
+![Uploading image.png…]()
+
+9.
