@@ -228,7 +228,14 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/190175056-3c9d362d-b095-4c50-b875-b4092ab6821d.png)
 
-28. Now we got segmentation fault.
-29. Means `-16` is the correct value, but notice they don't specify wheter the `num2` are positive or negative.
-30. 
-```
+28. Now we got segmentation fault and notice we are in the `easy_checker()` function.
+29. Means `-16` is the correct value, but if we try to run it again and enter the `num2` as the positive number -> example : 40.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190180000-742795ee-45c3-4dfd-b1b6-c89232dff5a4.png)
+
+
+30. We got segmentation vault and we are in the `hard_checker()` function. 
+31. 
+
