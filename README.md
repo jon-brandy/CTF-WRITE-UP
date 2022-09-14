@@ -164,7 +164,7 @@ rely on problem solving skills and creative thinking.
 |120. |[spelling-quiz](https://github.com/jon-brandy/CTF-WRITE-UP/blob/5b947ed4ee2de28aa10675fa1ec5c11fe4ed8d48/Asset/spelling-quiz/README.md)|Cryptography|[picoCTF](https://play.picoctf.org/practice/challenge/210?category=2&page=2)|picoMini|100|✅ SOLVED|
 |121. |[Shop](https://github.com/jon-brandy/CTF-WRITE-UP/blob/66b6392e08e45eba74d326442f63353321dcd850/Asset/Shop/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/134?category=3&page=1)|2021|50|✅ SOLVED|
 |122. |[speeds and feeds](https://github.com/jon-brandy/CTF-WRITE-UP/blob/50eed7ea4a8d89e0eba6edb9956ea057cd5c238d/Asset/speeds%20and%20feeds/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/116?category=3&page=1)|2021|50|✅ SOLVED|
-|123. |[flag leak](https://github.com/jon-brandy/CTF-WRITE-UP/blob/d0fd0a1c6827c931384668033970c0deb5748a8b/Asset/flag%20leak/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/269?category=6&page=2&search=)|2022|300|✅ SOLVED|
+|123. |[flag leak](https://github.com/jon-brandy/CTF-WRITE-UP/blob/41d9c75c87835e4a603a65c25e50a7934877299a/Asset/flag%20leak/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/269?category=6&page=2&search=)|2022|300|✅ SOLVED|
 
 
 
