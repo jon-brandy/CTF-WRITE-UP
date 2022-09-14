@@ -190,6 +190,19 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/190164970-198e2960-4068-4f64-a082-384ed64e88e3.png)
 
-21. 
+21. To define the correct **minus** value for `num1` is count from the stack of index 1 until the offset of the `check()` function.
 
+> START OF FUN[0] -> FUN INDEX 0
+
+![image](https://user-images.githubusercontent.com/70703371/190165738-9a1206f6-81fe-4b64-978e-a5c1bde38d4d.png)
+
+> INDEX OF 1
+
+![image](https://user-images.githubusercontent.com/70703371/190166209-3284eea2-56ca-48ee-ae7e-1135687c3de9.png)
+
+> COUNT == 16
+
+![image](https://user-images.githubusercontent.com/70703371/190166392-cabe1f41-322a-4e90-a4ed-61e5a4d2f391.png)
+
+22. 
 
