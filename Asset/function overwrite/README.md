@@ -204,5 +204,6 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/190166392-cabe1f41-322a-4e90-a4ed-61e5a4d2f391.png)
 
-22. 
+22. For the `num1` must be 16.
+23. Now for the `num2`.
 
