@@ -214,5 +214,10 @@ int main(int argc, char **argv)
 ![image](https://user-images.githubusercontent.com/70703371/190166392-cabe1f41-322a-4e90-a4ed-61e5a4d2f391.png)
 
 23. For the `num1` must be 16.
-24. Now for the `num2`.
+24. Now for the `num2`, since i didn't know how to get the number, so maybe i will try a bruteforce way.
+25. But let's make sure the first number are the correct one.
+26. So i tried to input **-12** as the first number and **-40** as the second number.
+
+> RUN THE PROGRAM USING GDB
+
 
