@@ -152,7 +152,12 @@ int main(int argc, char **argv)
 11. Since the `fun` has 10 buffer and the if statements validate that the input for num1 must be less than 10.
 12. Then the number will be the index of the `fun` buffer.
 13. Notice here, we can input **minus** integer value.
-14. Let's run the program using gdb.
+14. Basically the goal is to overwrite this check function pointer.
+
+![image](https://user-images.githubusercontent.com/70703371/190168375-4957f653-d29e-445e-a09a-c4a82d1d1007.png)
+
+
+15. Let's run the program using gdb.
 
 > GDB
 
