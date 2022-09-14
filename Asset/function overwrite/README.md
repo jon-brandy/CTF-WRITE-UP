@@ -237,5 +237,24 @@ int main(int argc, char **argv)
 
 
 30. We got segmentation vault and we are in the `hard_checker()` function. 
-31. 
+31. Now let's disass the offset.
 
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190181693-15c54e3f-b282-4e90-9588-4bd7ad3225e9.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/190181740-32a7397d-584f-47f8-8132-2a572010811e.png)
+
+32. If we analyze it, this one is the if statements/
+
+![image](https://user-images.githubusercontent.com/70703371/190181951-6195fa1b-f841-4c66-9028-6664175280f7.png)
+
+33. For `jne` stands for `JUMP NOT EQUAL` or `JUMP NOT ZERO`.
+
+![image](https://user-images.githubusercontent.com/70703371/190182266-ea293f16-d085-47c6-ae4d-5aaa413b8a70.png)
+
+34. 0x8049558 -> **134518104** and hard_checker offset is -> 0x08049436.
+35. Comparing 134518104 and 134517814.
+36. Since it's not equal so it does not jump to **+290**.
+37. 
