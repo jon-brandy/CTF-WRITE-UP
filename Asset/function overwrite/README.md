@@ -165,3 +165,13 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/189650221-d09a82a3-ed54-448b-83ae-ca26b59ac367.png)
 
+16. Now let's run the program again.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190161759-58546942-530c-4f44-87f2-7a30dd58132b.png)
+
+17. At this point let's disass the `vuln()` function.
+18. Because we must identify what is the correct `num1` value and the correct `num2` value.
+
+
