@@ -220,4 +220,15 @@ int main(int argc, char **argv)
 
 > RUN THE PROGRAM USING GDB
 
+![image](https://user-images.githubusercontent.com/70703371/190174893-287dc949-01f1-4a1c-80d1-a529960ddc8e.png)
 
+27. It exited normally, now let's run again but this time add 4 bytes -> `-16`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190175056-3c9d362d-b095-4c50-b875-b4092ab6821d.png)
+
+28. Now we got segmentation fault.
+29. Means `-16` is the correct value, but notice they don't specify wheter the `num2` are positive or negative.
+30. 
+```
