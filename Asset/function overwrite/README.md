@@ -276,11 +276,14 @@ int main(int argc, char **argv)
 picoCTF{0v3rwrit1ng_P01nt3rs_698c2a26}
 ```
 
+---
+
+
 ## EXTRA NOTES
 
 1. Since my solution might be not the intended one, because i got it lucky to have 13371337.
 2. Based from the scanf buffer -> 127, so it's impossible to go to 13371337, the possible value is `1337`.
-3. So divide 1337 by 126 -> we got 10 (in integer, got rounded down).
+3. So divide 1337 by 126 -> we got 10 (in integer, got rounded down). Means need 10 `~`, because `~` ascii is 126.
 4. Next, to overwrite the `hard_checker` function to `easy_checker`.
 
 ![image](https://user-images.githubusercontent.com/70703371/190193955-7257ebc9-a5b9-4571-9461-b971fb751121.png)
@@ -291,8 +294,16 @@ easy_checker -> 0x080492fc
 
 hard_checker - easy_checker -> 0x13A
 
--> -314.
+-> -314. (value for num2)
 ```
 
-5. 
+5. To calculate the first string -> 1337 - (126 * 10) = 77. `M` is 77 ascii representatives.
+6. Run the netcat using gdb.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190196462-58ee3d43-792c-4c4b-8e89-26f38d87015c.png)
+
+7. Got it.
+
 
