@@ -145,7 +145,7 @@ int main(int argc, char **argv)
 
 ```
 
-10. Looks like we founc the vuln here.
+10. Looks like we found the vuln here.
 
 ![image](https://user-images.githubusercontent.com/70703371/189648245-1b5fe43f-3fda-4677-9cb7-0d308dfa87a7.png)
 
