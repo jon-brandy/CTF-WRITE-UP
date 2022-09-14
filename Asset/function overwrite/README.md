@@ -156,8 +156,12 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/190168375-4957f653-d29e-445e-a09a-c4a82d1d1007.png)
 
+15. Because we want to call the `easy_check()` function not the `hard_check()`. Because it is impossible to reach this value.
 
-15. Let's run the program using gdb.
+![image](https://user-images.githubusercontent.com/70703371/190168914-3ee69ec1-3218-48cd-9156-7ec3263e0cd9.png)
+
+
+16. Let's run the program using gdb.
 
 > GDB
 
@@ -165,37 +169,37 @@ int main(int argc, char **argv)
 ![image](https://user-images.githubusercontent.com/70703371/189650104-86302580-36a1-4064-a999-bd07563f102b.png)
 
 
-16. Let's open the program using cutter.
+17. Let's open the program using cutter.
 
 ![image](https://user-images.githubusercontent.com/70703371/190163409-077c7bdb-a6e3-47a3-975a-2707a87ba92c.png)
 
 
-17. Let's open the `vuln()` function, because we need to identify what's the correct value for the `num1` and the correct value for the `num2`.
+18. Let's open the `vuln()` function, because we need to identify what's the correct value for the `num1` and the correct value for the `num2`.
 
 > RESULT
 
 ![image](https://user-images.githubusercontent.com/70703371/190163822-79067ba4-00c3-4117-b733-f72ae1158174.png)
 
 
-18. This must be the `strlen()` function, because there's strlen to call.
+19. This must be the `strlen()` function, because there's strlen to call.
 
 > STRLEN FUNCTION'S OFFSET
 
 ![image](https://user-images.githubusercontent.com/70703371/190164211-bc914826-c881-4d9b-9145-b0c3cabd1111.png)
 
-19. And this must be the `check()` function.
+20. And this must be the `check()` function.
 
 > CHECK FUNCTION'S OFFSET
 
 ![image](https://user-images.githubusercontent.com/70703371/190164461-c2d786c9-6ef8-496f-96f3-95d8beace5f2.png)
 
-20. Also this must be the if statements, because there's a `cmp` which stands for comparing and `jg` which stands for **jump if greater than**.
+21. Also this must be the if statements, because there's a `cmp` which stands for comparing and `jg` which stands for **jump if greater than**.
 
 > THE IF STATMENTS'S OFFSET
 
 ![image](https://user-images.githubusercontent.com/70703371/190164970-198e2960-4068-4f64-a082-384ed64e88e3.png)
 
-21. To define the correct **minus** value for `num1` is count from the stack of index 1 until the offset of the `check()` function.
+22. To define the correct **minus** value for `num1` is count from the stack of index 1 until the offset of the `check()` function.
 
 > START OF FUN[0] -> FUN INDEX 0
 
@@ -209,6 +213,6 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/190166392-cabe1f41-322a-4e90-a4ed-61e5a4d2f391.png)
 
-22. For the `num1` must be 16.
-23. Now for the `num2`.
+23. For the `num1` must be 16.
+24. Now for the `num2`.
 
