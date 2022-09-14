@@ -4,7 +4,7 @@
 Story telling class 2/2 
 You can point to all kinds of things in C. 
 Checkout our function pointers demo [program](https://github.com/jon-brandy/CTF-WRITE-UP/blob/47628a61a917b3ed17b6fa3cd5ea8543d4991c4f/Asset/function%20overwrite/vuln). You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/47628a61a917b3ed17b6fa3cd5ea8543d4991c4f/Asset/function%20overwrite/vuln.c). 
-And connect with it using `nc saturn.picoctf.net 54627`
+And connect with it using `nc saturn.picoctf.net 54712`
 ## HINT:
 1. Don't be so negative
 ## STEPS:
@@ -254,7 +254,25 @@ int main(int argc, char **argv)
 
 ![image](https://user-images.githubusercontent.com/70703371/190182266-ea293f16-d085-47c6-ae4d-5aaa413b8a70.png)
 
-34. 0x8049558 -> **134518104** and hard_checker offset is -> 0x08049436.
-35. Comparing 134518104 and 134517814.
-36. Since it's not equal so it does not jump to **+290**.
-37. 
+34. I think for the second value might be **47**.
+35. Let's run the program again using gdb and input the first number as 
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190188968-4bbbe308-f8b4-4961-9661-ac8696262f27.png)
+
+36. I think we got it!
+37. Now let's run the netcat.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/190189864-af0a81c2-eaf8-4ef3-81d5-fbbb78d1a2ed.png)
+
+38. Finally, we got the flag!
+
+## FLAG
+
+```
+picoCTF{0v3rwrit1ng_P01nt3rs_698c2a26}
+```
+
