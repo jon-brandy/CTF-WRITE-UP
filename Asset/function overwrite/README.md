@@ -306,4 +306,4 @@ hard_checker - easy_checker -> 0x13A
 
 7. Got it.
 
-
+## END OF EXTRA NOTES
