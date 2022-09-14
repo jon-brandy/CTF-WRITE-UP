@@ -172,5 +172,24 @@ int main(int argc, char **argv)
 ![image](https://user-images.githubusercontent.com/70703371/190163822-79067ba4-00c3-4117-b733-f72ae1158174.png)
 
 
-18. 
+18. This must be the `strlen()` function, because there's strlen to call.
+
+> STRLEN FUNCTION'S OFFSET
+
+![image](https://user-images.githubusercontent.com/70703371/190164211-bc914826-c881-4d9b-9145-b0c3cabd1111.png)
+
+19. And this must be the `check()` function.
+
+> CHECK FUNCTION'S OFFSET
+
+![image](https://user-images.githubusercontent.com/70703371/190164461-c2d786c9-6ef8-496f-96f3-95d8beace5f2.png)
+
+20. Also this must be the if statements, because there's a `cmp` which stands for comparing and `jg` which stands for **jump if greater than**.
+
+> THE IF STATMENTS'S OFFSET
+
+![image](https://user-images.githubusercontent.com/70703371/190164970-198e2960-4068-4f64-a082-384ed64e88e3.png)
+
+21. 
+
 
