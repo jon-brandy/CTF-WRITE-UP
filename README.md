@@ -192,6 +192,8 @@ rely on problem solving skills and creative thinking.
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse Engineering - Cryptography|College Student - Entrepreneur|
 |[stephanchandra](https://github.com/stephanchandra)|Binary Exploitation|College Student - Mentor|
+|[SSV132](https://github.com/SSV132)|Forensic - Reverse Engineering|College Student - Web Developer|
+
 </details>
 
 
