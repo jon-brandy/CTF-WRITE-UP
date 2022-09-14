@@ -160,18 +160,17 @@ int main(int argc, char **argv)
 ![image](https://user-images.githubusercontent.com/70703371/189650104-86302580-36a1-4064-a999-bd07563f102b.png)
 
 
-15. Set breakpoints at the main function.
+16. Let's open the program using cutter.
+
+![image](https://user-images.githubusercontent.com/70703371/190163409-077c7bdb-a6e3-47a3-975a-2707a87ba92c.png)
 
 
-![image](https://user-images.githubusercontent.com/70703371/189650221-d09a82a3-ed54-448b-83ae-ca26b59ac367.png)
-
-16. Now let's run the program again.
+17. Let's open the `vuln()` function, because we need to identify what's the correct value for the `num1` and the correct value for the `num2`.
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/190161759-58546942-530c-4f44-87f2-7a30dd58132b.png)
+![image](https://user-images.githubusercontent.com/70703371/190163822-79067ba4-00c3-4117-b733-f72ae1158174.png)
 
-17. At this point let's disass the `vuln()` function.
-18. Because we must identify what is the correct `num1` value and the correct `num2` value.
 
+18. 
 
