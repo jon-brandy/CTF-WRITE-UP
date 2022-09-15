@@ -170,10 +170,13 @@ rely on problem solving skills and creative thinking.
 
 ## MEET THE AGENTS
 
-![banner2](https://user-images.githubusercontent.com/70703371/190385504-a91d8219-d5f5-4357-9b3e-32686c80d3ec.png)
+<p align="center">
 
+<img src="https://user-images.githubusercontent.com/70703371/190385504-a91d8219-d5f5-4357-9b3e-32686c80d3ec.png" width=950 />
 
-> CLICK THE TEXT "HERE" 
+ </p>
+
+> CLICK THE TEXT BELOW TO VIEW THE AGENTS
 
 <details>
 <summary> CLICK HERE! </summary>
