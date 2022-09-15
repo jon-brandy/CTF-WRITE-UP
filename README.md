@@ -197,8 +197,7 @@ rely on problem solving skills and creative thinking.
 
 |BAY GITHUB|
 |:--------:|
-
-[BAY](https://github.com/Bread-Yolk)
+|[BAY](https://github.com/Bread-Yolk)|
 
 </details>
 
