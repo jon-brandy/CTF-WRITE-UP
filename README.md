@@ -170,19 +170,17 @@ rely on problem solving skills and creative thinking.
 
 ## MEET THE AGENTS
 
+![banner2](https://user-images.githubusercontent.com/70703371/190385504-a91d8219-d5f5-4357-9b3e-32686c80d3ec.png)
 
 
-> BAY'S LOGO
+> CLICK THE TEXT "HERE" 
 
-
-<p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/177257904-449f9771-9787-491e-bc4e-693e6009c191.png" width = "150">
-</p>
-
-> CLICK THE BUTTON BELOW TO VIEW (!)
 <details>
-<summary> BAY - CTF DIVISION </summary>
+<summary> CLICK HERE! </summary>
 <br>
+
+|BAY - CTF DIVISION|
+|:----------------:| 
 
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
