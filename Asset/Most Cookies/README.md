@@ -80,10 +80,23 @@ if __name__ == "__main__":
 
 ![image](https://user-images.githubusercontent.com/70703371/187353729-fdfc324d-3fce-4b05-9e96-d76dab12e3e9.png)
 
-6. So i used this script to automatically submit each string from the wordlist.
+6. I think we can use `flask-unsign` features to bruteforce it using the cookie lists as the wordlists.
+7. Simply copy all the cookies and paste it on a named `.txt` file, because we will use it as the **wordlists**.
 
-```py
+> RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/190404309-27777e50-9bd2-4b18-ade0-e0f5d917ccd7.png)
+
+8. Now let's use it as the bruteforce wordlists.
+
+> RESULT
+
+
+
+## LEARNING REFERENCES:
+
+```
+https://pypi.org/project/flask-unsign/
 ```
 
 
