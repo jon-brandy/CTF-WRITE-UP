@@ -86,4 +86,6 @@ main:
 
 ```
 
-3. 
+3. At the main function, it seems the program called the `atoi()` function again.
+4. Let's analyze the `func()` function.
+5. 
