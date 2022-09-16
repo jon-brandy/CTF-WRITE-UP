@@ -200,7 +200,7 @@ rely on problem solving skills and creative thinking.
 
 <details>
 
-<summary> BAY REPOSITORY </summary>
+<summary> MORE ABOUT BAY </summary>
 <br>
 
 |THE LINK|
