@@ -80,4 +80,5 @@ main:
 	.section	.note.GNU-stack,"",@progbits
 ```
 
-3. 
+3. At the main function, notice the program called `atoi()` function twice and called `func1`. 
+4. If we check the `func1`, we can see there's two parameters `w0` & `w1`.
