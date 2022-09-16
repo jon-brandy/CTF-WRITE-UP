@@ -34,7 +34,7 @@ rely on problem solving skills and creative thinking.
 > picoCTF's Solution
 
 <p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/179665455-2206bce7-7968-4dcf-8e45-5ee85f697d4f.png" width = "450">
+  <img src = "https://user-images.githubusercontent.com/70703371/179665455-2206bce7-7968-4dcf-8e45-5ee85f697d4f.png" width = "750">
 </p>
 
 |No.|Problems|Category|Website|Year|Points|Result|
