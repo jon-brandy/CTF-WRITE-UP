@@ -82,3 +82,40 @@ main:
 
 3. At the main function, notice the program called `atoi()` function twice and called `func1`. 
 4. If we check the `func1`, we can see there's two parameters `w0` & `w1`.
+
+![image](https://user-images.githubusercontent.com/70703371/190620591-c7d0754c-a440-42f0-a5bc-e6bf30d6578e.png)
+
+
+6. At the `func1` value of `w1` & `w0` compared.
+
+![image](https://user-images.githubusercontent.com/70703371/190620610-10236525-65ae-4002-b57b-2543c2c4f56d.png)
+
+
+8. If one of them is **lower than or same**. 
+
+![image](https://user-images.githubusercontent.com/70703371/190620627-6e3f32cc-04bc-4721-b365-99a3c849d40e.png)
+
+9. Then do `.L2`, which based from the assembly code `w0` added `sp -8`. But if it's bigger , then load the `.L3`, which will return the value.
+
+![image](https://user-images.githubusercontent.com/70703371/190621530-2e1533c2-e00a-4eaa-a6c9-de39fbcc2b8c.png)
+
+10. From this point, now we know that the program wants us to give which is the bigger value from these decimal value -> `4112417903 and 1169092511`.
+11. Since `4112417903` is bigger, let's convert it to hex value:
+
+```py
+a = 4112417903
+print(hex(a))
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/190623448-9d0bb223-eaa4-4c2e-aa89-289658dee424.png)
+
+12. Remove the `0x` and wrap it around with `picoCTF{}`.
+13. Finally we got the flag!
+
+## FLAG
+
+```
+picoCTF{F51E846F}
+```
