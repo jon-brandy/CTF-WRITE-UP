@@ -24,6 +24,7 @@ According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into vario
 |Forensics|Forensics is a way to recover data left on a computer. there are tons of methods out there to find deleted, unsaved, or worse, secretly recorded data. An important part of Forensics is having the right tools and being familiar with `file formats` , `EXIF data`, `WireShark`, `Steganography` , and `Disk Imaging`.|
 
 
+
 ## FUN-FACT
 ```
 1. CTF can be played as an individual or in a team.
