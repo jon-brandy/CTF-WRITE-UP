@@ -183,8 +183,8 @@ rely on problem solving skills and creative thinking.
 <summary> CLICK HERE! </summary>
 <br>
 
-|BAY - CTF DIVISION|
-|:----------------:| 
+|CTF DIVISION|
+|:----------:| 
 
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
