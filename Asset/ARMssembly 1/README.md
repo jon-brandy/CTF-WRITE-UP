@@ -88,4 +88,8 @@ main:
 
 3. At the main function, it seems the program called the `atoi()` function again.
 4. Let's analyze the `func()` function.
-5. 
+5. It stored two variables at the parameter.
+
+![image](https://user-images.githubusercontent.com/70703371/190894987-bddce2a3-c663-4ac8-83cd-e0ba710ab6c5.png)
+
+6. Then 
