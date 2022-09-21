@@ -20,4 +20,7 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 
 
 3. Since it's a `.pcap` file, let's open it using wireshark.
+
+![image](https://user-images.githubusercontent.com/70703371/191532494-4d6ec357-b9db-4e90-a1c3-d09fc869de08.png)
+
 4. 
