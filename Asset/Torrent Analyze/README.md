@@ -12,4 +12,12 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 4. The file name ends with `.iso`.
 ## STEPS:
 1. First, download the file given.
-2. 
+2. Next, let's check the file type.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191528031-d8178022-a7a9-4992-aa28-a359b91d7cf4.png)
+
+
+3. Since it's a `.pcap` file, let's open it using wireshark.
+4. 
