@@ -23,4 +23,20 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 
 ![image](https://user-images.githubusercontent.com/70703371/191532494-4d6ec357-b9db-4e90-a1c3-d09fc869de08.png)
 
-4. 
+4. Based from the hint, let's enable BitTorrent protocol on wireshark.
+5. Open the `analyze` tab then go to click the `Enabled Protocols`.
+
+![image](https://user-images.githubusercontent.com/70703371/191762488-37a8f70b-c09b-4624-99b2-b4aa28e71208.png)
+
+6. Search `bit`.
+
+![image](https://user-images.githubusercontent.com/70703371/191762697-dd7ff271-f22d-4676-bb97-70e6a0922d79.png)
+
+7. Tick the `bittorent_dht_udp` and `bt_utp_udp`, then click `ok`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191762971-5f0db854-19dd-458d-8257-d0dfe9ab2b9a.png)
+
+
+
