@@ -38,5 +38,20 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 
 ![image](https://user-images.githubusercontent.com/70703371/191762971-5f0db854-19dd-458d-8257-d0dfe9ab2b9a.png)
 
+8. Now open the `statistics` tab , then choose `protocol hierarchy`.
 
+![image](https://user-images.githubusercontent.com/70703371/191763483-27f9d01c-d98c-41c0-91c6-572ac03eb410.png)
+
+9. Notice here, we can actually see **uTorrent Transport Protocol** and **BitTorrent DHT Protocol**.
+10. Next, right click at the **BitTorrent DHT Protocol**.
+
+![image](https://user-images.githubusercontent.com/70703371/191763896-a3701f6d-f6da-432b-b7b0-ee408c56e4b6.png)
+
+11. Choose `apply as filter` then choose `selected`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191764109-bbb971b8-c49b-4744-b0d3-81b78f69b544.png)
+
+12. 
 
