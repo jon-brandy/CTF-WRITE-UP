@@ -13,7 +13,7 @@ And connect with it using:
 
 ## STEPS:
 1. First, download both files given.
-2. Next, let's check the program file BIT and is it stripped or not.
+2. Next, let's check the program file BIT and whether the file is stripped or not.
 
 > RESULT
 
