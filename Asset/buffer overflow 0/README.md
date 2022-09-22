@@ -12,8 +12,24 @@ And connect with it using:
 3. Run man gets and read the BUGS section. How many characters can the program really read?
 
 ## STEPS:
-1. First, download the `.exe` file and the `source code` to see how the program works.
-2. Now, open the `.c` file first.
+1. First, download both files given.
+2. Next, let's check the program file BIT and is it stripped or not.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191660096-6b8c60dc-a7a6-4ff7-9d9c-480cf78aac97.png)
+
+3. Seems it's a 32 BIT file and luckily it's not stripped, so we can see the function names.
+4. Now let's check the file protection by run `checksec`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191660229-44bb72b7-ee97-49a6-91bb-c3d4260358ca.png)
+
+5. **No canary** means we can do bufferoverflow and **pie enabled** means the offset won't be the same.
+6. Now let's analyze the source code.
+
+> VULN.C
 
 ```c
 #include <stdio.h>
@@ -63,30 +79,4 @@ int main(int argc, char **argv){
 
 ```
 
-3. Based from the hint given, let's try to enter input characters more than the specified limit.
-4. On your kali linux terminal, type this command `nc saturn.picoctf.net 51110`.
-
-![Screenshot (444)](https://user-images.githubusercontent.com/70703371/174065135-7b9cd229-ce42-4e23-bc96-9be9b9a2b307.png)
-
-6. Then enter more than 16 characters to make it gets **buffer overflows**.
-7. This time i tried to input 18 characters, but the program still gave me this output. Which means it's not overflowed.
-
-![Screenshot (446)](https://user-images.githubusercontent.com/70703371/174065766-7610c458-689c-4ac9-a4cb-d92af3cd7137.png)
-
-8. Now try to enter much more characters.
-
-![Screenshot (447)](https://user-images.githubusercontent.com/70703371/174066142-c9c918ff-7c54-4bf3-8347-b62a4dc418d7.png)
-
-9. As you can see, from the image above, we got no output.
-10. Now try to enter much more characters!
-
-![Screenshot (448)](https://user-images.githubusercontent.com/70703371/174066328-0dc638e9-08d6-42bd-8d8d-e18fd67e3134.png)
-
-11. Finally it became buffer overflowed and we got the flag!
-
-
----
-
-```
-picoCTF{ov3rfl0ws_ar3nt_that_bad_8ba275ff}
-```
+7. 
