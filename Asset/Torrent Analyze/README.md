@@ -53,5 +53,24 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 
 ![image](https://user-images.githubusercontent.com/70703371/191764109-bbb971b8-c49b-4744-b0d3-81b78f69b544.png)
 
-12. 
+12. I tried to follow the **udp** streams and found words like -> `torrent.ubuntu.com`. Which does not give us any clue.
+13. i checked random packet and at the `transaction ID`, right click at the `value` then choose `apply as column`.
+
+![image](https://user-images.githubusercontent.com/70703371/191768539-e2735089-2439-47f4-b081-103db9dc4c2c.png)
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191768764-2eef5955-f35b-43fd-b470-c92abcc62d7a.png)
+
+14. The info hash caught my attention here.
+
+![image](https://user-images.githubusercontent.com/70703371/191768904-ad843ee9-7825-4f55-a9f1-4ddeec292abb.png)
+
+15. Let's filter it again -> `bt-dht.bencoded.string == "info_hash"`.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/191769103-0258c36e-6843-462c-aa2c-ac3f180b9f27.png)
+
+16. 
 
