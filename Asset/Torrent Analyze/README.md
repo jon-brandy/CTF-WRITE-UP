@@ -73,5 +73,33 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 
 ![image](https://user-images.githubusercontent.com/70703371/191769103-0258c36e-6843-462c-aa2c-ac3f180b9f27.png)
 
-16. 
+16. Notice there's many same hashes.
 
+![image](https://user-images.githubusercontent.com/70703371/191770240-1f9c5b47-956e-41bd-a377-2deadb431bbd.png)
+
+17. Let's check copy the **info_hash** value and paste it on the internet.
+
+![image](https://user-images.githubusercontent.com/70703371/191770627-8c2661f8-ae1d-46e8-bb03-f883a0b138ce.png)
+
+> INFO_HASH VALUE
+
+```
+Value: e2467cbf021192c241367b892230dc1e05c0580e
+```
+
+![image](https://user-images.githubusercontent.com/70703371/191771056-92f2b1c1-8f4b-4820-a198-0e4e6e9f0aa6.png)
+
+18. Kinda confused, but based from the hint the file name ends with `.iso` and from the udp stream we often found word `ubuntu`.
+19. Finally we got the flag!
+
+## FLAG
+
+```
+picoCTF{ubuntu-19.10-desktop-amd64.iso}
+```
+
+## LEARNING REFERENCES
+
+```
+https://www.wireshark.org/docs/dfref/b/bt-dht.html
+```
