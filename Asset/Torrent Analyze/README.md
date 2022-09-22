@@ -60,7 +60,8 @@ The file name will be the flag, like picoCTF{filename}. [Captured traffic](https
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/191768764-2eef5955-f35b-43fd-b470-c92abcc62d7a.png)
+![image](https://user-images.githubusercontent.com/70703371/191769711-ba4dda95-17f7-4d18-a63c-d5421342ae32.png)
+
 
 14. The info hash caught my attention here.
 
