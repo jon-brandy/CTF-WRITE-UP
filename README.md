@@ -168,7 +168,7 @@ rely on problem solving skills and creative thinking.
 |123. |[flag leak](https://github.com/jon-brandy/CTF-WRITE-UP/blob/41d9c75c87835e4a603a65c25e50a7934877299a/Asset/flag%20leak/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/269?category=6&page=2&search=)|2022|300|✅ SOLVED|
 |124. |[function overwrite](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0c359dd571027d1be8b4072105549c81302b438a/Asset/function%20overwrite/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/272?category=6&page=3&search=)|2022|400|✅ SOLVED|
 |125. |[ARMssembly 0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/8cee5cf1069f48164e28a3e813045d90ddf1c3fb/Asset/ARMssembly%200/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/160?category=3&page=1)|2021|40|✅ SOLVED|
-|126. |[Torrent Analyze](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0426ec6fc67b56e1bb9c9bb014628c1a46e1392c/Asset/Torrent%20Analyze/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/311?category=4&page=4&search=)|2022|400|✅ SOLVED|
+|126. |[Torrent Analyze](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0426ec6fc67b56e1bb9c9bb014628c1a46e1392c/Asset/Torrent%20Analyze/README.md)|Forensic|[picoCTF](https://play.picoctf.org/practice/challenge/311?category=4&page=4&search=)|2022|400|✅ SOLVED|
 
 
 ## MEET THE AGENTS
