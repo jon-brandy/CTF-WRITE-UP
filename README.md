@@ -190,7 +190,7 @@ rely on problem solving skills and creative thinking.
 
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
-|[jon-brandy](https://github.com/jon-brandy)|Web Exploitation - Forensic - Binary Exploitation|College Student - Researcher|
+|[jon-brandy](https://github.com/jon-brandy)|Forensics - Binary Exploitation|College Student - Researcher|
 |[Q](https://github.com/tkxldk)|Cryptography - Forensic|College Student - Designer|
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensic|College Student|
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student|
