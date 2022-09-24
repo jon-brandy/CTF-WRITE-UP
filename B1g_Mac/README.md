@@ -31,6 +31,14 @@ Here's a [zip file](https://jupiter.challenges.picoctf.org/static/2b1cf2a4a463b1
 
 ![image](https://user-images.githubusercontent.com/70703371/192098937-602ba58a-f6d8-4ed9-b3a0-8ddfb70f1d8d.png)
 
-8. 
+8. Notice here, we have to make a file called `flag.txt`.
+
+![image](https://user-images.githubusercontent.com/70703371/192099114-8622156b-ac0a-487f-98d8-3a11e1105989.png)
+
+9. This part caught my attention.
+
+![image](https://user-images.githubusercontent.com/70703371/192099145-9985a6bf-af0e-4434-ab11-364728a950a4.png)
+
+10. 
 
 
