@@ -19,8 +19,18 @@ Here's a [zip file](https://jupiter.challenges.picoctf.org/static/2b1cf2a4a463b1
 ![image](https://user-images.githubusercontent.com/70703371/192096744-de453ca7-b6ce-4445-b909-e362dbac36da.png)
 
 5. It says no flag found, because we didn't run it on the server but we run it on a client.
-6. Let's decompile it using IDA.
+6. Let's decompile it using **ghidra**
 
-> IDA
+> GHIDRA
+
+![image](https://user-images.githubusercontent.com/70703371/192098667-a0d5551d-90c6-4ecb-ba83-11f1cd3e76c2.png)
+
+7. View the main function first.
+
+> MAIN
+
+![image](https://user-images.githubusercontent.com/70703371/192098937-602ba58a-f6d8-4ed9-b3a0-8ddfb70f1d8d.png)
+
+8. 
 
 
