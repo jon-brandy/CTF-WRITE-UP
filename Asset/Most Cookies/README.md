@@ -85,17 +85,33 @@ if __name__ == "__main__":
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/190404309-27777e50-9bd2-4b18-ade0-e0f5d917ccd7.png)
-
-8. Now let's use it as the bruteforce wordlists.
-
-> RESULT
+![image](https://user-images.githubusercontent.com/70703371/192959700-40286bc2-c29b-4980-98c8-7687fd8b4788.png)
 
 
+8. Now let's use it as the bruteforce's wordlists.
+9. Copy our cookie's session.
+
+> COOKIE'S SESSION
+
+![image](https://user-images.githubusercontent.com/70703371/192959973-3cabc904-2f25-4396-bd55-8e75d8ff0d94.png)
+
+
+```
+eyJ2ZXJ5X2F1dGgiOiJibGFuayJ9.YzU-bw.nwiDBXQkTtemJuDhK8LbQeqgBK4
+```
+
+10. Then run this command at your kali linux terminal:
+
+> COMMAND
+
+```sh
+
+```
 
 ## LEARNING REFERENCES:
 
 ```
+https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/flask
 https://pypi.org/project/flask-unsign/
 ```
 
