@@ -206,11 +206,9 @@ rely on problem solving skills and creative thinking.
 <summary> MORE FOR BAY WRITEUPS </summary>
 <br>
 
-<summary> CLICK THE LINK  </summary>
-<br>
 
-|THE LINK|
-|:--------:|
+|LINK TO BAY'S GITHUB PAGE|
+|:-----------------------:|
 |[BAY](https://github.com/Bread-Yolk)|
 
 </details>
