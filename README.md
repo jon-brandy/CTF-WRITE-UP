@@ -203,8 +203,10 @@ rely on problem solving skills and creative thinking.
 
 <details>
 
-<summary> MORE ABOUT BAY </summary>
+<summary> MORE FOR BAY WRITEUPS </summary>
 <br>
+
+<summary> CLICK THE LINK  </summary>
 
 |THE LINK|
 |:--------:|
