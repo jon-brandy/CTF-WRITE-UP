@@ -206,7 +206,7 @@ rely on problem solving skills and creative thinking.
 
 <details>
 
-<summary> MORE FOR BAY WRITEUPS </summary>
+<summary> FOR MORE BAY WRITEUPS </summary>
 <br>
 
 
