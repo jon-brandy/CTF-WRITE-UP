@@ -138,3 +138,14 @@ sh.interactive()
 ```py
 ```
 
+
+
+![image](https://user-images.githubusercontent.com/70703371/205313705-c206027f-591e-4d16-9390-abca365ecbbb.png)
+
+
+## FLAG
+
+```
+picoCTF{Stat1C_c4n4r13s_4R3_b4D_35bc40e2}
+```
+
