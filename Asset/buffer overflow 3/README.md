@@ -56,6 +56,16 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/205286531-0dc7a5e9-da42-47fc-b93b-fc5ca0f965b1.png)
+
+
+13. Let's input 68 as the value bytes now and the input as 68 characters of A.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/205286782-55bced89-dc16-4049-91f9-f728e15a2755.png)
+
+
 
 
 
