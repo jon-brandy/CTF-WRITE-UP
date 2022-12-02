@@ -63,7 +63,15 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 
 > RESULT
 
+
 ![image](https://user-images.githubusercontent.com/70703371/205286782-55bced89-dc16-4049-91f9-f728e15a2755.png)
+
+
+14. Notice here, we need to overflow any other variables we have on the saved ebp or rbp before we can get to the `win` function.
+
+> ALL VARIABLES WE NEED TO OVERFLOWED
+
+![image](https://user-images.githubusercontent.com/70703371/205287604-f07aea16-dfcd-4499-82ef-26e02fc31c3a.png)
 
 
 
