@@ -74,6 +74,12 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 ![image](https://user-images.githubusercontent.com/70703371/205287604-f07aea16-dfcd-4499-82ef-26e02fc31c3a.png)
 
 
+> THE EBP/RBP
+
+![image](https://user-images.githubusercontent.com/70703371/205287685-9372ef70-ddb4-43bf-8dae-b92beb13a10c.png)
+
+
+
 
 
 
