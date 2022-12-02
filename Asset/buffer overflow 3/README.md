@@ -109,6 +109,8 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 19. But the `flag` is our own local canary, the problem is we don't know the remote server's canary.
 20. So far our script look like this:
 
+> TEMPORARY SCRIPT
+
 ```py
 from pwn import *
 import os
@@ -129,8 +131,10 @@ sh.sendline(p)
 sh.interactive()
 ```
 
+21. To bruteforce the remote's canary, i made this python script:
 
+> CANARY BRUTE SCRIPT
 
-
-9. Based 
+```py
+```
 
