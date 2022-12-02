@@ -79,6 +79,22 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 ![image](https://user-images.githubusercontent.com/70703371/205287685-9372ef70-ddb4-43bf-8dae-b92beb13a10c.png)
 
 
+15. Now open the file in gdb and set the breakpoint at the **memcp** offset.
+
+![image](https://user-images.githubusercontent.com/70703371/205288798-f5493083-6ae9-4a29-98d0-669ac72ae22b.png)
+
+
+> GDB
+
+![image](https://user-images.githubusercontent.com/70703371/205288956-7522ae33-904b-48b0-ab32-5df5d7324329.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/205289016-8d2b76c8-c978-4782-b14e-e363619adaa2.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/205289058-2f85b287-8647-48b0-91cb-a4837bd8156a.png)
+
+
 
 
 
