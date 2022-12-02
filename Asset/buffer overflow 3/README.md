@@ -47,7 +47,12 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 ![image](https://user-images.githubusercontent.com/70703371/205285883-91545670-ca12-410f-82f8-67e685e28721.png)
 
 
-11. 
+11. Jump to the `vuln()` function.
+
+![image](https://user-images.githubusercontent.com/70703371/205285997-4cf78ad6-b874-40d1-b5b7-fbfefb10d6d7.png)
+
+
+12. 
 
 
 9. Based 
