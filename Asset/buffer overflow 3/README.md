@@ -20,4 +20,14 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/205282165-23a2f61b-e3bd-4a76-ae90-63970070b521.png)
+
+
+5. **No canary found** means we can do buffer overflow here and **no PIE** means the program won't produce a dynamically linked position independent executeable.
+6. Let's make the program executeable by run `chmod +x vuln`.
+7. Now run the program.
+
+> RESULT
+
+
 
