@@ -100,6 +100,14 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 ![image](https://user-images.githubusercontent.com/70703371/205289424-9a025a3d-932b-4c01-a424-c0dbb3f57efa.png)
 
 
+17. Based from it we can conclude the right padding is 64 bytes.
+18. At this stage, we know we need to add 64 bytes for the padding plus 4 bytes for the canary, also another 16 bytes (include the saved RBP) in total to overwrite other variables.
+
+![image](https://user-images.githubusercontent.com/70703371/205296017-c866e35d-d872-4f20-ada2-94510be44d48.png)
+
+
+19. But the `flag` is our own local canary, the problem is we don't know the remote server's canary.
+20. For this solution i made a python script to bruteforce the canary.
 
 
 
