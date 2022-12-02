@@ -95,6 +95,11 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 ![image](https://user-images.githubusercontent.com/70703371/205289058-2f85b287-8647-48b0-91cb-a4837bd8156a.png)
 
 
+16. The program compared our last 4 characters to the `test` (which is our canary).
+
+![image](https://user-images.githubusercontent.com/70703371/205289424-9a025a3d-932b-4c01-a424-c0dbb3f57efa.png)
+
+
 
 
 
