@@ -52,7 +52,11 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 ![image](https://user-images.githubusercontent.com/70703371/205285997-4cf78ad6-b874-40d1-b5b7-fbfefb10d6d7.png)
 
 
-12. 
+12. Try to input the bytes value as `64` and the input as 64 characters of A.
+
+> RESULT
+
+
 
 
 9. Based 
