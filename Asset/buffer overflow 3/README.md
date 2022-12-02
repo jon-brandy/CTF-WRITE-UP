@@ -29,5 +29,12 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 
 > RESULT
 
+![image](https://user-images.githubusercontent.com/70703371/205284598-81415891-6fc5-499e-bd07-b8cbfbaae3d5.png)
+
+
+8. Hmm.. Let's decompile it with ghidra.
+
+> RESULT
+
 
 
