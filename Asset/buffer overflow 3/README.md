@@ -29,12 +29,27 @@ And connect with it using: `nc saturn.picoctf.net 64367`
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/205284598-81415891-6fc5-499e-bd07-b8cbfbaae3d5.png)
+![image](https://user-images.githubusercontent.com/70703371/205285240-7aea9ded-010d-4fa9-8ff0-4ede34a2f537.png)
 
 
-8. Hmm.. Let's decompile it with ghidra.
+8. Seems we need to make `canary.txt` first.
+9. Let's make it and enter the word "flag" into the file and run the program again.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/205285674-ebcdc8a7-c0af-4484-bd7f-9fd28145ccb2.png)
+
+
+10. Hmm.. Let's decompile the file with ghidra.
 
 > RESULT
 
 
+![image](https://user-images.githubusercontent.com/70703371/205285775-f812a366-7fb0-4241-b89a-4eb72a808154.png)
+
+
+11. 
+
+
+9. Based 
 
