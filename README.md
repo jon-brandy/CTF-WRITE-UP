@@ -177,10 +177,44 @@ rely on problem solving skills and creative thinking.
 <details>
 
 <summary> CTFLEARN </summary>
-
+<br>
+ 
 |LINK|
 |:--:|
 |[LINK](https://github.com/Bread-Yolk/ctflearnwu)|
+
+</details>
+
+<details>
+
+<summary> HACKLABS </summary>
+<br>
+ 
+|LINK|
+|:--:|
+|COMING REALLY SOON..|
+
+</details>
+
+<details>
+
+<summary> COMPFEST14 HACKERCLASS </summary>
+<br>
+ 
+|LINK|
+|:--:|
+|[LINK](https://github.com/Bread-Yolk/compfest14hackerclass)|
+
+</details>
+
+<details>
+
+<summary> HACKTHEBOX </summary>
+<br>
+ 
+|LINK|
+|:--:|
+|[LINK](https://github.com/Bread-Yolk/hackthebox)|
 
 </details>
  
