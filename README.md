@@ -178,8 +178,6 @@ rely on problem solving skills and creative thinking.
 
 <summary> CTFLEARN </summary>
 
-<details>
-
 |LINK|
 |:--:|
 |[LINK](https://github.com/Bread-Yolk/ctflearnwu)|
