@@ -32,11 +32,16 @@ According to [CTF-time](https://ctftime.org/ctf-wtf/), CTF is divided into vario
 rely on problem solving skills and creative thinking.
 ```
 
-> picoCTF's Solution
+> WRITEUPS
 
-<p align="center">
-  <img src = "https://user-images.githubusercontent.com/70703371/179665455-2206bce7-7968-4dcf-8e45-5ee85f697d4f.png" width = "750">
-</p>
+<details>
+<br>
+
+<summary> PICOCTF </summary>
+
+
+
+
 
 |No.|Problems|Category|Website|Year|Points|Result|
 |:-:|:------:|:------:|:-----:|:--:|:----:|:----:|
@@ -170,6 +175,19 @@ rely on problem solving skills and creative thinking.
 |125. |[ARMssembly 0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/8cee5cf1069f48164e28a3e813045d90ddf1c3fb/Asset/ARMssembly%200/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/160?category=3&page=1)|2021|40|✅ SOLVED|
 |126. |[Torrent Analyze](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0426ec6fc67b56e1bb9c9bb014628c1a46e1392c/Asset/Torrent%20Analyze/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/311?category=4&page=4&search=)|2022|400|✅ SOLVED|
 
+</details>
+
+<details>
+
+<summary> CTFLEARN </summary>
+
+<details>
+
+|LINK|
+|:--:|
+|https://github.com/Bread-Yolk/ctflearnwu|
+
+</details>
 
 ## MEET THE AGENTS
 
