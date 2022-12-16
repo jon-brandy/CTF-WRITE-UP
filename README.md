@@ -308,6 +308,8 @@ https://crypto.stackexchange.com/questions/66085/bit-flipping-attack-on-cbc-mode
 https://www.felixcloutier.com/x86/mov
 https://owasp.org/www-community/attacks/Format_string_attack
 https://www.wireshark.org/docs/dfref/b/bt-dht.html
+https://pequalsnp-team.github.io/cheatsheet/flask-jinja2-ssti
+https://kleiber.me/blog/2021/10/31/python-flask-jinja2-ssti-example/
 ```
 
 
