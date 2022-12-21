@@ -311,6 +311,8 @@ https://www.wireshark.org/docs/dfref/b/bt-dht.html
 https://pequalsnp-team.github.io/cheatsheet/flask-jinja2-ssti
 https://kleiber.me/blog/2021/10/31/python-flask-jinja2-ssti-example/
 http://www.securityidiots.com/Web-Pentest/SQL-Injection/addslashes-bypass-sql-injection.html
+https://ldap.com/
+https://www.varonis.com/blog/the-difference-between-active-directory-and-ldap
 ```
 
 
