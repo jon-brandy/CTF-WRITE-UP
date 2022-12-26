@@ -240,7 +240,7 @@ rely on problem solving skills and creative thinking.
 
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
-|[jon-brandy](https://github.com/jon-brandy)|Forensics - Binary Exploitation|College Student - Mentor|
+|[jon-brandy](https://github.com/jon-brandy)|Forensics - Binary Exploitation|College Student - Mentor - Bug Hunter|
 |[Q](https://github.com/tkxldk)|Cryptography - Forensics|College Student - Designer|
 |[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student - Mentor|
 |[Antonyous10](https://github.com/Antonyous10)|Cryptography|College Student - Mentor|
