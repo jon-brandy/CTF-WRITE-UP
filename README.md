@@ -313,6 +313,9 @@ https://kleiber.me/blog/2021/10/31/python-flask-jinja2-ssti-example/
 http://www.securityidiots.com/Web-Pentest/SQL-Injection/addslashes-bypass-sql-injection.html
 https://ldap.com/
 https://www.varonis.com/blog/the-difference-between-active-directory-and-ldap
+https://github.com/payloadbox/xxe-injection-payload-list
+https://github.com/payloadbox/sql-injection-payload-list
+https://github.com/payloadbox/xss-payload-list
 ```
 
 
