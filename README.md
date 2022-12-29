@@ -316,6 +316,8 @@ https://www.varonis.com/blog/the-difference-between-active-directory-and-ldap
 https://github.com/payloadbox/xxe-injection-payload-list
 https://github.com/payloadbox/sql-injection-payload-list
 https://github.com/payloadbox/xss-payload-list
+https://docs.docker.com/engine/security/seccomp/
+https://www.die.net/search/?q=read&sa=Search&ie=ISO-8859-1&cx=partner-pub-5823754184406795%3A54htp1rtx5u&cof=FORID%3A9&siteurl=linux.die.net%2Fman%2F&ref=www.google.com%2F&ss=238j25750j4#gsc.tab=0&gsc.q=read&gsc.page=1
 ```
 
 
