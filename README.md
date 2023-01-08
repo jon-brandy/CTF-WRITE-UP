@@ -320,6 +320,7 @@ https://docs.docker.com/engine/security/seccomp/
 https://www.die.net/search/?q=read&sa=Search&ie=ISO-8859-1&cx=partner-pub-5823754184406795%3A54htp1rtx5u&cof=FORID%3A9&siteurl=linux.die.net%2Fman%2F&ref=www.google.com%2F&ss=238j25750j4#gsc.tab=0&gsc.q=read&gsc.page=1
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/NoSQL%20Injection
 https://gtfobins.github.io/#
+https://github.com/TeamRocketIst/ctf-usb-keyboard-parser
 ```
 
 
