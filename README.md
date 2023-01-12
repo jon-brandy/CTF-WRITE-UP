@@ -321,6 +321,8 @@ https://www.die.net/search/?q=read&sa=Search&ie=ISO-8859-1&cx=partner-pub-582375
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/NoSQL%20Injection
 https://gtfobins.github.io/#
 https://github.com/TeamRocketIst/ctf-usb-keyboard-parser
+https://www.techtarget.com/searchstorage/definition/RAID-5-redundant-array-of-independent-disks
+https://www.forensicfocus.com/articles/making-complex-issues-simple-a-unique-method-to-extract-evidence-from-raid-with-lost-configuration/
 ```
 
 
