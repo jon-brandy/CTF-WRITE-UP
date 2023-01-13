@@ -323,6 +323,8 @@ https://gtfobins.github.io/#
 https://github.com/TeamRocketIst/ctf-usb-keyboard-parser
 https://www.techtarget.com/searchstorage/definition/RAID-5-redundant-array-of-independent-disks
 https://www.forensicfocus.com/articles/making-complex-issues-simple-a-unique-method-to-extract-evidence-from-raid-with-lost-configuration/
+https://netsecninja.github.io/dfir-notes/wmi-forensics/
+https://github.com/davidpany/WMI_Forensics
 ```
 
 
