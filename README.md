@@ -325,6 +325,12 @@ https://www.techtarget.com/searchstorage/definition/RAID-5-redundant-array-of-in
 https://www.forensicfocus.com/articles/making-complex-issues-simple-a-unique-method-to-extract-evidence-from-raid-with-lost-configuration/
 https://netsecninja.github.io/dfir-notes/wmi-forensics/
 https://github.com/davidpany/WMI_Forensics
+https://blog.nviso.eu/2021/10/21/cobalt-strike-using-known-private-keys-to-decrypt-traffic-part-1/
+https://blog.nviso.eu/2021/11/17/cobalt-strike-decrypting-obfuscated-traffic-part-4/
+https://blog.nviso.eu/2021/11/03/cobalt-strike-using-process-memory-to-decrypt-traffic-part-3/
+https://blog.didierstevens.com/2021/10/11/update-1768-py-version-0-0-8/
+https://github.com/DidierStevens/Beta/blob/master/cs-extract-key.py
+https://github.com/DidierStevens/Beta/blob/master/cs-parse-http-traffic.py
 ```
 
 
