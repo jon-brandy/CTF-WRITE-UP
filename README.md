@@ -172,7 +172,7 @@ rely on problem solving skills and creative thinking.
 |125. |[ARMssembly 0](https://github.com/jon-brandy/CTF-WRITE-UP/blob/8cee5cf1069f48164e28a3e813045d90ddf1c3fb/Asset/ARMssembly%200/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/160?category=3&page=1)|2021|40|✅ SOLVED|
 |126. |[Torrent Analyze](https://github.com/jon-brandy/CTF-WRITE-UP/blob/0426ec6fc67b56e1bb9c9bb014628c1a46e1392c/Asset/Torrent%20Analyze/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/311?category=4&page=4&search=)|2022|400|✅ SOLVED|
 |127. |[WPA-ing Out](https://github.com/jon-brandy/CTF-WRITE-UP/blob/915ef5b0ee20ec90d035bd1ece7757815b85b181/Asset/WPA-ing%20Out/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/237?category=4&page=3)|picoGym Exclusive|200|✅ SOLVED|
-
+|128. |[JAuth](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4e8e999c15314b3910a18f1b67b0e9b4b038f19d/Asset/JAuth/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/236?originalEvent=gym&page=13)|picoGym Exclusive|300|✅ SOLVED|
 
 
 </details>
