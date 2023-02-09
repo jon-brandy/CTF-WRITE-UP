@@ -23,4 +23,22 @@ What's ROP? Can you exploit the following program to get the flag? Download sour
 
 
 4. But the problem is, there's no flag function or any interesting function to jump.
-5. 
+5. Anyway let's find the correct offset first for EIP.
+6. Let's run the binary using **pwndbg**, then enter cyclic 100 bytes as input.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/217822357-d7263cbe-6784-4361-b4fa-b68b8123c0bf.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/217822396-c1009e7e-5033-4585-a004-afd2ccae8870.png)
+
+
+7. Got segmentation fault, to find the offset, let's copy the 4 characters from the EIP.
+
+> RESULT - 28
+
+![image](https://user-images.githubusercontent.com/70703371/217822580-59b36ecb-b6e5-418d-9fd9-76765e26e4cc.png)
+
+
+8. g
