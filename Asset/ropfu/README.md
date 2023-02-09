@@ -11,7 +11,7 @@ What's ROP? Can you exploit the following program to get the flag? Download sour
 
 ![image](https://user-images.githubusercontent.com/70703371/217817473-ecb19db2-e5c6-41a2-baad-1d5f05520313.png)
 
-> VULN - Partial RELRO (can read & write GOT), NX Disabled (shall inject shellcode & executed), NO PIE (ASLR disabled), Has RWX segments. 
+> VULN - Partial RELRO (can read & write GOT), NX Disabled (can perform bufferoverflow with code execution from memory that marked as NX), NO PIE (ASLR disabled), Has RWX segments (allows us to inject shellcode & execute it). 
 
 ![image](https://user-images.githubusercontent.com/70703371/217817687-bcf2af08-a1d4-4a54-a41c-b82b226ab3cb.png)
 
