@@ -335,6 +335,7 @@ https://blog.nviso.eu/2021/11/03/cobalt-strike-using-process-memory-to-decrypt-t
 https://blog.didierstevens.com/2021/10/11/update-1768-py-version-0-0-8/
 https://github.com/DidierStevens/Beta/blob/master/cs-extract-key.py
 https://github.com/DidierStevens/Beta/blob/master/cs-parse-http-traffic.py
+https://www.eecg.utoronto.ca/~amza/www.mindsec.com/files/x86regs.html
 ```
 
 
