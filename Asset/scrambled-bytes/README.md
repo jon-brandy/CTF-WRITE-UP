@@ -1,5 +1,5 @@
 # scrambled-bytes
-#### Write-up author: [jon-brandy]()
+> Write-up author: jon-brandy
 ## DESCRIPTION:
 I sent my secret flag over the wires, but the bytes got all mixed up!
 
@@ -10,5 +10,6 @@ I sent my secret flag over the wires, but the bytes got all mixed up!
 - NONE
 
 ## STEPS:
-1. First, download both files given.
-2. Next
+1. Given two files -> .pcap & .py.
+
+> 
