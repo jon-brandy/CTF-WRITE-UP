@@ -176,7 +176,7 @@ rely on problem solving skills and creative thinking.
 |129. |[ropfu](https://github.com/jon-brandy/CTF-WRITE-UP/blob/df8068d30554ebdde787f34390afefeb86442ead/Asset/ropfu/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/292?category=6&page=2)|2022|300|✅ SOLVED|
 |130. |[ARMssembly 1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a32e1f04ebd306e6434a69436c971a003947655f/Asset/ARMssembly%201/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/111?category=3&page=1)|2021|70|✅ SOLVED|
 |131. |[ARMssembly 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/759cdc45b4c418be80dbfc2bcedd5b44886c4626/Asset/ARMssembly%202/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/150?category=3&page=1)|2021|90|✅ SOLVED|
-
+|132. |[not-crypto](https://github.com/jon-brandy/CTF-WRITE-UP/blob/95464e039a12862b871a36aac4baee628ec0b209/Asset/not-crypto/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/222?category=3&page=2)|picoMini|150|✅ SOLVED|
 
 
 </details>
