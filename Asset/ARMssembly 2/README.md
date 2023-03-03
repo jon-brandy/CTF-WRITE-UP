@@ -112,8 +112,27 @@ func1:
 	b	.L2 ; branches to .L2
 ```
 
-6. Since it's branching to .L2, let's analyze .L2 then.
+6. Since it's branching to .L2, let's analyze .L2 & L3, because there's a loop operation in .L2, which involve .L3
 
 ```asm
-
+.L3:
+	ldr	w0, [sp, 24] ; stored w0 (user input) with the value stored in [sp + 24]
+	add	w0, w0, 3 ; values in w0 (user input) incremented by 3
+	str	w0, [sp, 24] ; store the value from w0 to [sp + 24]
+	ldr	w0, [sp, 28] ; load w0 with value stored in [sp + 28]
+	add	w0, w0, 1 ; increment w0 with 1
+	str	w0, [sp, 28] ; store the value from w0 to [sp + 28]
+.L2: ; is a loop label that executes until the value stred in the stack [sp + 28] >= [sp + 12]
+	ldr	w1, [sp, 28] ; load w1 with value stored in [sp + 28] -> w1 = 0
+	ldr	w0, [sp, 12] ; load w1 with the user input -> w0 = 2610164910
+	cmp	w1, w0 ; comparing 
+	bcc	.L3 ; loop starts
+	ldr	w0, [sp, 24] ; load w0 with value stored in [sp + 24]
+	add	sp, sp, 32
+	ret ; return the value stored in [sp + 24] 
+	.size	func1, .-func1
+	.section	.rodata
+	.align	3
 ```
+
+6. At the .L3, the user input is incremented by 3 -> 723042DB30
