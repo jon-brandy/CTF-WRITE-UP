@@ -174,6 +174,8 @@ rely on problem solving skills and creative thinking.
 |127. |[WPA-ing Out](https://github.com/jon-brandy/CTF-WRITE-UP/blob/915ef5b0ee20ec90d035bd1ece7757815b85b181/Asset/WPA-ing%20Out/README.md)|Forensics|[picoCTF](https://play.picoctf.org/practice/challenge/237?category=4&page=3)|picoGym Exclusive|200|✅ SOLVED|
 |128. |[JAuth](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4e8e999c15314b3910a18f1b67b0e9b4b038f19d/Asset/JAuth/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/236?originalEvent=gym&page=13)|picoGym Exclusive|300|✅ SOLVED|
 |129. |[ropfu](https://github.com/jon-brandy/CTF-WRITE-UP/blob/df8068d30554ebdde787f34390afefeb86442ead/Asset/ropfu/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/292?category=6&page=2)|2022|300|✅ SOLVED|
+|130. |[ARMssembly1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1086f1cad88b9e988ac6d1ba27d520ae4d3e6b4a/Asset/ARMssembly%201/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/111?category=3&page=1)|2021|70|✅ SOLVED|
+
 
 
 </details>
