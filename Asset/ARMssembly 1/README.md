@@ -127,9 +127,9 @@ func:
 
 
 6. Hence, we know the user input must be 27.
-7. Convert 27 to hex -> `1B` -> `0x0000001B`
+7. Convert 27 to hex -> `1B` -> `0x0000001B` -> `0x0000001b` (lowercase)
 8. Got the flag!
 
 ```
-picoCTF{0000001B}
+picoCTF{0000001b}
 ```
