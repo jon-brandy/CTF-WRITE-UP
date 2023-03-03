@@ -98,3 +98,22 @@ main:
 	.ident	"GCC: (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 7.5.0"
 	.section	.note.GNU-stack,"",@progbits
 ```
+
+3. Based from the description, the user input strings is -> `2610164910`.
+4. Now we know the input used at the func1.
+5. Next, let's analyze func1
+
+```asm
+func1:
+	sub	sp, sp, #32 ; reserves a block of 32 bytes on the stack by substract 32 from the stack pointer.
+	str	w0, [sp, 12] ; [sp + 12] stored the user input -> 2610164910
+	str	wzr, [sp, 24] ; [sp + 24] stored 0
+	str	wzr, [sp, 28] ; [sp + 28] stored 0
+	b	.L2 ; branches to .L2
+```
+
+6. Since it's branching to .L2, let's analyze .L2 then.
+
+```asm
+
+```
