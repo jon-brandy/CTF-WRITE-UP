@@ -150,45 +150,10 @@ main:
 ![image](https://user-images.githubusercontent.com/70703371/222489765-245f63a0-62f8-4da1-98f1-b4e2d06598e3.png)
 
 
-7. Since we're compiling an assembly file to binary, it's best to renew the offset/address that already written in the base address.
-8. To do that, first set a breakpoint at 0x1, then run it.
+7. When checking the protections, we know PIE is enabled, hence the result we got before is just an offset.
 
-> NOTES:
-
-```
-The breakpoint can be anywhere, we just want to trigger the renewal.
-```
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/222490762-36c8e1a1-861a-448a-a6ac-abefd3f74c12.png)
+![image](https://user-images.githubusercontent.com/70703371/222634379-eef3af4e-5b7f-4716-98d2-4dbaade33c68.png)
 
 
-9. Now check the functions avail.
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/222490891-b64457de-fff8-41f4-9946-15a0fc782fe3.png)
-
-
-10. Great! Let's delete the breakpoints now.
-11. Next, let's set a breakpoint at the `memcp@plt` function, then run the binary.
-
-> ENTER ANY STRINGS WITH ANY LENGTH
-
-![image](https://user-images.githubusercontent.com/70703371/222491802-f2d19191-b3c8-49f5-bae3-df0ad835ae12.png)
-
-
-> RESULT
-
-![image](https://user-images.githubusercontent.com/70703371/222491925-6e5a1fc4-26de-4215-978f-fa868b5388b3.png)
-
-
-12. Notice, we can see there's a leak value at the **RSI** gadget.
-
-![image](https://user-images.githubusercontent.com/70703371/222492356-65b337f9-4fbd-4790-8bbf-78f638e26ba4.png)
-
-
-13. Means it comparing our value to the value stored in **RSI**.
-14. To see the leaked strings in full, use this command -> 
+8. To having the correct addresses to load, we need to run the binary first.
 
