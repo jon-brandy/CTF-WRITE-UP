@@ -86,10 +86,50 @@ main:
 
 ```
 
-3. At the main function, it seems the program called the `atoi()` function again.
-4. Let's analyze the `func()` function.
-5. It stored two variables at the parameter.
+3. Seems like our point of interest is at the `func()`.
+4. Here's what happen there.
 
-![image](https://user-images.githubusercontent.com/70703371/190894987-bddce2a3-c663-4ac8-83cd-e0ba710ab6c5.png)
+```asm
+func:
+	sub	sp, sp, #32 ; reserve 32 bytes of space on the stack by substracting32 from the value in sp
+	str	w0, [sp, 12] ; stores undefined value from w0 to [sp + 12] 
+	mov	w0, 81 ; moves 81 to w0
+	str	w0, [sp, 16] ; str (store a register value into memory) -> [sp + 16] = 81
+	str	wzr, [sp, 20] ; xzr/wzr hold 0 values -> hence -> [sp + 20] = 0
+	mov	w0, 3 ; moves 3 to w0
+	str	w0, [sp, 24] ; [sp + 24] = 3
+	ldr	w0, [sp, 20] ; w0 = 0
+	ldr	w1, [sp, 16] ; ldr -> load something from memory into register -> w1 = 81
+	lsl	w0, w1, w0 ; lsl (logical shift left) -> 81 << 0 = 81 (in decimal) and stored it into w0.
+	str	w0, [sp, 28] ; [sp + 28] = 81
+	ldr	w1, [sp, 28] ; w1 = [sp + 28] = 81
+	ldr	w0, [sp, 24] ; w0 = [sp + 24] = 3
+	sdiv	w0, w1, w0 ; signed division (sdiv) -> w1 by w0 (divide 81 by 3) = 27
+	str	w0, [sp, 28] ; [sp + 28] = 27
+	ldr	w1, [sp, 28] ; w1 = 27
+	ldr	w0, [sp, 12] ; stored undefined value to w0
+	sub	w0, w1, w0 ; substract -> w0 - w1
+	str	w0, [sp, 28] ; [sp + 28] = 27
+	ldr	w0, [sp, 28] ; w0 = 27
+	add	sp, sp, 32
+	ret
+	.size	func, .-func
+	.section	.rodata
+	.align	3
+```
 
-6. Then 
+5. Then looking at the main functions, we know if the user's input makes the substraction result 0, hence the program shall continue to .LC0.
+
+![image](https://user-images.githubusercontent.com/70703371/222640735-a5ded69e-0dc8-4b82-ab5d-0d4e6babf4b3.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/222640758-a79a8523-ddcc-4758-bb3a-1180eceb66aa.png)
+
+
+6. Hence, we know the user input must be 27.
+7. Convert 27 to hex -> `1B` -> `0x0000001B`
+8. Got the flag!
+
+```
+picoCTF{0000001B}
+```
