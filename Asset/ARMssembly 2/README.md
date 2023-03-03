@@ -135,4 +135,15 @@ func1:
 	.align	3
 ```
 
-6. At the .L3, the user input is incremented by 3 -> 723042DB30
+6. At the .L3, the user input is incremented by 3.
+7. Incremented in asm -> user_input x value_increment.
+8. Hence -> 2610164910 x 3 = 7830494730.
+9. Convert it to hex -> `picoCTF{1d2bbde0a}`
+10. Remembering the 32 bits only has 8 bytes as the value, hence the flag shall be -> **picoCTF{d2bbde0a}**
+11. Got the flag!
+
+## FLAG
+
+```
+picoCTF{d2bbde0a}
+```
