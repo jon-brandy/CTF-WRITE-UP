@@ -35,7 +35,7 @@ Hmmm this is a weird file... enter_password. There is a instance of the service 
 ![image](https://user-images.githubusercontent.com/70703371/222879915-5b76d520-1fd3-475c-9d91-24df13195c88.png)
 
 
-7. Open gdb and set a breakpoint at this offset -> `0x080d4b2d` (offset of xchg instruction -> eax, ebp) so we can see the key stored in **esi** for xor the strings stored in **ebp**, then run the binary.
+7. Open gdb and set a breakpoint at this offset -> `0x080d4b2d` (offset of xchg instruction -> eax, ebp) so we can see key value stored in **esi+0x4** and the expected values (which stored in esi+0x24). 
 
 > RESULT -> GDB
 
@@ -75,6 +75,9 @@ Hmmm this is a weird file... enter_password. There is a instance of the service 
 10. Hence now we know the key used is -> `861836f13e3d627dfa375bdb8389214e`.
 
 ![image](https://user-images.githubusercontent.com/70703371/222880710-5e1d3ee2-13ca-4e6c-824d-f15cba1708ac.png)
+
+
+11. Then the ex
 
 
 
