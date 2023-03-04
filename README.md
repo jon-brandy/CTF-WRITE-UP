@@ -178,7 +178,7 @@ rely on problem solving skills and creative thinking.
 |131. |[ARMssembly 2](https://github.com/jon-brandy/CTF-WRITE-UP/blob/759cdc45b4c418be80dbfc2bcedd5b44886c4626/Asset/ARMssembly%202/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/150?category=3&page=1)|2021|90|✅ SOLVED|
 |132. |[not-crypto](https://github.com/jon-brandy/CTF-WRITE-UP/blob/95464e039a12862b871a36aac4baee628ec0b209/Asset/not-crypto/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/222?category=3&page=2)|picoMini|150|✅ SOLVED|
 |133. |[gogo](https://github.com/jon-brandy/CTF-WRITE-UP/blob/3d5c00b122924f36599ca1a3cfa567049db09887/Asset/gogo/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/171?category=3&page=2)|2021|110|✅ SOLVED|
-
+|134. |[gogo](https://github.com/jon-brandy/CTF-WRITE-UP/blob/25db1f3b373c0bf9daa089ac9ebdc1e2cdf01e04/Asset/vault-door-3/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/60?category=3&page=3)|2019|200|✅ SOLVED|
 
 </details>
 
