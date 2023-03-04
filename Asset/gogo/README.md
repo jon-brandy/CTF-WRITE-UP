@@ -77,7 +77,66 @@ Hmmm this is a weird file... enter_password. There is a instance of the service 
 ![image](https://user-images.githubusercontent.com/70703371/222880710-5e1d3ee2-13ca-4e6c-824d-f15cba1708ac.png)
 
 
-11. Then the ex
+11. Also we know the expected value is:
+
+![image](https://user-images.githubusercontent.com/70703371/222881723-3e586815-fc1e-4ebc-9325-93b66cf0ee28.png)
+
+
+12. To get the original strings from the expected values, we can xor the expected values with the key it used. 
+
+> THE SCRIPT
+
+```py
+from pwn import *
+import os
+
+os.system('cls')
+
+expected_value = '4a53475d414503545d025a0a5357450d05005d555410010e4155574b45504601'
+key = '861836f13e3d627dfa375bdb8389214e'
+
+getPlain = xor(unhex(expected_value),key)
+info('Plain text: %s', getPlain)
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/222882341-142c07fb-21e4-4740-be39-7fd5aab46a00.png)
+
+
+13. Great! Now let's enter the strings remotely.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/222882397-17635349-4e0f-47bd-a71c-fd89fc29ca6c.png)
+
+
+14. They asking about the **unhashed key**, let's use crackstation to crack the hashed key.
+
+> RESULT - goldfish
+
+![image](https://user-images.githubusercontent.com/70703371/222882473-34e31c7a-c774-4c75-bbc6-89902b25e79d.png)
+
+
+15. Enter that.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/222882509-ffddd073-de23-480d-89a6-19c562127ef5.png)
+
+
+16. Got the flag!
+
+
+## FLAG
+
+```
+picoCTF{p1kap1ka_p1c09a4dd7f3}
+```
+
+
+
+
 
 
 
