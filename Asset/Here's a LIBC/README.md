@@ -163,7 +163,7 @@ sh.interactive()
 
 > OUTPUT
 
-![image](https://user-images.githubusercontent.com/70703371/223367470-ae362321-9b99-473a-bd18-2db16cb8637a.png)
+![image](https://user-images.githubusercontent.com/70703371/223367650-dcbef323-3448-411c-a31a-bd9a56896d18.png)
 
 
 21. Got 3 results.
