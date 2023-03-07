@@ -211,7 +211,7 @@ bin_sh = libc_base + libc_binsh
 system = libc_base + libc_system
 ```
 
-> RESULT
+> CALCULATED 
 
 ![image](https://user-images.githubusercontent.com/70703371/223372671-9a0bfce9-96bd-4a83-b289-9c5b1c4d1b13.png)
 
