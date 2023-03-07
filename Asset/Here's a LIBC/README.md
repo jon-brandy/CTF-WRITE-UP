@@ -39,3 +39,16 @@ I am once again asking for you to pwn this binary vuln libc.so.6 Makefile nc mer
 ![image](https://user-images.githubusercontent.com/70703371/223360687-0f801324-3df4-4a6c-a3d5-a100b73ac2ba.png)
 
 
+7. Great! Now we have the patched binary file.
+8. Let's try to run it now.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/223360953-abb6a2d8-9867-47c1-9054-00416d156b38.png)
+
+
+9. It keeps prompt us an input.
+10. Let's decompile the binary.
+
+> 
+
