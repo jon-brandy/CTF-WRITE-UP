@@ -176,6 +176,11 @@ sh.interactive()
 
 23. Now we can calculate the libc_base address.
 
+> LIBC PUTS -> 0000000000080a30
+
+![image](https://user-images.githubusercontent.com/70703371/223376720-79a6ee3c-5541-476f-8296-213a5bb4dd5f.png)
+
+
 ```
 libc_base = leaked_puts - libcPuts
 ```
@@ -187,9 +192,20 @@ libc_base = leaked_puts - libcPuts
 
 24. To get the shell we need calculate the correct **/bin/sh** and **system** address.
 
+> LIBC /BIN/SH -> 1b40fa
+
+![image](https://user-images.githubusercontent.com/70703371/223377023-6821572a-a26f-4ef3-91d5-5ef69f7d3865.png)
+
+
 ```
 bin_sh = libc_base + libc_binsh
 ```
+
+
+> LIBC SYSTEM -> 000000000004f4e0
+
+![image](https://user-images.githubusercontent.com/70703371/223376880-7e29fd30-b83c-44fa-8a3b-8ba0696bdd05.png)
+
 
 ```
 system = libc_base + libc_system
