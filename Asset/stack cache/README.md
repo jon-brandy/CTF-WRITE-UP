@@ -109,7 +109,7 @@ padding + win() + under()
 
 7. Let's craft the script then.
 
-```c
+```py
 from pwn import *
 import os
 
