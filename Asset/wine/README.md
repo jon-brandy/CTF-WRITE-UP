@@ -1,7 +1,7 @@
 # wine
 > Write-up author: vreshco
 ## DESCRIPTION:
-Challenge best paired with wine. I love windows. Checkout my exe running on a linux box. You can view source here. And connect with it using nc saturn.picoctf.net 50917
+Challenge best paired with wine. I love windows. Checkout my exe running on a linux box. You can view source here. And connect with it using nc saturn.picoctf.net 57867
 ## HINT:
 - Gets is dangerous. Even on windows.
 ## STEPS:
