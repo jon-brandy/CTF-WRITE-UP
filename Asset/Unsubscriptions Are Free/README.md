@@ -247,4 +247,32 @@ void doProcess(cmd* obj) {
 }
 ```
 
-7. 
+7. Anyway let's start by understanding the menus first.
+
+![image](https://user-images.githubusercontent.com/70703371/224735775-6e3aa6de-22c1-4cd5-8ee6-25a4e182e0d1.png)
+
+
+8. Choosing **S** as our input shall make the program printed out the pointer for `hahaexploitgobrrr()` function.
+
+![image](https://user-images.githubusercontent.com/70703371/224736238-b5421d6f-1add-4e32-abd3-aa3dd8740b99.png)
+
+
+9. And if we called that `hahaexploitgobrrr()` function it shall printed out the flag stored inside the buf variable.
+
+![image](https://user-images.githubusercontent.com/70703371/224736501-0393453a-43a5-4cfc-b2d8-ccbc55e628fc.png)
+
+
+10. Next, if we choose **I** as our input, means we want to delete our "user_account" that registered inside.
+
+> NOTES
+
+```
+Found the UAF (Use-After-Free) vuln here, where the memory allocated for user does not cleared clean. Because the `user` is not set to NULL (not pointing to NULL address).
+```
+
+![image](https://user-images.githubusercontent.com/70703371/224737655-c9ec7993-b88e-47c6-bf96-f43e00f5515a.png)
+
+
+11. 
+
+
