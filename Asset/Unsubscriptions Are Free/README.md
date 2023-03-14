@@ -267,7 +267,9 @@ void doProcess(cmd* obj) {
 > NOTES
 
 ```
-Found the UAF (Use-After-Free) vuln here, where the memory allocated for user does not cleared clean. Because the `user` is not set to NULL (not pointing to NULL address).
+Found the UAF (Use-After-Free) vuln here, the code does not check if the `user` pointer is actually pointing to a valid allocated memory before freeing it. If the `user` pointer was not previously allocated, or if it was already freed beforem the calling `free()` on it will result in undefined behavior, which can cause a crash or other unexpected behavior.
+
+To fix this vuln, the code should first check if `user` is not NULL before calling `free()` on it.
 ```
 
 ![image](https://user-images.githubusercontent.com/70703371/224737655-c9ec7993-b88e-47c6-bf96-f43e00f5515a.png)
@@ -289,6 +291,16 @@ Found the UAF (Use-After-Free) vuln here, where the memory allocated for user do
 ![image](https://user-images.githubusercontent.com/70703371/224908573-07b1d82e-6334-4778-8cc5-261e3b39033e.png)
 
 
-15. 
+15. It's printed out a text and it allocates 8 bytes for **msg** var and it stored our input.
+
+![image](https://user-images.githubusercontent.com/70703371/225033872-2598670b-e269-4e60-9475-71dbc4791f0a.png)
+
+
+16. So until now we know the vuln is at the `i()` function and we can leak the `win()` address by calling the `s()` function.
+17. To make it clear, let's try to run it with gdb and set few breakpoints.
+
+> RESULT
+
+
 
 
