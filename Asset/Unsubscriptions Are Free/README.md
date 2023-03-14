@@ -273,6 +273,22 @@ Found the UAF (Use-After-Free) vuln here, where the memory allocated for user do
 ![image](https://user-images.githubusercontent.com/70703371/224737655-c9ec7993-b88e-47c6-bf96-f43e00f5515a.png)
 
 
-11. 
+11. Then, if we choose **M**, means we want to create an account.
+
+![image](https://user-images.githubusercontent.com/70703371/224907583-347db2be-aac5-4718-a1a1-008a9fee897e.png)
+
+
+12. And it calls the `getsline()` function which stored the input into the `username` variable.
+13. Then if we choose `p` it shall printed out this:
+
+![image](https://user-images.githubusercontent.com/70703371/224908116-09834c37-5b1f-4932-8c3d-674d7bf520f7.png)
+
+
+14. If `l`, it calls `leaveMessage()` function.
+
+![image](https://user-images.githubusercontent.com/70703371/224908573-07b1d82e-6334-4778-8cc5-261e3b39033e.png)
+
+
+15. 
 
 
