@@ -35,7 +35,7 @@ Download the image here
 ## FLAG
 
 ```
-picoCTF{15_y0ur_que57_qu1x071c_0r_h3r0 1c_ee3cb4d8}
+picoCTF{15_y0ur_que57_qu1x071c_0r_h3r01c_ee3cb4d8}
 ```
 
 
