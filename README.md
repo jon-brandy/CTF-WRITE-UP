@@ -250,7 +250,8 @@ rely on problem solving skills and creative thinking.
 </details>
 
 <details>
- <sumamry> FIND-IT UGM </summary>
+ <summary> FIND-IT UGM </summary>
+ <br>
 
 |LINK|
 |:--:|
