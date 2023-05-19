@@ -236,7 +236,6 @@ rely on problem solving skills and creative thinking.
 |:--:|
 |[LINK](https://github.com/Bread-Yolk/hackthebox)|
 
-</details>
  
 <summary> TCP1P </summary>
 <br>
