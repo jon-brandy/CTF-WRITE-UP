@@ -249,6 +249,15 @@ rely on problem solving skills and creative thinking.
 
 </details>
 
+<details>
+ <sumamry> FIND-IT UGM </summary>
+
+|LINK|
+|:--:|
+|[LINK](https://github.com/Bread-Yolk/find-it-ugm)|
+
+ </details>
+
 ## MEET THE AGENTS
 
 <p align="center">
