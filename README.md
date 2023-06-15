@@ -287,8 +287,8 @@ rely on problem solving skills and creative thinking.
 |[stephanchandra](https://github.com/stephanchandra)|Cryptography|Mentor|
 |[SSV132](https://github.com/SSV132)|Forensics - Reverse Engineering|Web Developer|
 |[ArkynGenics](https://github.com/ArkynGenics)|Web Exploitation|Web Developer - Pentester|
-|[ptr173](https://github.com/ptr173)|Web Exploitation|College Student|
-|[LawsonSchwantz](https://github.com/LawsonSchwantz)|Reverse Engineering|Bug Hunter|
+|[ptr173](https://github.com/ptr173)|Reverse Engineering|College Student|
+|[LawsonSchwantz](https://github.com/LawsonSchwantz)|Reverse Engineering - Cryptography|Bug Hunter|
 |[Matrsixx](https://github.com/Matrsixx)|Web Exploitation|Web Developer|
 
 </details>
