@@ -184,7 +184,7 @@ rely on problem solving skills and creative thinking.
 |137. |[wine](https://github.com/jon-brandy/CTF-WRITE-UP/blob/a1cb657ace89084fa039a161a7ff45749fb8af6f/Asset/wine/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/317?category=6&page=2)|2022|300|✅ SOLVED|
 |138. |[stack cache](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f2443b57f8b5519f46cc0a7d1b9cf3f728036808/Asset/stack%20cache/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/306?category=6&page=3)|2022|400|✅ SOLVED|
 |139. |[Unsubscriptions Are Free](https://github.com/jon-brandy/CTF-WRITE-UP/blob/fb973f8d1dc72da14928c5a5bf07354fdc543a36/Asset/Unsubscriptions%20Are%20Free/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/187?category=6&page=1)|2021|100|✅ SOLVED|
-|140. |[]()||[picoCTF]()||||
+|140. |[Local Target](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7eb5a16016331975b8dcd834c13c0cfffe7062b0/Asset/Local%20Target/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/399?category=6&page=1&search=)|picoGym|100|✅ SOLVED|
 |141. |[]()||[picoCTF]()||||
 |142. |[]()||[picoCTF]()||||
 |143. |[]()||[picoCTF]()||||
