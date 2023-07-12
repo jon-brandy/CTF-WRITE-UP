@@ -187,7 +187,7 @@ rely on problem solving skills and creative thinking.
 |140. |[Local Target](https://github.com/jon-brandy/CTF-WRITE-UP/blob/7eb5a16016331975b8dcd834c13c0cfffe7062b0/Asset/Local%20Target/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/399?category=6&page=1&search=)|picoGym|100|✅ SOLVED|
 |141. |[Picker IV](https://github.com/jon-brandy/CTF-WRITE-UP/blob/f47f892561f17be6a63f21918120affdb65de431/Asset/Picker%20IV/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/403?category=6&page=1&search=)|picoGym|100|✅ SOLVED|
 |142. |[Bit-O-Asm-1](https://github.com/jon-brandy/CTF-WRITE-UP/blob/4dcfa0ac1412e4823fa67f6241c28128d37e07e2/Asset/Bit-O-Asm-1/README.md)|Reverse Engineering|[picoCTF](https://play.picoctf.org/practice/challenge/391?category=3&page=2&search=)|picoGym|100|✅ SOLVED|
-|143. |[]()||[picoCTF]()||||
+|143. |[More SQLi](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1ea49fe451510f08dcf47fcd2a1cde82412f956b/Asset/More%20SQLi/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/358?category=1&page=3&search=)|2023|200|✅ SOLVED|
 
 
 
