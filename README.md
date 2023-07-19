@@ -35,6 +35,17 @@ rely on problem solving skills and creative thinking.
 > WRITEUPS
 
 <details>
+
+<summary> HACKTHEBOX </summary>
+<br>
+ 
+|LINK|
+|:--:|
+|[LINK](https://github.com/Bread-Yolk/hackthebox)|
+
+</details>
+
+<details>
 <br>
 
 <summary> PICOCTF </summary>
@@ -224,17 +235,6 @@ rely on problem solving skills and creative thinking.
 |LINK|
 |:--:|
 |[LINK](https://github.com/Bread-Yolk/compfest14hackerclass)|
-
-</details>
-
-<details>
-
-<summary> HACKTHEBOX </summary>
-<br>
- 
-|LINK|
-|:--:|
-|[LINK](https://github.com/Bread-Yolk/hackthebox)|
 
 </details>
 
