@@ -270,26 +270,25 @@ rely on problem solving skills and creative thinking.
 > CLICK THE TEXT BELOW TO VIEW THE AGENTS
 
 <details>
-<summary> CLICK HERE! </summary>
-<br>
-
+<summary> CLICK HERE </summary>
+<br>  
 
 |BAY - CTF DIVISION|
 |:----------------:|  
 
 |USERNAME|HELD STREAM|Profession(s)|
 |:------:|:---------:|:--------:|
-|[jon-brandy](https://github.com/jon-brandy)|Binary Exploitation|Mentor - Bug Hunter|
+|[jon-brandy](https://github.com/jon-brandy)|Binary Exploitation|Bug Hunter|
 |[Q](https://github.com/tkxldk)|Cryptography - Forensics|UI/UX Designer|
-|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|Mentor|
-|[Antonyous10](https://github.com/Antonyous10)|Cryptography|Mentor|
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student|
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography|Full-Stack Developer|
 |[PlasmaRing](https://github.com/PlasmaRing)|Reverse Engineering - Cryptography|Entrepreneur|
-|[stephanchandra](https://github.com/stephanchandra)|Cryptography|Mentor|
-|[SSV132](https://github.com/SSV132)|Forensics - Reverse Engineering|Web Developer|
+|[stephanchandra](https://github.com/stephanchandra)|Cryptography|College Student|
+|[SSV132](https://github.com/SSV132)|Binary Exploitation|College Student|
 |[ArkynGenics](https://github.com/ArkynGenics)|Web Exploitation|Web Developer - Pentester|
 |[ptr173](https://github.com/ptr173)|Reverse Engineering|College Student|
 |[LawsonSchwantz](https://github.com/LawsonSchwantz)|Reverse Engineering - Cryptography|Bug Hunter|
-|[Matrsixx](https://github.com/Matrsixx)|Web Exploitation|Web Developer|
+|[Matrsixx](https://github.com/Matrsixx)|Web Exploitation|Pentester|
 
 </details>
 
