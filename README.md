@@ -41,7 +41,7 @@ rely on problem solving skills and creative thinking.
  
 |LINK|
 |:--:|
-|[LINK](https://github.com/Bread-Yolk/hackthebox)|
+|[LINK](https://github.com/jon-brandy/hackthebox)|
 
 </details>
 
