@@ -267,10 +267,9 @@ rely on problem solving skills and creative thinking.
 
  </p>
 
-> CLICK THE TEXT BELOW TO VIEW THE AGENTS
 
 <details>
-<summary> CLICK HERE </summary>
+<summary> VIEW AGENTS </summary>
 <br>  
 
 |BAY - CTF DIVISION|
