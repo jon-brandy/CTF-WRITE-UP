@@ -276,19 +276,19 @@ rely on problem solving skills and creative thinking.
 |BAY - CTF DIVISION|
 |:----------------:|  
 
-|USERNAME|STREAM HELD|Profession(s)|
-|:------:|:---------:|:--------:|
-|[jon-brandy](https://github.com/jon-brandy)|Binary Exploitation|Bug Hunter|
-|[Q](https://github.com/tkxldk)|Cryptography - Forensics|UI/UX Designer|
-|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|College Student|
-|[Antonyous10](https://github.com/Antonyous10)|Cryptography|Full-Stack Developer|
-|[PlasmaRing](https://github.com/PlasmaRing)|Reverse Engineering - Cryptography|Entrepreneur|
-|[stephanchandra](https://github.com/stephanchandra)|Cryptography|College Student|
-|[SSV132](https://github.com/SSV132)|Binary Exploitation|College Student|
-|[ArkynGenics](https://github.com/ArkynGenics)|Web Exploitation|Web Developer - Pentester|
-|[ptr173](https://github.com/ptr173)|Reverse Engineering|College Student|
-|[LawsonSchwantz](https://github.com/LawsonSchwantz)|Reverse Engineering - Cryptography|Bug Hunter|
-|[Matrsixx](https://github.com/Matrsixx)|Web Exploitation|Pentester|
+|USERNAME|STREAM HELD|
+|:------:|:---------:|
+|[jon-brandy](https://github.com/jon-brandy)|Binary Exploitation - Forensics|
+|[Q](https://github.com/tkxldk)|Web Exploitation - Forensics|
+|[RioFerdinand25](https://github.com/RioFerdinand25)|Forensics|
+|[Antonyous10](https://github.com/Antonyous10)|Cryptography|
+|[PlasmaRing](https://github.com/PlasmaRing)|Reverse Engineering - Cryptography|
+|[stephanchandra](https://github.com/stephanchandra)|Cryptography|
+|[SSV132](https://github.com/SSV132)|Binary Exploitation|
+|[ArkynGenics](https://github.com/ArkynGenics)|Web Exploitation|
+|[ptr173](https://github.com/ptr173)|Reverse Engineering|
+|[LawsonSchwantz](https://github.com/LawsonSchwantz)|Reverse Engineering - Cryptography|
+|[Matrsixx](https://github.com/Matrsixx)|Web Exploitation|
 
 </details>
 
