@@ -256,7 +256,7 @@ rely on problem solving skills and creative thinking.
 
 |LINK|
 |:--:|
-|[LINK](https://github.com/Bread-Yolk/find-it-ugm)|
+|[LINK](https://github.com/jon-brandy/CTF-WRITE-UP/tree/main/FindIT_UGM)|
 
  </details>
 
