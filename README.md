@@ -260,6 +260,17 @@ rely on problem solving skills and creative thinking.
 
  </details>
 
+<details>
+ <summary> Hology6.0 </summary>
+ <br>
+
+|LINK|
+|:--:|
+|[LINK](https://github.com/jon-brandy/CTF-WRITE-UP/tree/main/Hology6.0)|
+
+ </details>
+
+
 ## MEET THE AGENTS
 
 <p align="center">
