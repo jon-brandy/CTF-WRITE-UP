@@ -37,7 +37,7 @@ rely on problem solving skills and creative thinking.
 
 <details>
 
-<summary> HACKTHEBOX </summary>
+<summary> <b>HACKTHEBOX</b> </summary>
 <br>
  
 |LINK|
