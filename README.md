@@ -33,7 +33,7 @@ rely on problem solving skills and creative thinking.
 3. CTF have 2 common type, namely Attack & Defense CTF and Jeopardy CTF.
 ```
 
-> WRITEUPS
+> WRITEUPS (LABS)
 
 <details>
 
@@ -252,26 +252,6 @@ rely on problem solving skills and creative thinking.
 |[LINK](https://github.com/jon-brandy/tcp1p)|
 
 </details>
-
-<details>
- <summary> FIND-IT UGM </summary>
- <br>
-
-|LINK|
-|:--:|
-|[LINK](https://github.com/jon-brandy/CTF-WRITE-UP/tree/main/FindIT_UGM)|
-
- </details>
-
-<details>
- <summary> Hology6.0 </summary>
- <br>
-
-|LINK|
-|:--:|
-|[LINK](https://github.com/jon-brandy/CTF-WRITE-UP/tree/main/Hology6.0)|
-
- </details>
 
 
 ## MEET THE AGENTS
