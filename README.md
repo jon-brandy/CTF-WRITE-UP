@@ -222,36 +222,7 @@ rely on problem solving skills and creative thinking.
 
 <details>
 
-<summary> HACKLABS </summary>
-<br>
- 
-|LINK|
-|:--:|
-|COMING REALLY SOON..|
 
-</details>
-
-<details>
-
-<summary> COMPFEST14 HACKERCLASS </summary>
-<br>
- 
-|LINK|
-|:--:|
-|[LINK](https://github.com/Bread-Yolk/compfest14hackerclass)|
-
-</details>
-
-<details>
- 
-<summary> TCP1P </summary>
-<br>
- 
-|LINK|
-|:--:|
-|[LINK](https://github.com/jon-brandy/tcp1p)|
-
-</details>
 
 
 ## MEET THE AGENTS
