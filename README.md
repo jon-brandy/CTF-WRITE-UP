@@ -33,7 +33,7 @@ rely on problem solving skills and creative thinking.
 3. CTF have 2 common type, namely Attack & Defense CTF and Jeopardy CTF.
 ```
 
-> WRITEUPS (LABS)
+> **LABS WRITEUPS**
 
 <details>
 
