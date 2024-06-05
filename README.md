@@ -202,7 +202,7 @@ rely on problem solving skills and creative thinking.
 |143. |[More SQLi](https://github.com/jon-brandy/CTF-WRITE-UP/blob/1ea49fe451510f08dcf47fcd2a1cde82412f956b/Asset/More%20SQLi/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/358?category=1&page=3&search=)|2023|200|✅ SOLVED|
 |144. |[SOAP](https://github.com/jon-brandy/CTF-WRITE-UP/blob/main/Asset/SOAP/README.md)|Web Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/376?category=1&page=1&search=soap)|2023|100|✅ SOLVED|
 |145. |[VNE](https://github.com/jon-brandy/CTF-WRITE-UP/blob/main/Asset/VNE/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/387?category=6&originalEvent=72&page=1)|2023|200|✅ SOLVED|
-
+|146. |[hijacking](https://github.com/jon-brandy/CTF-WRITE-UP/blob/main/Asset/hijacking/README.md)|Binary Exploitation|[picoCTF](https://play.picoctf.org/practice/challenge/352?category=6&originalEvent=72&page=1)|2023|200|✅ SOLVED|
 
 </details>
 
