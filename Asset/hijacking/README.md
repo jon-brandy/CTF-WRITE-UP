@@ -19,3 +19,8 @@ Password: 3aKUWQv068
 
 ![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/54669f53-63b3-4584-8076-9e940369ee37)
 
+
+3. It's very clear and straighforward, searching on the internet for vim in GTFObins.
+4. Found this result:
+
+![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/bc85cb17-cfcb-411c-8b50-1851e9e1567f)
