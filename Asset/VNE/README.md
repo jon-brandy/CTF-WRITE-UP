@@ -43,6 +43,10 @@ export SECRET_DIR=/root
 8. Kinda lucky for this chall I guess, I combined **ls** with **cat** and it's resulting to output the flag.
 9. Maybe combining commands with pipeline somehoew changed how the shell interpreted.
 
+```
+export SECRET_DIR="ls -lh /root | cat /root/f*"
+```
+
 ![image](https://github.com/jon-brandy/CTF-WRITE-UP/assets/70703371/d1949e28-0229-45ae-81a1-e34f586aee2b)
 
 
